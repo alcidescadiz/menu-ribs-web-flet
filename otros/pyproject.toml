@@ -1,0 +1,6 @@
+[project]
+
+dependencies = [
+  "flet==0.27.6",
+  "flet-webview==0.1.0",
+]

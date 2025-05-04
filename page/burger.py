@@ -1,0 +1,183 @@
+import flet as ft
+from components.galeria import galeria
+from components.boton import boton_circular
+
+def burger_page(page, cambiar_pagina):
+    page.floating_action_button = boton_circular(cambiar_pagina)
+
+    burger = [
+        {
+            "img": "img/promos/burger_minis.jpg",
+            "title": "Tobo Minimini",
+            "description": "Disponible de Jueves a Domingos",
+            "price": "Precio 6.00"
+        },
+        {
+            "img": "img/burger/smokedprime.jpg",
+            "title": "Smoked Prime",
+            "description": "Blend especial de carne de res y cerdo, con queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
+            "price": "Precio 11.20"
+        },
+        {
+            "img": "img/burger/smokedking.jpg",
+            "title": "Smoked King",
+            "description": "Blend de carne 50% res y 50% cerdo, mermelada de tocineta, queso Philadelphia empanizado, aros de cebolla empanizados con Doritos en pan brioche.",
+            "price": "Precio 10.80"
+        },
+        {
+            "img": "img/burger/burger_de_carne.jpg",
+            "title": "Burger de Carne",
+            "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
+            "price": "Precio 4.50",
+            "adicional": True
+        },
+        {
+            "img": "img/burger/burger_de_pollo_crispy.jpg",
+            "title": "Chicken Crispy Burger",
+            "description": "Pollo empanizado en pan de papa con salsa miel mostaza, lechuga, tomate y cebolla.",
+            "price": "Precio 6.70",
+            "adicional": True
+        },
+        {
+            "img": "img/burger/burger_doble_carne.jpg",
+            "title": "Burger Doble Carne",
+            "description": "Doble hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
+            "price": "Precio 6.60",
+            "adicional": True
+        },
+        {
+            "img": "img/burger/burger_de_costilla.jpg",
+            "title": "Burger Costilla BBQ",
+            "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
+            "price": "Precio 7.00",
+            "adicional": True
+        },
+        {
+            "img": "img/burger/burger_pollo_cesar.jpg",
+            "title": "Burger Pollo César",
+            "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
+            "price": "Precio 10.50"
+        },
+        {
+            "img": "img/burger/tnt_burger.jpg",
+            "title": "Tnt Burger",
+            "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado.",
+            "price": "Precio 7.80"
+        },
+        {
+            "img": "img/burger/burger_ribs.jpg",
+            "title": "Rib's Burger",
+            "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
+            "price": "Precio 10.80"
+        },
+        {
+            "img": "img/burger/smoked_burger.jpg",
+            "title": "Smoked Burger",
+            "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
+            "price": "Precio 9.70"
+        },
+        {
+            "img": "img/burger/burger_triple_smash.jpg",
+            "title": "Burger Triple Smash",
+            "description": "Carne, queso cheddar, tocineta, cebolla dorada, huevo frito y salsa Kevin en pan tostado.",
+            "price": "Precio 10.80"
+        },
+        {
+            "img": "img/burger/burger_hillary.jpg",
+            "title": "Burger Hillary",
+            "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado.",
+            "price": "Precio 8.20"
+        },
+        {
+            "img": "img/burger/lomito_bbq_burger.jpg",
+            "title": "Lomito BBQ Burger",
+            "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
+            "price": "Precio 10.50"
+        }
+    ]
+    extras = [
+        {
+            "img": "img/entradas/aros_de_cebolla.jpg",
+            "title": "Aros de Cebolla",
+            "description": "",
+            "price": "Precio 2.50"
+        },
+        {
+            "img": "img/extras/papas_fritas.jpg",
+            "title": "Papas Fritas",
+            "description": "",
+            "price": "Precio 2.20"
+        },
+        {
+            "img": "img/extras/tocineta.jpg",
+            "title": "Extra de Tocineta",
+            "description": "",
+            "price": "Precio 1.60"
+        },
+        {
+            "img": "img/extras/queso_guayanes.jpg",
+            "title": "Extra de Queso Guayanés",
+            "description": "",
+            "price": "Precio 1.50"
+        },
+        {
+            "img": "img/extras/queso_cheddar.jpg",
+            "title": "Extra de Queso Cheddar",
+            "description": "",
+            "price": "Precio 1.40"
+        },
+        {
+            "img": "img/extras/pepinillos.jpg",
+            "title": "Extra de Pepinillos",
+            "description": "",
+            "price": "Precio 1.00"
+        },
+        {
+            "img": "img/extras/cebolla_caramelizada.jpg",
+            "title": "Extra de Cebolla Caramelizada",
+            "description": "",
+            "price": "Precio 1.00"
+        },
+        {
+            "img": "img/extras/chistorra.jpg",
+            "title": "Extra de Chistorra",
+            "description": "",
+            "price": "Precio 2.50"
+        },
+        {
+            "img": "img/extras/queso_crema_empanizado.jpg",
+            "title": "Queso Crema Empanizado",
+            "description": "",
+            "price": "Precio 1.30"
+        },
+        {
+            "img": "img/extras/huevo.jpg",
+            "title": "Extra de Huevo",
+            "description": "",
+            "price": "Precio 1.00"
+        },
+        {
+            "img": "img/extras/pollo_crispy.jpg",
+            "title": "Extra de Pollo Crispy",
+            "description": "",
+            "price": "Precio 3.50"
+        },
+        {
+            "img": "img/extras/carne.jpg",
+            "title": "Extra de Carne",
+            "description": "",
+            "price": "Precio 2.10"
+        },
+        {
+            "img": "img/extras/carne_costilla.jpg",
+            "title": "Extra de Carne de Costilla",
+            "description": "",
+            "price": "Precio 3.00"
+        }
+    ]
+
+    return ft.Column(
+        controls=[
+            galeria("Burger",burger),
+        ]
+    )
