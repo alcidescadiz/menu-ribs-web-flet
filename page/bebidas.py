@@ -23,8 +23,7 @@ def bebidas_page(page, cambiar_pagina):
                 "2.00 Jugo Yuky Pack",
                 "1.50 Agua Minalba 355 ml"
             ],
-            "price": "Precio US$ 2.60",
-            "lista": True
+            "price": "Precio 2.60"
         },
         {
             "img": "img/bebidas/jugos.png",
@@ -35,14 +34,13 @@ def bebidas_page(page, cambiar_pagina):
                 "3.50 Jugo de Parchita",
                 "3.50 Jugo de Piña"
             ],
-            "price": "Precio US$ 3.50",
-            "lista": True
+            "price": "Precio 3.50"
         },
         {
             "img": "img/bebidas/berry_bliss.jpg",
             "title": "Berry Bliss",
             "description": "Una bebida vibrante y colorida, perfecta para cualquier ocasión. Rica en vitamina C y antioxidantes, lo que la convierte en una opción saludable. Servido bien frío.",
-            "price": "Precio US$ 3.60"
+            "price": "Precio 3.60"
         }
     ]
 

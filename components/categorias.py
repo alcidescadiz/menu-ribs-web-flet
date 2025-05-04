@@ -1,6 +1,18 @@
 import flet as ft
 
 def lista_categorias(page: ft.Page):
+    categorias_online = [
+        {"titulo": "Entradas", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/entradas/4x4_tex_mex.jpg?raw=true", "ruta": "/entradas"},
+        {"titulo": "Burger", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/burger/burger_pollo_cesar.jpg?raw=true", "ruta": "/burger"},
+        {"titulo": "Platos", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/platos/tabla_fiestera.jpg?raw=true", "ruta": "/platos"},
+        {"titulo": "Bebidas", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/bebidas/jugos.png?raw=true", "ruta": "/bebidas"},
+        {"titulo": "Cocteles", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/cocteles/Cocteles.png?raw=true", "ruta": "/cocteles"},
+        {"titulo": "Postres", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/postres/pie.jpg?raw=true", "ruta": "/postres"},
+        {"titulo": "Cafés", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/cafes/capuccino.jpeg?raw=true", "ruta": "/cafes"},
+        {"titulo": "Extras", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/extras/tomates_hilmary.jpg?raw=true", "ruta": "/extras"},
+        {"titulo": "Licores", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/licores/trago_whisky.jpg?raw=true", "ruta": "/licores"},
+        {"titulo": "Promociones", "imagen": "https://github.com/hgrgerencia/menu-ribs/blob/main/img/promos/promos.jpg?raw=true", "ruta": "/promociones"}
+    ]
     categorias = [
         {"titulo": "Entradas", "imagen": "img/categorias/ENTRADAS.jpg", "ruta": "/entradas"},
         {"titulo": "Burger", "imagen": "img/categorias/BURGER.jpg", "ruta": "/burger"},

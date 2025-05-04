@@ -1,4 +1,5 @@
 import flet as ft
+import re
 
 def galeria(titulo, lista_productos=[]):
     if len(lista_productos) < 1:
@@ -7,6 +8,11 @@ def galeria(titulo, lista_productos=[]):
         text_align=ft.TextAlign.CENTER,
         weight=ft.FontWeight.BOLD,
     )
+    def extraer_precio(item):
+        return float(item["price"][7:])  # Extrae y convierte el precio a float
+
+    # Ordenar de mayor a menor
+    galeria_ordenada = sorted(lista_productos, key=extraer_precio, reverse=True)
 
     galeria_productos = ft.ResponsiveRow(
         controls=[
@@ -23,8 +29,12 @@ def galeria(titulo, lista_productos=[]):
                 bgcolor=ft.Colors.BLACK,
                 alignment=ft.alignment.center
             )
-            for lista_producto in lista_productos
+            for lista_producto in galeria_ordenada
         ]
     )
 
     return galeria_productos
+
+
+
+
