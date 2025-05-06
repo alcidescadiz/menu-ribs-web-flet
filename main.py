@@ -10,10 +10,53 @@ from page.platos import platos_page
 from page.postres import postres_page
 from page.promociones import promociones_page
 from page.bebidas import bebidas_page
+from page.carrito import carrito_page
 from components.barra_inferior import barra_inferior
+from globales.variables_globales import cantidad_carrito
 
 
+def actualizar_carrito(page, cantidad,cambiar_pagina):
+    cantidad_carrito["cantidad"] = cantidad  # ✅ Se actualiza la cantidad total en `main.py`
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
+    page.update()
+
+# ✅ Función para crear la barra superior dinámicamente
+def crear_barra_superior(page,cambiar_pagina):
+    def abrir_menu(e):
+        page.drawer.open = True
+        page.update()
+
+    return ft.AppBar(
+        title=ft.Container(
+            content=ft.Text("Menú Ribs Burger", font_family="MiFuente", color="white", size=24),
+            on_click=lambda e: cambiar_pagina("/home")
+        ),
+        bgcolor="black",
+        center_title=True,
+        actions=[
+            ft.IconButton(icon=ft.Icons.MENU, on_click=lambda e: abrir_menu(page), icon_color="WHITE"),
+            ft.Stack(
+                controls=[
+                    ft.IconButton(
+                        icon=ft.Icons.SHOPPING_CART, 
+                        on_click=lambda e: cambiar_pagina("/carrito"),
+                        padding=10,
+                        visible=cantidad_carrito["cantidad"] > 0
+                    ),
+                    ft.Container(
+                        content=ft.Text(str(cantidad_carrito["cantidad"]), size=10, color="white"),
+                        bgcolor="red",
+                        border_radius=5,
+                        padding=5,
+                        visible= cantidad_carrito["cantidad"] > 0  # ✅ Se actualiza dinámicamente
+                    )
+                ]
+            )
+        ]
+    )
 def main(page: ft.Page):
+    global cantidad_carrito
+
     page.title = "Menu Ribs Burger"
     page.padding = 10
     page.bgcolor = ft.Colors.GREY_600 
@@ -45,6 +88,8 @@ def main(page: ft.Page):
             contenido.content = promociones_page(page, cambiar_pagina)
         elif ruta == "/bebidas":
             contenido.content = bebidas_page(page, cambiar_pagina)
+        elif ruta == "/carrito":
+            contenido.content = carrito_page(page, cambiar_pagina)
 
 
         page.drawer.open = False
@@ -67,28 +112,21 @@ def main(page: ft.Page):
             ft.ListTile(title=ft.Text("Cafés", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/cafes")),
             ft.ListTile(title=ft.Text("Extras", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/extras")),
             ft.ListTile(title=ft.Text("Licores", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/licores")),
-            ft.ListTile(title=ft.Text("Promociones", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/promociones"))
+            ft.ListTile(title=ft.Text("Promociones", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/promociones")),
+            ft.Divider(thickness=2),
+            ft.ListTile(title=ft.Text("🛒 Carrito de Compras", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/carrito"))
         ]
     )
 
-    # 🔹 Barra superior con menú
-    def abrir_menu(e):
-        page.drawer.open = True
-        page.update()
-
-    barra_superior = ft.AppBar(
-        title= ft.Container(
-            content=ft.Text("Menú Ribs Burger", font_family="MiFuente", color="white", size=24 ),
-            on_click=lambda e: cambiar_pagina("/home")
-        ),
-        bgcolor="black",
-        center_title=True,
-        actions=[ft.IconButton(icon=ft.Icons.MENU, on_click=abrir_menu, icon_color="WHITE")]
-    )
+  
+    # ✅ Suscribirse a cambios en el carrito
+    page.pubsub.subscribe(lambda cantidad: actualizar_carrito(page, cantidad,cambiar_pagina))
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
+    
 
     page.scroll = ft.ScrollMode.AUTO
     page.add(
-        barra_superior,
+        #barra_superior,
         contenido,
         barra_inferior()
     )

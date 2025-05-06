@@ -46,6 +46,6 @@ def bebidas_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria("Bebidas", bebidas),
+            galeria(page,"Bebidas", bebidas),
         ]
     )

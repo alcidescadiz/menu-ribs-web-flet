@@ -6,7 +6,7 @@ def barra_inferior():
         height=80,
         bgcolor="black",
         content=ft.Text(
-            value="© 2024 Ribs Burger de Venezuela. Todos los derechos reservados.",
+            value="© 2024 Ribs Burger de Venezuela.\nTodos los derechos reservados.",
             color="white",
             size=14,
             text_align=ft.TextAlign.CENTER

@@ -68,6 +68,6 @@ def cocteles_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria("Cocteles",cocteles),
+            galeria(page,"Cocteles",cocteles),
         ]
     )

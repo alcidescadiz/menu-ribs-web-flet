@@ -92,6 +92,6 @@ def platos_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria("Platos",platos),
+            galeria(page,"Platos",platos),
         ]
     )
