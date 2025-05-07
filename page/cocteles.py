@@ -1,5 +1,5 @@
 import flet as ft
-from components.galeria import galeria
+from components.galeria_sin_botones import galeria_sin_botones
 from components.boton import boton_circular
 
 def cocteles_page(page, cambiar_pagina):
@@ -68,6 +68,6 @@ def cocteles_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria(page,"Cocteles",cocteles),
+            galeria_sin_botones(page,"Cocteles",cocteles),
         ]
     )

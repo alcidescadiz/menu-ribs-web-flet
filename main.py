@@ -138,10 +138,9 @@ def main(page: ft.Page):
 
 ft.app(target=main)
 
-# flet build apk --name "com.RibsBurger.miapp" --icon icon.png
-# pyinstaller --onefile --windowed --icon=icon.ico --name RibsBurger main.py
 
-# clspython -m http.server --directory build\web
+# web
+#1. python -m http.server --directory build\web
 
 
 

@@ -43,19 +43,27 @@ def galeria(page,titulo, lista_productos=[] ):
         controls=[
             ft.Container(
                 content=ft.Column([
-                    ft.Image(src=lista_producto["img"], fit=ft.ImageFit.FILL, width=350),
-                    ft.Text(lista_producto["title"], size=22, font_family="MiFuente", color="white", text_align=ft.TextAlign.CENTER),
+                    ft.Image(src=lista_producto["img"], fit=ft.ImageFit.COVER, width=400),
+                    ft.Text(lista_producto["title"], size=24, font_family="MiFuente", color="white", text_align=ft.TextAlign.CENTER),
                     ft.Text(lista_producto["description"], size=16, color=ft.Colors.GREY_400, text_align=ft.TextAlign.JUSTIFY),
                     ft.Text(lista_producto["price"], size=16, color=ft.Colors.GREY_400, text_align=ft.TextAlign.CENTER),
-                    ft.ElevatedButton(
-                        "Agregar al carrito",
-                        on_click=lambda e, item=lista_producto: agregar_al_carrito(e, item, page)  # ✅ Captura cada producto correctamente
+                    ft.Column (
+                        [ft.Row(
+                            controls=[ ft.ElevatedButton(
+                            text="Agregar al carrito",
+                            on_click=lambda e, item=lista_producto: agregar_al_carrito(e, item, page),
+                            icon=ft.Icons.PLUS_ONE_ROUNDED,
+                            bgcolor=ft.Colors.AMBER,
+                            
+                            )]+ ([boton_abrir_modal] if boton_abrir_modal else [])
+                        )],
+                        alignment=ft.alignment.center
                     )
 
-                ] + ([boton_abrir_modal] if boton_abrir_modal else [])),
-                col={"xs": 12, "sm": 12, "md": 6, "lg": 4, "xl": 3},
+                ]),
+                col={"xs": 8, "sm": 8, "md": 6, "lg": 4, "xl": 3},
                 border_radius=ft.border_radius.all(8),
-                padding=8,
+                padding=10,
                 bgcolor=ft.Colors.BLACK,
                 alignment=ft.alignment.center
             )

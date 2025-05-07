@@ -1,10 +1,8 @@
 import flet as ft
-#from bbdd.cnx_bbdd import get_menu_ribs
+from api_request.peticiones import get_all
 
 def lista_categorias(page: ft.Page):
-    #categorias = get_menu_ribs("categorias")
-    # print(categorias_online)
-    categorias = [
+    categorias_inicial = [
         {"titulo": "Entradas", "imagen": "img/categorias/ENTRADAS.jpg", "ruta": "/entradas"},
         {"titulo": "Burger", "imagen": "img/categorias/BURGER.jpg", "ruta": "/burger"},
         {"titulo": "Platos", "imagen": "img/categorias/PLATOS.jpg", "ruta": "/platos"},
@@ -16,6 +14,7 @@ def lista_categorias(page: ft.Page):
         {"titulo": "Licores", "imagen": "img/categorias/LICORES.jpg", "ruta": "/licores"},
         {"titulo": "Promociones", "imagen": "img/categorias/PROMOS.jpg", "ruta": "/promociones"}
     ]
+    categorias = get_all(categorias_inicial,"categorias_menu")
 
     def cambiar_vista(ruta):
         page.go(ruta)  # 🔹 Navegar a la nueva vista
@@ -25,15 +24,16 @@ def lista_categorias(page: ft.Page):
             ft.Container(
                 content=ft.Column(
                     [
-                        ft.Image(src=categoria["imagen"], fit=ft.ImageFit.COVER, width=220, height=200),
+                        ft.Image(src=categoria["imagen"], fit=ft.ImageFit.COVER, width=350,height=260 ),
                         ft.Container(
-                            content=ft.Text(categoria["titulo"], size=22, font_family="MiFuente", color="white", text_align=ft.TextAlign.CENTER),
-                            alignment=ft.alignment.center
+                            content=ft.Text(categoria["titulo"], size=24, font_family="MiFuente", color="white", text_align=ft.TextAlign.CENTER),
+                            alignment=ft.alignment.center,
+                            
                         )
                     ]
                 ),
                 col={"xs": 6, "sm": 6, "md": 4, "lg": 3, "xl": 3},
-                height=260,
+                height=350,
                 border_radius=ft.border_radius.all(8),
                 padding=8,
                 bgcolor=ft.Colors.BLACK,
