@@ -1,0 +1,43 @@
+[project]
+name = "Ribs Burger"
+version = "0.2.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Ing. Alcides Cádiz", email = "alcides.cadiz@gmail.com" }
+]
+dependencies = [
+  "flet==0.27.6",
+  "requests==2.32.3"
+]
+
+[tool.flet]
+# org name in reverse domain name notation, e.g. "com.ribsburger".
+# Combined with project.name to build bundle ID for iOS and Android apps
+org = "com.ribsburger"
+
+# project display name that is used as an app title on Android and iOS home screens,
+# shown in window titles and about app dialogs on desktop.
+product = "Ribs Burger"
+
+# company name to display in about app dialogs
+company = "Ribs Burger"
+
+# copyright text to display in about app dialogs
+copyright = "Copyright (C) 2025 by Ribs Burger"
+
+[tool.flet.app]
+path = "src"
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.27.6",
+    "requests==2.32.3"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "0.27.6"}

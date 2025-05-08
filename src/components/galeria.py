@@ -61,7 +61,7 @@ def galeria(page,titulo, lista_productos=[] ):
                     )
 
                 ]),
-                col={"xs": 8, "sm": 8, "md": 6, "lg": 4, "xl": 3},
+                col={"xs": 12, "sm": 8, "md": 6, "lg": 4, "xl": 3},
                 border_radius=ft.border_radius.all(8),
                 padding=10,
                 bgcolor=ft.Colors.BLACK,

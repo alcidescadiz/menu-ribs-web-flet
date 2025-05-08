@@ -1,8 +1,8 @@
 import flet as ft
-#from api_request.peticiones import get_all
+from components.peticiones import get_all
 
 def lista_categorias(page: ft.Page):
-    categorias = [
+    categorias_inicial = [
         {"titulo": "Entradas", "imagen": "img/categorias/ENTRADAS.jpg", "ruta": "/entradas"},
         {"titulo": "Burger", "imagen": "img/categorias/BURGER.jpg", "ruta": "/burger"},
         {"titulo": "Platos", "imagen": "img/categorias/PLATOS.jpg", "ruta": "/platos"},
@@ -14,7 +14,7 @@ def lista_categorias(page: ft.Page):
         {"titulo": "Licores", "imagen": "img/categorias/LICORES.jpg", "ruta": "/licores"},
         {"titulo": "Promociones", "imagen": "img/categorias/PROMOS.jpg", "ruta": "/promociones"}
     ]
-    #categorias =  get_all(categorias_inicial,"categorias_menu")
+    categorias =  get_all(categorias_inicial,"categorias_menu")
 
     def cambiar_vista(ruta):
         page.go(ruta)  # 🔹 Navegar a la nueva vista

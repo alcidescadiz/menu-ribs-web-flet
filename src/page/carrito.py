@@ -47,11 +47,11 @@ def carrito_page(page, cambiar_pagina):
                     ],
                     rows=[
                         ft.DataRow(cells=[
-                            ft.DataCell(ft.Text(producto)),  # ✅ Producto es la clave del diccionario
-                            ft.DataCell(ft.Text(str(datos["cantidad"]))),
-                            ft.DataCell(ft.Text(f"${datos['price']:.2f}")),
-                            ft.DataCell(ft.Text(f"${datos['cantidad'] * datos['price']:.2f}")),
-                        ])
+                            ft.DataCell(ft.Text(producto,color="black")),  # ✅ Producto es la clave del diccionario
+                            ft.DataCell(ft.Text(str(datos["cantidad"]),color="black")),
+                            ft.DataCell(ft.Text(f"${datos['price']:.2f}",color="black")),
+                            ft.DataCell(ft.Text(f"${datos['cantidad'] * datos['price']:.2f}",color="black")),
+                        ],)
                         for producto, datos in carrito.items()  # ✅ Iteramos correctamente sobre el diccionario
                     ],
                 ),
