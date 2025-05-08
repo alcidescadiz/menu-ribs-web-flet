@@ -25,7 +25,7 @@ def modal_extras (page):
                 [
                     ft.Row(
                         [
-                            ft.Icon(ft.icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
+                            ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
                             ft.ElevatedButton(extra["title"], on_click=lambda e: print("agregando extra")),
                             ft.Text(f"${extra['price']}", color=ft.Colors.BLACK,size=14),
                         ],
