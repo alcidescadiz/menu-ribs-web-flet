@@ -100,6 +100,11 @@ def carrito_page(page, cambiar_pagina):
             ))
         else:
             page.launch_url(generar_mensaje(nombre, telefono, direccion, tipo_pago))  # ✅ Enviar mensaje con datos correctos
+            nombre_field.value=""
+            telefono_field.value=""
+            direccion_field.value=""
+            tipo_pago_field.value=None
+            actualizar_tabla()
 
     # ✅ Campos del formulario
     nombre_field = ft.TextField(label="Nombre y Apellido", width=300)

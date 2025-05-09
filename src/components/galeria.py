@@ -27,7 +27,7 @@ def galeria(page,titulo, lista_productos,cambiar_pagina ):
             weight=ft.FontWeight.BOLD,
         )
 
-    modal = modal_extras(page)
+    modal = modal_extras(page,agregar_al_carrito)
     boton_abrir_modal = None
     if titulo == "Burger":
         boton_abrir_modal = ft.ElevatedButton("+1 Extras", on_click=lambda e: page.open(modal))
@@ -48,11 +48,13 @@ def galeria(page,titulo, lista_productos,cambiar_pagina ):
                     ft.Text(lista_producto["price"], size=16, color=ft.Colors.GREY_400, text_align=ft.TextAlign.CENTER),
                     ft.Column (
                         [ft.Row(
+                            
                             controls=[ ft.ElevatedButton(
                             text="Agregar al carrito",
                             on_click=lambda e,item= lista_producto,: agregar_al_carrito( e,page,item),
                             icon=ft.Icons.PLUS_ONE_ROUNDED,
                             bgcolor=ft.Colors.AMBER,
+                            color=ft.Colors.BLACK
                             
                             )]+ ([boton_abrir_modal] if boton_abrir_modal else [])
                         )],

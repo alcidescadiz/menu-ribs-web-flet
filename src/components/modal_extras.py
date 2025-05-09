@@ -1,20 +1,20 @@
 import flet as ft
 
-def modal_extras (page):
+def modal_extras (page,agregar_al_carrito):
     extras = [
-        {"title": "Aros de Cebolla", "price": 2.50},
-        {"title": "Papas Fritas", "price": 2.20},
-        {"title": "Tocineta", "price": 1.60},
-        {"title": "Queso Guayanés", "price": 1.50},
-        {"title": "Queso Cheddar", "price": 1.40},
-        {"title": "Pepinillos", "price": 1.00},
-        {"title": "Cebolla Caramelizada", "price": 1.00},
-        {"title": "Chistorra", "price": 2.50},
-        {"title": "Queso Crema Empanizado", "price": 1.30},
-        {"title": "Huevo", "price": 1.00},
-        {"title": "Pollo Crispy", "price": 3.50},
-        {"title": "Carne", "price": 2.10},
-        {"title": "Carne de Costilla", "price": 3.00}
+        {"title": "Aros de Cebolla", "price": "Precio 2.50"},
+        {"title": "Papas Fritas", "price": "Precio 2.20"},
+        {"title": "Tocineta", "price": "Precio 1.60"},
+        {"title": "Queso Guayanés", "price":"Precio 1.50"},
+        {"title": "Queso Cheddar", "price":"Precio 1.40"},
+        {"title": "Pepinillos", "price": "Precio 1.00"},
+        {"title": "Cebolla Caramelizada", "price": "Precio 1.00"},
+        {"title": "Chistorra", "price": "Precio 2.50"},
+        {"title": "Queso Crema Empanizado", "price": "Precio 1.30"},
+        {"title": "Huevo", "price": "Precio 1.00"},
+        {"title": "Pollo Crispy", "price": "Precio 3.50"},
+        {"title": "Carne", "price": "Precio 2.10"},
+        {"title": "Carne de Costilla", "price": "Precio 3.00"}
     ]
 
     # Crear lista de extras con icono y divisores
@@ -26,8 +26,8 @@ def modal_extras (page):
                     ft.Row(
                         [
                             ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
-                            ft.ElevatedButton(extra["title"], on_click=lambda e: print("agregando extra")),
-                            ft.Text(f"${extra['price']}", color=ft.Colors.BLACK,size=14),
+                            ft.ElevatedButton(extra["title"], on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]})),
+                            ft.Text(f"{extra['price']}", color=ft.Colors.BLACK,size=14),
                         ],
                         spacing=12
                     ),
