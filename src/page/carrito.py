@@ -64,12 +64,23 @@ def carrito_page(page, cambiar_pagina):
 
     tabla = crear_tabla(carrito)
 
-    def actualizar_tabla():
-        page.pubsub.send_all({"cantidad": 0, "tipo": "vaciar carrito"}),
-        global tabla,total_text 
-        contenido.controls[1] = crear_tabla({})
-        contenido.controls[2] = ft.Text(f"Total: $0.00", size=20, weight=ft.FontWeight.BOLD,color="black")
-        page.update()
+    # def actualizar_tabla():
+    #     page.pubsub.send_all({"cantidad": 0, "tipo": "vaciar carrito"}),
+    #     global tabla,total_text 
+    #     contenido.controls[1] = crear_tabla({})
+    #     contenido.controls[2] = ft.Text(f"Total: $0.00", size=20, weight=ft.FontWeight.BOLD,color="black")
+    #     page.update()
+    
+    def actualizar_tabla(page):
+        global carrito
+        carrito.clear()  # ✅ Vacía el carrito
+
+        contenido.controls.clear()  # ✅ Borra todos los controles de la UI
+        contenido.controls.append(ft.Text("🛒 Carrito vacío", size=20, color=ft.Colors.RED))  # ✅ Mensaje de carrito vacío
+        
+
+        page.update()  # ✅ Refresca la UI
+
 
 
     total_text = ft.Text(f"Total: ${calcular_total():.2f}", size=20, weight=ft.FontWeight.BOLD,color="black")
@@ -78,7 +89,7 @@ def carrito_page(page, cambiar_pagina):
     boton_vaciar_carrito = ft.ElevatedButton(
         text="Borrar pedido",
         on_click=lambda e: [
-            actualizar_tabla()
+            actualizar_tabla(page)
         ],
         bgcolor=ft.Colors.RED,
         color=ft.Colors.YELLOW,
