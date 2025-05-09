@@ -1,11 +1,12 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
+from components.peticiones import get_all
 
 def entradas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    entradas = [
+    entradas_inicial = [
         {
             "img": "img/entradas/entrada_minis.jpg",
             "title": "Entrada Mini Minis",
@@ -66,7 +67,7 @@ def entradas_page(page, cambiar_pagina):
             "lista": True
         }
     ]
-
+    entradas =  get_all(entradas_inicial,"entradas")
     return ft.Column(
         controls=[
             galeria(page,"Entradas",entradas,cambiar_pagina),
