@@ -16,6 +16,6 @@ def promociones_page(page, cambiar_pagina):
     ]
     return ft.Column(
         controls=[
-            galeria(page,"Promociones",promociones),
+            galeria(page,"Promociones",promociones,cambiar_pagina),
         ]
     )

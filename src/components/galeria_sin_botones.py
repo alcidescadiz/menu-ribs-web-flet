@@ -5,7 +5,7 @@ import re
 ### para galerias de productos q no salen por delivery
 ### licores,, cocteles
 
-def galeria_sin_botones(page,titulo, lista_productos=[] ):
+def galeria_sin_botones(page,titulo, lista_productos ):
     if len(lista_productos) < 1:
         return ft.Text(
             f"{titulo} no hay disponibles en este momento",
@@ -29,14 +29,14 @@ def galeria_sin_botones(page,titulo, lista_productos=[] ):
                     ft.Text(lista_producto["price"], size=16, color=ft.Colors.GREY_400, text_align=ft.TextAlign.CENTER)
 
                 ]),
-                col={"xs": 12, "sm": 10, "md": 6, "lg": 4, "xl": 3},
+                col={"xs": 10, "sm": 6, "md": 6, "lg": 4, "xl": 3},
                 border_radius=ft.border_radius.all(8),
                 padding=10,
-                bgcolor=ft.Colors.BLACK,
-                alignment=ft.alignment.center
+                bgcolor=ft.Colors.BLACK
             )
             for lista_producto in galeria_ordenada
-        ]
+        ],
+        alignment=ft.alignment.center
     )
 
     return galeria_productos

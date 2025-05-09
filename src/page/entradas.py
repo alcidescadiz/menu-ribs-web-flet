@@ -69,6 +69,6 @@ def entradas_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria(page,"Entradas",entradas),
+            galeria(page,"Entradas",entradas,cambiar_pagina),
         ]
     )

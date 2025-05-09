@@ -12,13 +12,20 @@ from page.promociones import promociones_page
 from page.bebidas import bebidas_page
 from page.carrito import carrito_page
 from components.barra_inferior import barra_inferior
-from globales.variables_globales import cantidad_carrito
+from globales.variables_globales import cantidad_carrito, carrito
 
 
-def actualizar_carrito(page, cantidad,cambiar_pagina):
-    cantidad_carrito["cantidad"] = cantidad  # ✅ Se actualiza la cantidad total en `main.py`
+def eventos_subscritos(page, cantidad,tipo,cambiar_pagina):
+    global carrito,cantidad_carrito
+    if tipo == "actualizar carrito":
+        cantidad_carrito["cantidad"] = cantidad  # ✅ Se actualiza la cantidad total en `main.py`
+    elif tipo == "vaciar carrito":
+        carrito.clear()
+        cantidad_carrito["cantidad"] = 0
+    
     page.appbar = crear_barra_superior(page,cambiar_pagina)
     page.update()
+
 
 # ✅ Función para crear la barra superior dinámicamente
 def crear_barra_superior(page,cambiar_pagina):
@@ -120,7 +127,8 @@ def main(page: ft.Page):
 
   
     # ✅ Suscribirse a cambios en el carrito
-    page.pubsub.subscribe(lambda cantidad: actualizar_carrito(page, cantidad,cambiar_pagina))
+    page.pubsub.subscribe(lambda evento: eventos_subscritos(page, evento["cantidad"], evento["tipo"], cambiar_pagina))
+    #page.pubsub.subscribe(lambda cantidad,tipo: eventos_subscritos(page, cantidad,tipo,cambiar_pagina))
     page.appbar = crear_barra_superior(page,cambiar_pagina)
     
 

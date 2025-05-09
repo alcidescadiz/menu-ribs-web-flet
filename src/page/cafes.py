@@ -40,6 +40,6 @@ def cafes_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
     return ft.Column(
         controls=[
-            galeria(page,"Cafés", cafes),
+            galeria(page,"Cafés", cafes,cambiar_pagina),
         ]
     )

@@ -46,6 +46,7 @@ def bebidas_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria(page,"Bebidas", bebidas),
-        ]
+            galeria(page,"Bebidas", bebidas,cambiar_pagina),
+        ],
+        alignment=ft.alignment.center
     )

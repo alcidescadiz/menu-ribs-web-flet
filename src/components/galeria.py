@@ -4,7 +4,7 @@ from components.modal_extras import modal_extras
 from globales.variables_globales import  carrito, cantidad_carrito
 
 
-def agregar_al_carrito(e,producto, page):
+def agregar_al_carrito(e,page,producto ):
     # Extraer y convertir precio a float
     title = str(producto["title"])
     price = float(producto["price"][7:]) 
@@ -14,13 +14,12 @@ def agregar_al_carrito(e,producto, page):
         carrito[title] = {"price": price, "cantidad": 1}  # Agregar nuevo producto
     
     cantidad_carrito["cantidad"] = sum(item["cantidad"] for item in carrito.values()) 
-    page.pubsub.send_all(cantidad_carrito["cantidad"])
+    page.pubsub.send_all({"cantidad": cantidad_carrito["cantidad"] , "tipo": "actualizar carrito"})
     page.update()
 
-    print(cantidad_carrito["cantidad"])
 
 
-def galeria(page,titulo, lista_productos=[] ):
+def galeria(page,titulo, lista_productos,cambiar_pagina ):
     if len(lista_productos) < 1:
         return ft.Text(
             f"{titulo} no hay disponibles en este momento",
@@ -31,7 +30,7 @@ def galeria(page,titulo, lista_productos=[] ):
     modal = modal_extras(page)
     boton_abrir_modal = None
     if titulo == "Burger":
-        boton_abrir_modal = ft.ElevatedButton("Agregar Extras", on_click=lambda e: page.open(modal))
+        boton_abrir_modal = ft.ElevatedButton("+1 Extras", on_click=lambda e: page.open(modal))
 
     def extraer_precio(item):
         return float(item["price"][7:])  # Extraer y convertir precio a float
@@ -51,7 +50,7 @@ def galeria(page,titulo, lista_productos=[] ):
                         [ft.Row(
                             controls=[ ft.ElevatedButton(
                             text="Agregar al carrito",
-                            on_click=lambda e, item=lista_producto: agregar_al_carrito(e, item, page),
+                            on_click=lambda e,item= lista_producto,: agregar_al_carrito( e,page,item),
                             icon=ft.Icons.PLUS_ONE_ROUNDED,
                             bgcolor=ft.Colors.AMBER,
                             
@@ -60,15 +59,16 @@ def galeria(page,titulo, lista_productos=[] ):
                         alignment=ft.alignment.center
                     )
 
-                ]),
-                col={"xs": 12, "sm": 8, "md": 6, "lg": 4, "xl": 3},
+                ],
+                alignment=ft.alignment.center),
+                col={"xs": 10, "sm": 6, "md": 6, "lg": 4, "xl": 3},
                 border_radius=ft.border_radius.all(8),
                 padding=10,
-                bgcolor=ft.Colors.BLACK,
-                alignment=ft.alignment.center
+                bgcolor=ft.Colors.BLACK
             )
             for lista_producto in galeria_ordenada
-        ]
+        ],
+        alignment=ft.alignment.center
     )
 
     return galeria_productos

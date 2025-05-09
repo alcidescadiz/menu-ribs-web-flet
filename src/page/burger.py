@@ -180,6 +180,6 @@ def burger_page(page,cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria(page,"Burger",burger)
+            galeria(page,"Burger",burger,cambiar_pagina)
         ]
     )

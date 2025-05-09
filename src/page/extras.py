@@ -50,6 +50,6 @@ def extras_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria(page,"Extras",extras),
+            galeria(page,"Extras",extras,cambiar_pagina),
         ]
     )

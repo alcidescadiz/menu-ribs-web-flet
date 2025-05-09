@@ -2,7 +2,7 @@ import flet as ft
 import urllib.parse
 import datetime
 from components.boton import boton_circular
-from globales.variables_globales import carrito  # ✅ Importamos carrito como diccionario global
+from globales.variables_globales import carrito, cantidad_carrito  # ✅ Importamos carrito como diccionario global
 
 # Número de WhatsApp donde se enviará el pedido
 numero_whatsapp = "584148757212"
@@ -35,15 +35,16 @@ def carrito_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     # ✅ Tabla de productos basada en diccionario
-    tabla = ft.Container(
+    def crear_tabla(carrito):
+        return ft.Container(
         content=ft.Row(
             controls=[
                 ft.DataTable(
                     columns=[
-                        ft.DataColumn(ft.Text("Producto")),
-                        ft.DataColumn(ft.Text("Cantidad")),
-                        ft.DataColumn(ft.Text("Precio")),
-                        ft.DataColumn(ft.Text("Subtotal")),
+                        ft.DataColumn(ft.Text("Producto",color="black",weight=ft.FontWeight.BOLD)),
+                        ft.DataColumn(ft.Text("Cantidad",color="black",weight=ft.FontWeight.BOLD)),
+                        ft.DataColumn(ft.Text("Precio",color="black",weight=ft.FontWeight.BOLD)),
+                        ft.DataColumn(ft.Text("Subtotal",color="black",weight=ft.FontWeight.BOLD)),
                     ],
                     rows=[
                         ft.DataRow(cells=[
@@ -61,7 +62,28 @@ def carrito_page(page, cambiar_pagina):
         expand=True  
     )
 
-    total_text = ft.Text(f"Total: ${calcular_total():.2f}", size=20, weight=ft.FontWeight.BOLD)
+    tabla = crear_tabla(carrito)
+
+    def actualizar_tabla():
+        page.pubsub.send_all({"cantidad": 0, "tipo": "vaciar carrito"}),
+        global tabla,total_text 
+        contenido.controls[1] = crear_tabla({})
+        contenido.controls[2] = ft.Text(f"Total: $0.00", size=20, weight=ft.FontWeight.BOLD,color="black")
+        page.update()
+
+
+    total_text = ft.Text(f"Total: ${calcular_total():.2f}", size=20, weight=ft.FontWeight.BOLD,color="black")
+
+
+    boton_vaciar_carrito = ft.ElevatedButton(
+        text="Borrar pedido",
+        on_click=lambda e: [
+            actualizar_tabla()
+        ],
+        bgcolor=ft.Colors.GREEN,
+        color=ft.Colors.RED,
+    )
+
 
     # ✅ Botón para enviar pedido con variables correctas
     def enviar_pedido(e):
@@ -104,10 +126,11 @@ def carrito_page(page, cambiar_pagina):
     # ✅ Diseño centrado con formulario
     contenido = ft.Column(
         controls=[
-            ft.Text("Carrito de Compras", size=24, weight=ft.FontWeight.BOLD),
+            ft.Text("Carrito de Compras", size=24, weight=ft.FontWeight.BOLD, color="black"),
             tabla,
             total_text,
-            ft.Text("Datos del Cliente", size=20, weight=ft.FontWeight.BOLD),
+            boton_vaciar_carrito,
+            ft.Text("Datos del Cliente", size=20, weight=ft.FontWeight.BOLD,color="black"),
             nombre_field,
             telefono_field,
             direccion_field,

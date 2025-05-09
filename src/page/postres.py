@@ -86,6 +86,6 @@ def postres_page(page, cambiar_pagina):
 
     return ft.Column(
         controls=[
-            galeria(page,"Postres",postres),
+            galeria(page,"Postres",postres,cambiar_pagina),
         ]
     )
