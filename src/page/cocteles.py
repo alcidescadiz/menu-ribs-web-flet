@@ -1,11 +1,12 @@
 import flet as ft
 from components.galeria_sin_botones import galeria_sin_botones
 from components.boton import boton_circular
+from components.peticiones import get_all
 
 def cocteles_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    cocteles = [
+    cocteles_inicial = [
         {
             "img": "img/cocteles/aperol_frezze.jpg",
             "title": "Aperol Frezze",
@@ -65,6 +66,8 @@ def cocteles_page(page, cambiar_pagina):
             "price": "Precio 4.40"
         }
     ]
+
+    cocteles =  get_all(cocteles_inicial,"cocteles")
 
     return ft.Column(
         controls=[

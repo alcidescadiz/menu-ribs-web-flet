@@ -1,11 +1,12 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
+from components.peticiones import get_all
 
 def burger_page(page,cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    burger = [
+    burger_inicial = [
         {
             "img": "img/promos/burger_minis.jpg",
             "title": "Tobo Minimini",
@@ -96,87 +97,7 @@ def burger_page(page,cambiar_pagina):
         }
     ]
     
-    # extras = [
-    #     {
-    #         "img": "img/entradas/aros_de_cebolla.jpg",
-    #         "title": "Aros de Cebolla",
-    #         "description": "",
-    #         "price": "Precio 2.50"
-    #     },
-    #     {
-    #         "img": "img/extras/papas_fritas.jpg",
-    #         "title": "Papas Fritas",
-    #         "description": "",
-    #         "price": "Precio 2.20"
-    #     },
-    #     {
-    #         "img": "img/extras/tocineta.jpg",
-    #         "title": "Extra de Tocineta",
-    #         "description": "",
-    #         "price": "Precio 1.60"
-    #     },
-    #     {
-    #         "img": "img/extras/queso_guayanes.jpg",
-    #         "title": "Extra de Queso Guayanés",
-    #         "description": "",
-    #         "price": "Precio 1.50"
-    #     },
-    #     {
-    #         "img": "img/extras/queso_cheddar.jpg",
-    #         "title": "Extra de Queso Cheddar",
-    #         "description": "",
-    #         "price": "Precio 1.40"
-    #     },
-    #     {
-    #         "img": "img/extras/pepinillos.jpg",
-    #         "title": "Extra de Pepinillos",
-    #         "description": "",
-    #         "price": "Precio 1.00"
-    #     },
-    #     {
-    #         "img": "img/extras/cebolla_caramelizada.jpg",
-    #         "title": "Extra de Cebolla Caramelizada",
-    #         "description": "",
-    #         "price": "Precio 1.00"
-    #     },
-    #     {
-    #         "img": "img/extras/chistorra.jpg",
-    #         "title": "Extra de Chistorra",
-    #         "description": "",
-    #         "price": "Precio 2.50"
-    #     },
-    #     {
-    #         "img": "img/extras/queso_crema_empanizado.jpg",
-    #         "title": "Queso Crema Empanizado",
-    #         "description": "",
-    #         "price": "Precio 1.30"
-    #     },
-    #     {
-    #         "img": "img/extras/huevo.jpg",
-    #         "title": "Extra de Huevo",
-    #         "description": "",
-    #         "price": "Precio 1.00"
-    #     },
-    #     {
-    #         "img": "img/extras/pollo_crispy.jpg",
-    #         "title": "Extra de Pollo Crispy",
-    #         "description": "",
-    #         "price": "Precio 3.50"
-    #     },
-    #     {
-    #         "img": "img/extras/carne.jpg",
-    #         "title": "Extra de Carne",
-    #         "description": "",
-    #         "price": "Precio 2.10"
-    #     },
-    #     {
-    #         "img": "img/extras/carne_costilla.jpg",
-    #         "title": "Extra de Carne de Costilla",
-    #         "description": "",
-    #         "price": "Precio 3.00"
-    #     }
-    # ]
-    
+    burger =  get_all(burger_inicial,"burger")
 
     return ft.Column(
         controls=[

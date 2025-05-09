@@ -1,11 +1,12 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
+from components.peticiones import get_all
 
 def platos_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    platos = [
+    platos_inicial = [
         {
             "img": "./img/promos/parrilla_mar_tierra.jpg",
             "title": "Parrilla Mar y Tierra",
@@ -89,6 +90,7 @@ def platos_page(page, cambiar_pagina):
         }
     ]
 
+    platos =  get_all(platos_inicial,"platos")
 
     return ft.Column(
         controls=[

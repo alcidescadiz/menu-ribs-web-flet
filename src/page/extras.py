@@ -1,11 +1,12 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
+from components.peticiones import get_all
 
 def extras_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    extras = [
+    extras_inicial = [
         {
             "img": "img/extras/tomates_hilmary.jpg",
             "title": "Tomates Asados",
@@ -47,7 +48,8 @@ def extras_page(page, cambiar_pagina):
             "price": "Precio 1.60"
         }
     ]
-
+    
+    extras =  get_all(extras_inicial,"extras")
     return ft.Column(
         controls=[
             galeria(page,"Extras",extras,cambiar_pagina),
