@@ -61,6 +61,7 @@ def crear_barra_superior(page,cambiar_pagina):
             )
         ]
     )
+
 def main(page: ft.Page):
     global cantidad_carrito
 
@@ -97,7 +98,6 @@ def main(page: ft.Page):
             contenido.content = bebidas_page(page, cambiar_pagina)
         elif ruta == "/carrito":
             contenido.content = carrito_page(page, cambiar_pagina)
-
 
         page.drawer.open = False
         page.update()

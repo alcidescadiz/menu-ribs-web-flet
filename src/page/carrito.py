@@ -5,7 +5,7 @@ from components.boton import boton_circular
 from globales.variables_globales import carrito, cantidad_carrito  # ✅ Importamos carrito como diccionario global
 
 # Número de WhatsApp donde se enviará el pedido
-numero_whatsapp = "584148757212"
+numero_whatsapp = "5804120795431"
 
 # Función para calcular el total
 def calcular_total():
@@ -80,8 +80,9 @@ def carrito_page(page, cambiar_pagina):
         on_click=lambda e: [
             actualizar_tabla()
         ],
-        bgcolor=ft.Colors.GREEN,
-        color=ft.Colors.RED,
+        bgcolor=ft.Colors.RED,
+        color=ft.Colors.YELLOW,
+        width=400
     )
 
 
@@ -107,9 +108,9 @@ def carrito_page(page, cambiar_pagina):
             actualizar_tabla()
 
     # ✅ Campos del formulario
-    nombre_field = ft.TextField(label="Nombre y Apellido", width=300)
-    telefono_field = ft.TextField(label="Teléfono", width=300)
-    direccion_field = ft.TextField(label="Dirección Completa", width=300, multiline=True)
+    nombre_field = ft.TextField(label="Nombre y Apellido", width=400,color="black")
+    telefono_field = ft.TextField(label="Teléfono", width=400,color="black")
+    direccion_field = ft.TextField(label="Dirección Completa", width=400, multiline=True,color="black")
     tipo_pago_field = ft.Dropdown(
         label="Tipo de pago",
         options=[
@@ -118,7 +119,8 @@ def carrito_page(page, cambiar_pagina):
             ft.dropdown.Option("Zelle"),
             ft.dropdown.Option("Pago móvil"),
         ],
-        width=300
+        width=400,
+        color="black"
     )
 
     boton_enviar = ft.ElevatedButton(
@@ -126,12 +128,13 @@ def carrito_page(page, cambiar_pagina):
         on_click=enviar_pedido,
         bgcolor=ft.Colors.GREEN,
         color=ft.Colors.WHITE,
+        width=400
     )
 
     # ✅ Diseño centrado con formulario
     contenido = ft.Column(
         controls=[
-            ft.Text("Carrito de Compras", size=24, weight=ft.FontWeight.BOLD, color="black"),
+            ft.Text("🛒 Carrito de Compras", size=24, weight=ft.FontWeight.BOLD, color="black"),
             tabla,
             total_text,
             boton_vaciar_carrito,
