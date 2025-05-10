@@ -34,7 +34,7 @@ def galeria(page,titulo, lista_productos,cambiar_pagina ):
             weight=ft.FontWeight.BOLD,
         )
 
-    modal = modal_extras(page,agregar_al_carrito)
+    modal = modal_extras(page,agregar_al_carrito,cambiar_pagina)
     boton_abrir_modal = None
     if titulo == "Burger":
         boton_abrir_modal = ft.ElevatedButton("+1 Extras", on_click=lambda e: page.open(modal))

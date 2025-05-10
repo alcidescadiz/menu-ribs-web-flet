@@ -1,6 +1,6 @@
 import flet as ft
 
-def modal_extras (page,agregar_al_carrito):
+def modal_extras (page,agregar_al_carrito,cambiar_pagina):
     extras = [
         {"title": "Aros de Cebolla", "price": "Precio 2.50"},
         {"title": "Papas Fritas", "price": "Precio 2.20"},
@@ -26,7 +26,7 @@ def modal_extras (page,agregar_al_carrito):
                     ft.Row(
                         [
                             ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
-                            ft.ElevatedButton(extra["title"], on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]})),
+                            ft.ElevatedButton(extra["title"], on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]},cambiar_pagina)),
                             ft.Text(f"{extra['price']}", color=ft.Colors.BLACK,size=14),
                         ],
                         spacing=12
