@@ -12,59 +12,13 @@ from page.promociones import promociones_page
 from page.bebidas import bebidas_page
 from page.carrito import carrito_page
 from components.barra_inferior import barra_inferior
+from components.barra_superior import crear_barra_superior
 from globales.variables_globales import cantidad_carrito, carrito
 
 
-def eventos_subscritos(page, cantidad,tipo,cambiar_pagina):
-    global carrito,cantidad_carrito
-    if tipo == "actualizar carrito":
-        cantidad_carrito["cantidad"] = cantidad  # ✅ Se actualiza la cantidad total en `main.py`
-    elif tipo == "vaciar carrito":
-        carrito.clear()
-        cantidad_carrito["cantidad"] = 0
-    
-    page.appbar = crear_barra_superior(page,cambiar_pagina)
-    page.update()
-
-
-# ✅ Función para crear la barra superior dinámicamente
-def crear_barra_superior(page,cambiar_pagina):
-    def abrir_menu(e):
-        page.drawer.open = True
-        page.update()
-
-    return ft.AppBar(
-        title=ft.Container(
-            content=ft.Text("Menú Ribs Burger", font_family="MiFuente", color="white", size=24),
-            on_click=lambda e: cambiar_pagina("/home")
-        ),
-        bgcolor="black",
-        center_title=True,
-        actions=[
-            ft.IconButton(icon=ft.Icons.MENU, on_click=lambda e: abrir_menu(page), icon_color="WHITE"),
-            ft.Stack(
-                controls=[
-                    ft.IconButton(
-                        icon=ft.Icons.SHOPPING_CART, 
-                        on_click=lambda e: cambiar_pagina("/carrito"),
-                        padding=10,
-                        visible=cantidad_carrito["cantidad"] > 0
-                    ),
-                    ft.Container(
-                        content=ft.Text(str(cantidad_carrito["cantidad"]), size=10, color="white"),
-                        bgcolor="red",
-                        border_radius=5,
-                        padding=5,
-                        visible= cantidad_carrito["cantidad"] > 0  # ✅ Se actualiza dinámicamente
-                    )
-                ]
-            )
-        ]
-    )
-
 def main(page: ft.Page):
-    global cantidad_carrito
-
+    global cantidad_carrito,carrito
+    
     page.title = "Menu Ribs Burger"
     page.padding = 10
     page.bgcolor = ft.Colors.GREY_600 
@@ -75,7 +29,7 @@ def main(page: ft.Page):
     # 🛠 Rutas
     def cambiar_pagina(ruta):
         if ruta == "/home":
-            contenido.content = home_page(page)
+            contenido.content = home_page(page,cambiar_pagina)
         elif ruta == "/burger":
             contenido.content = burger_page(page, cambiar_pagina)
         elif ruta == "/entradas":
@@ -105,6 +59,8 @@ def main(page: ft.Page):
     # 🔹 Vincular `on_route_change` para detectar cambios de ruta
     page.on_route_change = lambda e: cambiar_pagina(e.route)
 
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
+
     # 🔹 Menú lateral
     page.drawer = ft.NavigationDrawer(
         controls=[
@@ -124,12 +80,6 @@ def main(page: ft.Page):
             ft.ListTile(title=ft.Text("🛒 Carrito de Compras", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/carrito"))
         ]
     )
-
-  
-    # ✅ Suscribirse a cambios en el carrito
-    page.pubsub.subscribe(lambda evento: eventos_subscritos(page, evento["cantidad"], evento["tipo"], cambiar_pagina))
-    #page.pubsub.subscribe(lambda cantidad,tipo: eventos_subscritos(page, cantidad,tipo,cambiar_pagina))
-    page.appbar = crear_barra_superior(page,cambiar_pagina)
     
 
     page.scroll = ft.ScrollMode.AUTO
@@ -140,7 +90,7 @@ def main(page: ft.Page):
     )
 
     # 🔹 Vista inicial con tarjetas
-    contenido.content = home_page(page)
+    contenido.content = home_page(page,cambiar_pagina)
     page.update()
 
 

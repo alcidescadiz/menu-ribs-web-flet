@@ -1,10 +1,14 @@
 import flet as ft
 import re
 from components.modal_extras import modal_extras
+from components.barra_superior import crear_barra_superior
 from globales.variables_globales import  carrito, cantidad_carrito
+from components.notificaciones import mostrar_notificacion
 
+def agregar_al_carrito(e,page,producto,cambiar_pagina ):
+    global cantidad_carrito,carrito
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
 
-def agregar_al_carrito(e,page,producto ):
     # Extraer y convertir precio a float
     title = str(producto["title"])
     price = float(producto["price"][7:]) 
@@ -14,12 +18,15 @@ def agregar_al_carrito(e,page,producto ):
         carrito[title] = {"price": price, "cantidad": 1}  # Agregar nuevo producto
     
     cantidad_carrito["cantidad"] = sum(item["cantidad"] for item in carrito.values()) 
-    page.pubsub.send_all({"cantidad": cantidad_carrito["cantidad"] , "tipo": "actualizar carrito"})
+    mostrar_notificacion(page, f"Agregado {str(producto["title"])} a su pedido",cambiar_pagina)
     page.update()
 
 
 
 def galeria(page,titulo, lista_productos,cambiar_pagina ):
+
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
+
     if len(lista_productos) < 1:
         return ft.Text(
             f"{titulo} no hay disponibles en este momento",
@@ -51,7 +58,7 @@ def galeria(page,titulo, lista_productos,cambiar_pagina ):
                             
                             controls=[ ft.ElevatedButton(
                             text="Agregar al carrito",
-                            on_click=lambda e,item= lista_producto,: agregar_al_carrito( e,page,item),
+                            on_click=lambda e,item= lista_producto,: agregar_al_carrito( e,page,item,cambiar_pagina),
                             icon=ft.Icons.PLUS_ONE_ROUNDED,
                             bgcolor=ft.Colors.AMBER,
                             color=ft.Colors.BLACK

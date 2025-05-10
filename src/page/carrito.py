@@ -2,7 +2,9 @@ import flet as ft
 import urllib.parse
 import datetime
 from components.boton import boton_circular
-from globales.variables_globales import carrito, cantidad_carrito  # ✅ Importamos carrito como diccionario global
+from components.barra_superior import crear_barra_superior
+from globales.variables_globales import carrito, cantidad_carrito 
+from components.notificaciones import mostrar_notificacion
 
 # Número de WhatsApp donde se enviará el pedido
 numero_whatsapp = "5804120795431"
@@ -32,6 +34,8 @@ def generar_mensaje(nombre, telefono, direccion, tipo_pago):
     return f"https://wa.me/{numero_whatsapp}?text={urllib.parse.quote(mensaje)}"  # Enlace con mensaje
 
 def carrito_page(page, cambiar_pagina):
+
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     # ✅ Tabla de productos basada en diccionario
@@ -64,23 +68,15 @@ def carrito_page(page, cambiar_pagina):
 
     tabla = crear_tabla(carrito)
 
-    # def actualizar_tabla():
-    #     page.pubsub.send_all({"cantidad": 0, "tipo": "vaciar carrito"}),
-    #     global tabla,total_text 
-    #     contenido.controls[1] = crear_tabla({})
-    #     contenido.controls[2] = ft.Text(f"Total: $0.00", size=20, weight=ft.FontWeight.BOLD,color="black")
-    #     page.update()
     
     def actualizar_tabla(page):
-        global carrito
+        global carrito, cantidad_carrito
         carrito.clear()  # ✅ Vacía el carrito
+        cantidad_carrito["cantidad"] = 0  # ✅ Reinicia la cantidad
 
         contenido.controls.clear()  # ✅ Borra todos los controles de la UI
-        contenido.controls.append(ft.Text("🛒 Carrito vacío", size=20, color=ft.Colors.RED))  # ✅ Mensaje de carrito vacío
-        
-
-        page.update()  # ✅ Refresca la UI
-
+        contenido.controls.append(ft.Text("🛒 Carrito vacío", size=20, color=ft.Colors.RED))  # ✅ Elimina la pagina y la sustituye por un mensaje que el carrito está vacío
+        mostrar_notificacion(page, "✅ Carrito vaciado correctamente",cambiar_pagina)
 
 
     total_text = ft.Text(f"Total: ${calcular_total():.2f}", size=20, weight=ft.FontWeight.BOLD,color="black")
@@ -116,7 +112,7 @@ def carrito_page(page, cambiar_pagina):
             telefono_field.value=""
             direccion_field.value=""
             tipo_pago_field.value=None
-            actualizar_tabla()
+            actualizar_tabla(page)
 
     # ✅ Campos del formulario
     nombre_field = ft.TextField(label="Nombre y Apellido", width=400,color="black")

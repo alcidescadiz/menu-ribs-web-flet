@@ -1,11 +1,13 @@
 import flet as ft
 import re
-
+from components.barra_superior import crear_barra_superior
 
 ### para galerias de productos q no salen por delivery
-### licores,, cocteles
+### licores, cocteles
 
-def galeria_sin_botones(page,titulo, lista_productos ):
+def galeria_sin_botones(page,titulo, lista_productos,cambiar_pagina ):
+    page.appbar = crear_barra_superior(page,cambiar_pagina)
+
     if len(lista_productos) < 1:
         return ft.Text(
             f"{titulo} no hay disponibles en este momento",
