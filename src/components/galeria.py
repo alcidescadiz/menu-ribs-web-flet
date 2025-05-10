@@ -24,7 +24,7 @@ def agregar_al_carrito(e,page,producto,cambiar_pagina ):
 
 
 def galeria(page,titulo, lista_productos,cambiar_pagina ):
-
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.appbar = crear_barra_superior(page,cambiar_pagina)
 
     if len(lista_productos) < 1:

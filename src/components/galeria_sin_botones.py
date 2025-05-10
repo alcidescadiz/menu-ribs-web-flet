@@ -6,6 +6,7 @@ from components.barra_superior import crear_barra_superior
 ### licores, cocteles
 
 def galeria_sin_botones(page,titulo, lista_productos,cambiar_pagina ):
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.appbar = crear_barra_superior(page,cambiar_pagina)
 
     if len(lista_productos) < 1:

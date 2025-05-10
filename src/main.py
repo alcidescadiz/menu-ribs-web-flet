@@ -15,7 +15,6 @@ from components.barra_inferior import barra_inferior
 from components.barra_superior import crear_barra_superior
 from globales.variables_globales import cantidad_carrito, carrito
 
-
 def main(page: ft.Page):
     global cantidad_carrito,carrito
     
@@ -23,11 +22,13 @@ def main(page: ft.Page):
     page.padding = 10
     page.bgcolor = ft.Colors.GREY_600 
     page.fonts = {"MiFuente": "fonts/StyleScript-Regular.ttf"}
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
     contenido = ft.Container()
 
     # 🛠 Rutas
     def cambiar_pagina(ruta):
+        page.route = ruta  # 🔹 Modifica la ruta
         if ruta == "/home":
             contenido.content = home_page(page,cambiar_pagina)
         elif ruta == "/burger":

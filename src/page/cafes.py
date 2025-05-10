@@ -1,5 +1,5 @@
 import flet as ft
-from components.galeria import galeria
+from components.galeria_sin_botones import galeria_sin_botones
 from components.boton import boton_circular
 from components.peticiones import get_all
 
@@ -42,6 +42,6 @@ def cafes_page(page, cambiar_pagina):
     
     return ft.Column(
         controls=[
-            galeria(page,"Cafés", cafes,cambiar_pagina),
+            galeria_sin_botones(page,"Cafés", cafes,cambiar_pagina),
         ]
     )

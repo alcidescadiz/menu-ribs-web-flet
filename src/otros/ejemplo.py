@@ -1,136 +1,54 @@
 import flet as ft
-from page.home import home_page
-from page.burger import burger_page
-from page.entradas import entradas_page
-from page.cafes import cafes_page
-from page.cocteles import cocteles_page
-from page.extras import extras_page
-from page.licores import licores_page
-from page.platos import platos_page
-from page.postres import postres_page
-from page.promociones import promociones_page
-from page.bebidas import bebidas_page
-from page.carrito import carrito_page
-from components.barra_inferior import barra_inferior
+import webbrowser  # Para abrir el video en el navegador
 
-# 🔹 Variable global del carrito
-cantidad_carrito = 0
 
-def actualizar_carrito(page, cantidad):
-    global cantidad_carrito
-    cantidad_carrito = cantidad  # ✅ Se actualiza la cantidad total en `main.py`
-    page.update()  # ✅ Refresca la barra superior
+def header_image(page):
+    """Crea la imagen panorámica"""
+    return ft.Container(
+        content=ft.Image(src="src/assets/img/platos/fajitas.jpg",
+                         fit=ft.ImageFit.COVER),
+        width=page.width,
+        height=page.height / 2,
+    )
+
+
+def open_video(_):
+    """Abre el video de YouTube en el navegador"""
+    webbrowser.open("https://www.youtube.com/watch?v=Ffsq8C3Url8")
+
+
+def youtube_button():
+    """Crea un botón que abre el video en YouTube"""
+    return ft.Container(
+        content=ft.ElevatedButton("Ver Video en YouTube", on_click=open_video),
+        padding=ft.padding.all(16),
+        expand=True
+    )
+
+
+def mission_vision():
+    """Sección de misión y visión"""
+    return ft.Container(
+        content=ft.Column([
+            ft.Text("Nuestra Misión", size=20, weight=ft.FontWeight.BOLD),
+            ft.Text("Brindar la mejor experiencia gastronómica con hamburguesas, parrillas y ensaladas de la más alta calidad."),
+            ft.Text("Nuestra Visión", size=20, weight=ft.FontWeight.BOLD),
+            ft.Text("Ser el restaurante preferido por los amantes de la buena comida, destacando por nuestro sabor y servicio excepcional."),
+        ], spacing=10),
+        padding=ft.padding.all(16),
+        expand=True
+    )
+
 
 def main(page: ft.Page):
-    global cantidad_carrito
+    """Estructura principal de la página"""
+    page.title = "Sobre Nosotros"
+    page.bgcolor = ft.Colors.WHITE  # Corrección de colors enum
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
-    page.title = "Menu Ribs Burger"
-    page.padding = 10
-    page.bgcolor = ft.Colors.GREY_600 
-    page.fonts = {"MiFuente": "fonts/StyleScript-Regular.ttf"}
-
-    contenido = ft.Container()
-
-    # 🛠 Rutas
-    def cambiar_pagina(ruta):
-        if ruta == "/home":
-            contenido.content = home_page(page)
-        elif ruta == "/burger":
-            contenido.content = burger_page(page, cambiar_pagina)
-        elif ruta == "/entradas":
-            contenido.content = entradas_page(page, cambiar_pagina)
-        elif ruta == "/cafes":
-            contenido.content = cafes_page(page, cambiar_pagina)
-        elif ruta == "/cocteles":
-            contenido.content = cocteles_page(page, cambiar_pagina)
-        elif ruta == "/extras":
-            contenido.content = extras_page(page, cambiar_pagina)
-        elif ruta == "/licores":
-            contenido.content = licores_page(page, cambiar_pagina)
-        elif ruta == "/platos":
-            contenido.content = platos_page(page, cambiar_pagina)
-        elif ruta == "/postres":
-            contenido.content = postres_page(page, cambiar_pagina)
-        elif ruta == "/promociones":
-            contenido.content = promociones_page(page, cambiar_pagina)
-        elif ruta == "/bebidas":
-            contenido.content = bebidas_page(page, cambiar_pagina)
-        elif ruta == "/carrito":
-            contenido.content = carrito_page(page, cambiar_pagina)
-
-        page.drawer.open = False
-        page.update()
-
-    # 🔹 Vincular `on_route_change` para detectar cambios de ruta
-    page.on_route_change = lambda e: cambiar_pagina(e.route)
-
-    # 🔹 Menú lateral
-    page.drawer = ft.NavigationDrawer(
-        controls=[
-            ft.ListTile(title=ft.Text("Categorías", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/home")),
-            ft.Divider(thickness=2),
-            ft.ListTile(title=ft.Text("Burger", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/burger")),
-            ft.ListTile(title=ft.Text("Entradas", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/entradas")),
-            ft.ListTile(title=ft.Text("Platos", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/platos")),
-            ft.ListTile(title=ft.Text("Bebidas", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/bebidas")),
-            ft.ListTile(title=ft.Text("Cocteles", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/cocteles")),
-            ft.ListTile(title=ft.Text("Postres", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/postres")),
-            ft.ListTile(title=ft.Text("Cafés", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/cafes")),
-            ft.ListTile(title=ft.Text("Extras", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/extras")),
-            ft.ListTile(title=ft.Text("Licores", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/licores")),
-            ft.ListTile(title=ft.Text("Promociones", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/promociones")),
-            ft.Divider(thickness=2),
-            ft.ListTile(title=ft.Text("🛒 Carrito de Compras", font_family="MiFuente", size=24), on_click=lambda e: cambiar_pagina("/carrito"))
-        ]
-    )
-
-    # 🔹 Barra superior con menú
-    def abrir_menu(e):
-        page.drawer.open = True
-        page.update()
-
-    # 🔹 Barra superior con contador dinámico
-    barra_superior = ft.AppBar(
-        title=ft.Container(
-            content=ft.Text("Menú Ribs Burger", font_family="MiFuente", color="white", size=24),
-            on_click=lambda e: cambiar_pagina("/home")
-        ),
-        bgcolor="black",
-        center_title=True,
-        actions=[
-            ft.IconButton(icon=ft.Icons.MENU, on_click=abrir_menu, icon_color="WHITE"),
-            ft.Stack(
-                controls=[
-                    ft.IconButton(
-                        icon=ft.Icons.SHOPPING_CART, 
-                        on_click=lambda e: cambiar_pagina("/carrito"),
-                        padding=10,
-                        visible=cantidad_carrito > 0),
-                    ft.Container(
-                        content=ft.Text(str(cantidad_carrito), size=10, color="white"),
-                        bgcolor="red",
-                        border_radius=5,
-                        padding=5,
-                        visible=cantidad_carrito > 0  # ✅ Se muestra solo si hay productos en el carrito
-                    )
-                ]
-            )
-        ]
-    )
-
-    # 🔹 Suscribirse a cambios en el carrito
-    page.pubsub.subscribe(lambda cantidad: actualizar_carrito(page, cantidad))
-
-    page.scroll = ft.ScrollMode.AUTO
-    page.add(
-        barra_superior,
-        contenido,
-        barra_inferior()
-    )
-
-    # 🔹 Vista inicial con tarjetas
-    contenido.content = home_page(page)
-    page.update()
+    # Crear el layout
+    page.add(header_image(page))  # Pasar 'page' a la función
+    page.add(ft.Row([youtube_button(), mission_vision()], expand=True))  # Mostrar el botón y la misión/visión
 
 ft.app(target=main)
 
