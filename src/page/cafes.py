@@ -25,13 +25,13 @@ def cafes_page(page, cambiar_pagina):
             "price": "Precio 2.50"
         },
         {
-            "img": "img/cafes/capuccino.jpeg",
+            "img": "img/cafes/capuccino.jpg",
             "title": "Café Capuccino",
             "description": "",
             "price": "Precio 3.00"
         },
         {
-            "img": "img/cafes/mocaccino.jpeg",
+            "img": "img/cafes/mocaccino.jpg",
             "title": "Café Moacaccino",
             "description": "",
             "price": "Precio 2.60"

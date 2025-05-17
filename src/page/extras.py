@@ -28,10 +28,10 @@ def extras_page(page, cambiar_pagina):
         {
             "img": "img/extras/extra_morcilla_chorizo.jpg",
             "title": "Ración de Embutidos",
-            "description": [
-                "Precio US$ 5.00 Extra de Chorizo",
-                "Precio US$ 4.00 Extra de Morcilla"
-            ],
+            "description":"""
+                Precio US$ 5.00 Extra de Chorizo
+                Precio US$ 4.00 Extra de Morcilla
+            """,
             "price": "Precio 5.00",
             "lista": True
         },

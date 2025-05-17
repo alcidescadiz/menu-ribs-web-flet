@@ -111,6 +111,7 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 2.20"
         },
     ]
+    
     bebidas =  get_all(bebidas_inicial,"bebidas")
     return ft.Column(
         controls=[

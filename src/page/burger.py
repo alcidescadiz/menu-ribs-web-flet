@@ -8,7 +8,7 @@ def burger_page(page,cambiar_pagina):
 
     burger_inicial = [
         {
-            "img": "img/promos/burger_minis.jpg",
+            "img": "img/burger/burger_minis.jpg",
             "title": "Tobo Minimini",
             "description": "Disponible de Jueves a Domingos",
             "price": "Precio 6.00"
