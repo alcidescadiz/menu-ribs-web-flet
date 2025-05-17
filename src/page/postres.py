@@ -9,22 +9,22 @@ def postres_page(page, cambiar_pagina):
         {
             "img": "img/postres/malteada_brownie.jpg",
             "title": "Malteada de Brownie",
-            "description": [
-                "Helado Cookie and Cream con una porción de brownie.",
-                "5.70 Malteada grande 12 onz",
-                "3.20 Malteada pequeña 8 onz"
-            ],
+            "description": """
+                Helado Cookie and Cream con una porción de brownie
+                5.70 Malteada grande 12 onz
+                3.20 Malteada pequeña 8 onz
+            """,
             "price": "Precio 5.70",
             "lista": True
         },
         {
             "img": "img/postres/malteada_oreo.jpg",
             "title": "Malteada de Oreo",
-            "description": [
-                "Helado de mantecado con galletas oreos.",
-                "5.70 Malteada grande 12 onz",
-                "3.20 Malteada pequeña 8 onz"
-            ],
+            "description": """
+                Helado de mantecado con galletas oreos.
+                5.70 Malteada grande 12 onz
+                3.20 Malteada pequeña 8 onz
+            """,
             "price": "Precio 5.70",
             "lista": True
         },
@@ -42,7 +42,7 @@ def postres_page(page, cambiar_pagina):
         },
                 {
             "img": "img/postres/barquillas.jpg",
-            "title": "Barquilla o Tinita de una () porción",
+            "title": "Barquilla o Tinita de una (1) porción",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
             "price": "Precio 2.20"
         },

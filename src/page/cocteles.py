@@ -46,11 +46,11 @@ def cocteles_page(page, cambiar_pagina):
         {
             "img": "img/cocteles/mojito_parchita.jpg",
             "title": "Mojitos",
-            "description": [
-                "4.00 De Parchita",
-                "4.00 Caribeño"
-            ],
-            "price": "Precio 3.00",
+            "description": """
+                Mojito de Parchita
+                Mojito Caribeño
+            """,
+            "price": "Precio 4.00",
             "lista": True
         },
         {

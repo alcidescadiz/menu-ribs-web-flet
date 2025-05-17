@@ -7,34 +7,16 @@ def bebidas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     bebidas_inicial = [
-        {
-            "img": "img/bebidas/bebidas.png",
-            "title": "Bebidas",
-            "description": [
-                "4.00 Redbull",
-                "3.30 Gatorade",
-                "3.20 Refresco 1.5lt (Solo por delivery)",
-                "2.70 Soda",
-                "2.60 Vaso de Nestea 16oz (Durazno o Limón)",
-                "2.50 Agua Minalba 600 ml",
-                "2.50 Agua Saborizada",
-                "2.50 Refresco de lata",
-                "2.20 Vaso de Refresco 16oz (Recargable)",
-                "2.20 Jugo Yukery",
-                "2.00 Jugo Yuky Pack",
-                "1.50 Agua Minalba 355 ml"
-            ],
-            "price": "Precio 2.60"
-        },
+
         {
             "img": "img/bebidas/jugos.png",
             "title": "Jugos",
-            "description": [
-                "3.50 Jugo de Fresa",
-                "3.50 Jugo de Limón",
-                "3.50 Jugo de Parchita",
-                "3.50 Jugo de Piña"
-            ],
+            "description": """
+            🍓 Jugo de Fresa
+            🍋 Jugo de Limón
+            🍈 Jugo de Parchita
+            🍍 Jugo de Piña
+            """,
             "price": "Precio 3.50"
         },
         {
@@ -42,7 +24,92 @@ def bebidas_page(page, cambiar_pagina):
             "title": "Berry Bliss",
             "description": "Una bebida vibrante y colorida, perfecta para cualquier ocasión. Rica en vitamina C y antioxidantes, lo que la convierte en una opción saludable. Servido bien frío.",
             "price": "Precio 3.60"
-        }
+        },
+        {
+            "img": "img/bebidas/agua_355.jpg",
+            "title": "Agua Minalba 355 ml",
+            "description": "",
+            "price": "Precio 1.50"
+        },
+        {
+            "img": "img/bebidas/agua_600.jpg",
+            "title": "Agua Minalba 600 ml",
+            "description": "",
+            "price": "Precio 2.50"
+        },
+        {
+            "img": "img/bebidas/agua_saborizada.jpg",
+            "title": "Agua Saborizada",
+            "description": "",
+            "price": "Precio 2.50"
+        },
+        # gatorade
+        {
+            "img": "img/bebidas/gatorade.jpg",
+            "title": "Gatorade",
+            "description": "",
+            "price": "Precio 3.30"
+        },
+        #refresco lata
+        {
+            "img": "img/bebidas/refresco_lata.jpg",
+            "title": "Refresco Lata",
+            "description": "",
+            "price": "Precio 2.50"
+        },
+        #refresco 1.5
+        {
+            "img": "img/bebidas/refresco1.5.jpg",
+            "title": "Refresco 1.5lt (Solo por delivery)",
+            "description": "",
+            "price": "Precio 3.20"
+        },
+        #refresco 2lt
+        {
+            "img": "img/bebidas/refresco2.jpg",
+            "title": "Refresco 2lt (Solo por delivery)",
+            "description": "",
+            "price": "Precio 4.00"
+        } ,
+        # soda
+        {
+            "img": "img/bebidas/soda.jpg",
+            "title": "Soda",
+            "description": "",
+            "price": "Precio 2.70"
+        },
+        # yuki pack
+        {
+            "img": "img/bebidas/yuki_pack.jpg",
+            "title": "Jugo Yuky Pack",
+            "description": "",
+            "price": "Precio 2.00"
+        },
+        # redbull
+        {
+            "img": "img/bebidas/redbull.jpg",
+            "title": "Redbull",
+            "description": "",
+            "price": "Precio 4.00"
+        },
+        {
+            "img": "img/bebidas/veso_nestea.jpg",
+            "title": "Vaso de Nestea 16oz (Durazno o Limón)",
+            "description": "",
+            "price": "Precio 2.60"
+        },
+        {
+            "img": "img/bebidas/veso_refresco.jpg",
+            "title": "Vaso de Refresco 16oz (Recargable)",
+            "description": "",
+            "price": "Precio 2.20"
+        },
+        {
+            "img": "img/bebidas/jugo_yukery.jpg",
+            "title": "Jugo Yukery",
+            "description": "",
+            "price": "Precio 2.20"
+        },
     ]
     bebidas =  get_all(bebidas_inicial,"bebidas")
     return ft.Column(

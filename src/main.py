@@ -13,11 +13,8 @@ from page.bebidas import bebidas_page
 from page.carrito import carrito_page
 from components.barra_inferior import barra_inferior
 from components.barra_superior import crear_barra_superior
-from globales.variables_globales import cantidad_carrito, carrito
 
 def main(page: ft.Page):
-    global cantidad_carrito,carrito
-    
     page.title = "Menu Ribs Burger"
     page.padding = 10
     page.bgcolor = ft.Colors.GREY_600 
@@ -96,7 +93,6 @@ def main(page: ft.Page):
 
 
 ft.app(target=main)
-
 
 # web
 #1. python -m http.server --directory build\web
