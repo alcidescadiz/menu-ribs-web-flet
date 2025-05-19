@@ -1,9 +1,11 @@
+# pylint: disable=import-error
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
 from components.peticiones import get_all
 
 def extras_page(page, cambiar_pagina):
+    """vISTA DE EXTRAS"""
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     extras_inicial = [
