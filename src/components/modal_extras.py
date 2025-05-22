@@ -26,10 +26,23 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
                     ft.Row(
                         [
                             ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
-                            ft.ElevatedButton(extra["title"], on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]},cambiar_pagina)),
-                            ft.Text(f"{extra['price']}", color=ft.Colors.BLACK,size=14),
+                            ft.Column(
+                                controls=[
+                                    ft.ElevatedButton(
+                                        extra["title"], 
+                                        width=200,
+                                        color=ft.colors.BLACK,
+                                        bgcolor=ft.Colors.GREEN_100,
+                                        on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]},cambiar_pagina)
+                                    ),
+                                    ft.Text(f"{extra['price']}", color=ft.Colors.BLACK,size=14),
+                                ],
+                                spacing=5,  
+                                horizontal_alignment=ft.CrossAxisAlignment.CENTER
+                            )
+                            
                         ],
-                        spacing=12
+                        spacing=12,
                     ),
                     ft.Divider()  # Línea divisora entre cada ítem
                 ]
@@ -42,14 +55,15 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
     # Crear el diálogo modal responsive
     modal = ft.AlertDialog(
         content_padding=10,
-        title=ft.Text("EXTRAS", size=22, weight=ft.FontWeight.BOLD),
+        title=ft.Text("EXTRAS", size=22, weight=ft.FontWeight.BOLD,color=ft.Colors.BLACK ),
         content=ft.Container(
             content=contenido,
-            width=600,  # Establece el ancho del modal
+            width=280,  # Establece el ancho del modal
             height=500,  # Define una altura personalizada
-            padding=5
+            padding=10
         ),
-        actions=[ft.TextButton("Cerrar", on_click=lambda e:page.close(modal))]
+        actions=[ft.TextButton("Cerrar", on_click=lambda e:page.close(modal))],
+        bgcolor=ft.Colors.WHITE
     )
     return modal
 
