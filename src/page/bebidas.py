@@ -93,13 +93,13 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 4.00"
         },
         {
-            "img": "img/bebidas/veso_nestea.jpg",
+            "img": "img/bebidas/vaso_nestea.jpg",
             "title": "Vaso de Nestea 16oz (Durazno o Limón)",
             "description": "",
             "price": "Precio 2.60"
         },
         {
-            "img": "img/bebidas/veso_refresco.jpg",
+            "img": "img/bebidas/vaso_refresco.jpg",
             "title": "Vaso de Refresco 16oz (Recargable)",
             "description": "",
             "price": "Precio 2.20"

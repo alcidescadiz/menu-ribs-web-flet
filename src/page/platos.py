@@ -8,15 +8,6 @@ def platos_page(page, cambiar_pagina):
 
     platos_inicial = [
         {
-            "img": "./img/promos/parrilla_mar_tierra.jpg",
-            "title": "Parrilla Mar y Tierra",
-            "description": """Una deliciosa combinación de sabores para los amantes de lo mejor de ambos mundos (para dos personas).
-            Jugosos trozos de pollo adobados con condimento parrillero, acompañados de camarones y calamares marinados con ajo y limón.
-            Todo a la parrilla con cebolla, pimentón y mantequilla, servido junto a papas rústicas doradas y una porción de salsa tártara.
-            Una experiencia de sabor única que fusiona tierra y mar. 🌊🔥🍗🍤""",
-            "price": "Precio 24.00"
-        },
-        {
             "img": "./img/platos/canasta_de_pollo.jpg",
             "title": "Canasta de Pollo",
             "description": "Deléitate con nuestra deliciosa canasta de pollo crujiente. Este plato consiste en jugosas piezas de pollo empanizadas y fritas hasta alcanzar un dorado perfecto, acompañada de papas fritas crujientes y salsa miel mostaza que elevan la experiencia.",
