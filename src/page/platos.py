@@ -70,15 +70,27 @@ def platos_page(page, cambiar_pagina):
         {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Tabla Fiestera",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw. (3 pers)",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.",
             "price": "Precio 49.80"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Mini Tabla Fiestera",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw. (2 pers)",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.",
             "price": "Precio 40.00"
-        }
+        },
+        {
+          "img":"./img/platos/parrilla_ribs.jpg",
+          "title":"Parrilla Ribs",
+          "description":"Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de guasacaca, chimichurri, y a su elección papas rústicas o una ensalada césar clásica. (2 pers)",
+          "price":"Precio 28.20"
+        },
+        {
+          "img":"./img/platos/fajitas.jpg",
+          "title":"Fajitas ",
+          "description":"Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
+          "price":"Precio 14.00"
+        },
     ]
 
     platos =  get_all(platos_inicial,"platos")
