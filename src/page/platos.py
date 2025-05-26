@@ -25,12 +25,12 @@ def platos_page(page, cambiar_pagina):
             "description": "Sumérgete en la fusión de sabores orientales con nuestras exquisitas Alitas Asiáticas, una opción que combina lo mejor de la cocina tradicional con un toque moderno, creando un equilibrio perfecto entre lo salado y lo dulce. Se sirven con papas rústicas crujientes.",
             "price": "Precio 9.00"
         },
-        {
-            "img": "./img/platos/alitas_crujientes.jpg",
-            "title": "Alitas Crujientes",
-            "description": "Alitas de pollo doradas y crujientes, sabrosas y jugosas. Papas fritas doradas, crujientes por fuera y suaves por dentro. Salsa tártara cremosa, con el equilibrio perfecto de sabores. Un plato irresistible y lleno de sabor. 🍗🍟✨",
-            "price": "Precio 9.60"
-        },
+        # {
+        #     "img": "./img/platos/alitas_crujientes.jpg",
+        #     "title": "Alitas Crujientes",
+        #     "description": "Alitas de pollo doradas y crujientes, sabrosas y jugosas. Papas fritas doradas, crujientes por fuera y suaves por dentro. Salsa tártara cremosa, con el equilibrio perfecto de sabores. Un plato irresistible y lleno de sabor. 🍗🍟✨",
+        #     "price": "Precio 9.60"
+        # },
         {
             "img": "./img/platos/costillas_bbq.jpg",
             "title": "Costillas BBQ",

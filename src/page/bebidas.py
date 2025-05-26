@@ -17,13 +17,15 @@ def bebidas_page(page, cambiar_pagina):
             🍈 Jugo de Parchita
             🍍 Jugo de Piña
             """,
-            "price": "Precio 3.50"
+            "price": "Precio 3.50",
+            "delivery":"False"
         },
         {
             "img": "img/bebidas/berry_bliss.jpg",
             "title": "Berry Bliss",
             "description": "Una bebida vibrante y colorida, perfecta para cualquier ocasión. Rica en vitamina C y antioxidantes, lo que la convierte en una opción saludable. Servido bien frío.",
-            "price": "Precio 3.60"
+            "price": "Precio 3.60",
+            "delivery":"False"
         },
         {
             "img": "img/bebidas/agua_355.jpg",
@@ -96,13 +98,15 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/vaso_nestea.jpg",
             "title": "Vaso de Nestea 16oz (Durazno o Limón)",
             "description": "",
-            "price": "Precio 2.60"
+            "price": "Precio 2.60",
+            "delivery":"False"
         },
         {
             "img": "img/bebidas/vaso_refresco.jpg",
             "title": "Vaso de Refresco 16oz (Recargable)",
             "description": "",
-            "price": "Precio 2.20"
+            "price": "Precio 2.20",
+            "delivery":"False"
         },
         {
             "img": "img/bebidas/jugo_yukery.jpg",

@@ -15,7 +15,7 @@ def postres_page(page, cambiar_pagina):
                 3.20 Malteada pequeña 8 onz
             """,
             "price": "Precio 5.70",
-            "lista": True
+            "delivery":"False"
         },
         {
             "img": "img/postres/malteada_oreo.jpg",
@@ -26,37 +26,42 @@ def postres_page(page, cambiar_pagina):
                 3.20 Malteada pequeña 8 onz
             """,
             "price": "Precio 5.70",
-            "lista": True
+            "delivery":"False"
         },
         {
             "img": "img/postres/copa_de_helado.jpg",
             "title": "Copa de Helado",
             "description": "Dos porciones de helado cremoso de tu preferencia cubierto con crema chantilly y lluvia.",
-            "price": "Precio 4.00"
+            "price": "Precio 4.00",
+            "delivery":"False"
         },
         {
             "img": "img/postres/barquillas.jpg",
             "title": "Barquilla o Tinita de dos (2) porciones",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
-            "price": "Precio 2.70"
+            "price": "Precio 2.70",
+            "delivery":"False"
         },
                 {
             "img": "img/postres/barquillas.jpg",
             "title": "Barquilla o Tinita de una (1) porción",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
-            "price": "Precio 2.20"
+            "price": "Precio 2.20",
+            "delivery":"False"
         },
         {
             "img": "img/postres/malteada.jpg",
             "title": "Malteada",
             "description": "Helado batido decorado con crema chantilly y decorado con lluvia.",
-            "price": "Precio 4.00"
+            "price": "Precio 4.00",
+            "delivery":"False"
         },
         {
             "img": "img/postres/brownie.jpg",
             "title": "Brownie con Helado",
             "description": "Esponjoso Brownie con una porción de helado cremoso y crema chantilly.",
-            "price": "Precio 4.60"
+            "price": "Precio 4.60",
+            "delivery":"False"
         },
         {
             "img": "img/postres/quesillo.jpg",
@@ -80,7 +85,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/cheesecake.jpg",
             "title": "Cheese Cake",
             "description": "Un postre cremoso y decadente, elaborado con queso crema y un toque de vainilla, sobre una base de galleta crujiente.",
-            "price": "Precio 6.50"
+            "price": "Precio 7.30"
         }
     ]
 
