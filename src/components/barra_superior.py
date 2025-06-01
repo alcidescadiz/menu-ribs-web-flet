@@ -10,13 +10,13 @@ def crear_barra_superior(page,cambiar_pagina):
 
     return ft.AppBar(
         title=ft.Container(
-            content=ft.Text("Menú Ribs Burger", font_family="MiFuente", color="white", size=24),
+            content=ft.Text("Menú Ribs Burger", font_family="MiFuente", color=ft.Colors.WHITE, size=24),
             on_click=lambda e: cambiar_pagina("/home")
         ),
-        bgcolor="black",
+        bgcolor=ft.Colors.BLACK,
         center_title=True,
         actions=[
-            ft.IconButton(icon=ft.Icons.MENU, on_click=lambda e: abrir_menu(page), icon_color="WHITE"),
+            ft.IconButton(icon=ft.Icons.MENU, on_click=lambda e: abrir_menu(page), icon_color=ft.Colors.WHITE),
             ft.Stack(
                 controls=[
                     ft.IconButton(

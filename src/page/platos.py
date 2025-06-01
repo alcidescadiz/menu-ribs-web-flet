@@ -17,7 +17,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/alitas_bbq.jpg",
             "title": "Alitas BBQ",
             "description": "Irresistibles alitas BBQ, marinadas y glaseadas con nuestra salsa BBQ casera, que combina dulzura y un toque ahumado, creando una experiencia de sabor inigualable. Servidas con papas fritas crujientes.",
-            "price": "Precio 9.50"
+            "price": "Precio 9.60"
         },
         {
             "img": "./img/platos/alitas_asiaticas.jpg",
@@ -35,13 +35,13 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/costillas_bbq.jpg",
             "title": "Costillas BBQ",
             "description": "Una deliciosa y suculenta costilla de cerdo, cocinada a la perfección y bañada en una salsa BBQ casera, acompañada de una fresca ensalada coleslaw y crujientes papas rústicas. Este plato es una explosión de sabores que combina lo tierno y ahumado de la carne con la frescura y el crujido de los vegetales.",
-            "price": "Precio 27.00"
+            "price": "Precio 28.00"
         },
         {
             "img": "./img/platos/pork_belly.jpg",
             "title": "Pork Belly",
             "description": "Disfruta de una exquisita panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. Este plato se complementa con un fresco pico de gallo, un guacamole cremoso y crujientes papas fritas, creando una experiencia culinaria vibrante y llena de sabor.",
-            "price": "Precio 23.00"
+            "price": "Precio 29.20"
         },
         {
             "img": "./img/platos/codillo.jpg",
@@ -83,7 +83,7 @@ def platos_page(page, cambiar_pagina):
           "img":"./img/platos/parrilla_ribs.jpg",
           "title":"Parrilla Ribs",
           "description":"Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de guasacaca, chimichurri, y a su elección papas rústicas o una ensalada césar clásica. (2 pers)",
-          "price":"Precio 28.20"
+          "price":"Precio 28.40"
         },
         {
           "img":"./img/platos/fajitas.jpg",

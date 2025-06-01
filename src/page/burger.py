@@ -43,7 +43,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_doble_carne.jpg",
             "title": "Burger Doble Carne",
             "description": "Doble hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 6.60",
+            "price": "Precio 6.70",
             "adicional": True
         },
         {
@@ -63,7 +63,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/tnt_burger.jpg",
             "title": "Tnt Burger",
             "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado.",
-            "price": "Precio 7.80"
+            "price": "Precio 7.90"
         },
         {
             "img": "img/burger/burger_ribs.jpg",
@@ -87,13 +87,13 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_hillary.jpg",
             "title": "Burger Hillary",
             "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado.",
-            "price": "Precio 8.20"
+            "price": "Precio 8.30"
         },
         {
             "img": "img/burger/lomito_bbq_burger.jpg",
             "title": "Lomito BBQ Burger",
             "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
-            "price": "Precio 10.50"
+            "price": "Precio 10.60"
         }
     ]
     

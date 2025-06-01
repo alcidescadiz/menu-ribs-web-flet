@@ -144,6 +144,7 @@ def carrito_page(page, cambiar_pagina):
             ft.Text("🛒 Carrito de Compras", size=24, weight=ft.FontWeight.BOLD, color="black"),
             tabla,
             total_text,
+            ft.Text("* Este monto no incluye delivery", size=18, weight=ft.FontWeight.W_100,color="black"),
             boton_vaciar_carrito,
             ft.Text("Datos del Cliente", size=20, weight=ft.FontWeight.BOLD,color="black"),
             nombre_field,

@@ -17,19 +17,19 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/dedos_de_mozzarella.jpg",
             "title": "Dedos de Mozarella",
             "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
-            "price": "Precio 6.20"
+            "price": "Precio 6.30"
         },
         {
             "img": "img/entradas/papas_cheese_bacon.jpg",
             "title": "Papas Cheese and Bacon",
             "description": "Deliciosas papas fritas, cubiertas con una generosa porción de queso derretido y un toque de polvo de tocineta para realzar su sabor.",
-            "price": "Precio 7.50"
+            "price": "Precio 7.60"
         },
         {
             "img": "img/entradas/nachos.jpg",
             "title": "Nachos Falderos",
             "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
-            "price": "Precio 11.00"
+            "price": "Precio 11.20"
         },
         {
             "img": "img/entradas/tequeños.jpg",
@@ -41,7 +41,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/three_pack.jpg",
             "title": "Three pack",
             "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
-            "price": "Precio 12.00"
+            "price": "Precio 12.20"
         },
         {
             "img": "img/entradas/4x4_tex_mex.jpg",
