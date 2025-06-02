@@ -10,7 +10,7 @@ def entradas_page(page, cambiar_pagina):
         {
             "img": "img/entradas/entrada_minis.jpg",
             "title": "Entrada Mini Minis",
-            "description": "Disponible de Jueves a Domingo",
+            "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañadas de nuestras deliciosas y crujientes papas chesse and bacon.",
             "price": "Precio 12.40"
         },
         {

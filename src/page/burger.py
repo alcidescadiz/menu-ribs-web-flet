@@ -10,7 +10,7 @@ def burger_page(page,cambiar_pagina):
         {
             "img": "img/burger/burger_minis.jpg",
             "title": "Tobo Minimini",
-            "description": "Disponible de Jueves a Domingos",
+            "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañado con una guarnición de queso cheddar liquido",
             "price": "Precio 6.00"
         },
         {
