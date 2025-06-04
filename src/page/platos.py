@@ -69,14 +69,14 @@ def platos_page(page, cambiar_pagina):
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
-            "title": "Tabla Fiestera",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.",
+            "title": "Tabla Fiestera Maxi",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.[2 Personas]",
             "price": "Precio 49.80"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
-            "title": "Mini Tabla Fiestera",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.",
+            "title": "Tabla Fiestera Mini",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw. [1 Persona]",
             "price": "Precio 40.00"
         },
         {
