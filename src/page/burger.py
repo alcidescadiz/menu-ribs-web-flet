@@ -36,7 +36,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_de_pollo_crispy.jpg",
             "title": "Chicken Crispy Burger",
             "description": "Pollo empanizado en pan de papa con salsa miel mostaza, lechuga, tomate y cebolla.",
-            "price": "Precio 6.70",
+            "price": "Precio 7.00",
             "adicional": True
         },
         {
