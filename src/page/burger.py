@@ -95,6 +95,7 @@ def burger_page(page,cambiar_pagina):
             "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
             "price": "Precio 10.60"
         }
+
     ]
     
     burger =  get_all(burger_inicial,"burger")
