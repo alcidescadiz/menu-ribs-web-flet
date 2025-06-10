@@ -8,6 +8,12 @@ def burger_page(page,cambiar_pagina):
 
     burger_inicial = [
         {
+            "img": "img/promos/doble_smash.jpg",
+            "title": "Burger doble Smash Cheese",
+            "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
+            "price": "Precio 9.20"
+        },
+        {
             "img": "img/burger/burger_minis.jpg",
             "title": "Tobo Minimini",
             "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañado con una guarnición de queso cheddar liquido",
