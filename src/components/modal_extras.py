@@ -31,7 +31,7 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
                                     ft.ElevatedButton(
                                         extra["title"], 
                                         width=200,
-                                        color=ft.colors.BLACK,
+                                        color=ft.Colors.BLACK,
                                         bgcolor=ft.Colors.GREEN_100,
                                         on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]},cambiar_pagina)
                                     ),
