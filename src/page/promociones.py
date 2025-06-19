@@ -9,7 +9,7 @@ def promociones_page(page, cambiar_pagina):
         {
             "img": "img/promos/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
-            "description": "De Lunes a Jueves de 3:00pm a 6:00pm: Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
+            "description": "De Lunes a Jueves de 12:00m a 6:00pm: Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
             "price": "Precio 5.80"
         },
         
