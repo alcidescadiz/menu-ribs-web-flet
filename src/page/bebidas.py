@@ -16,6 +16,9 @@ def bebidas_page(page, cambiar_pagina):
             🍋 Jugo de Limón
             🍈 Jugo de Parchita
             🍍 Jugo de Piña
+            Jugo de Guanabana
+            Jugo de Tamarindo
+            🥭 Jugo de Mango
             """,
             "price": "Precio 3.50",
             "delivery":"False"
@@ -113,6 +116,12 @@ def bebidas_page(page, cambiar_pagina):
             "title": "Jugo Yukery",
             "description": "",
             "price": "Precio 2.20"
+        },
+        {
+            "img": "img/bebidas/te_jamaica.jpg",
+            "title": "Té frío de Jamaica",
+            "description": "",
+            "price": "Precio 2.50"
         },
     ]
     
