@@ -34,7 +34,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/agua_355.jpg",
             "title": "Agua Minalba 355 ml",
             "description": "",
-            "price": "Precio 1.50"
+            "price": "Precio 1.60"
         },
         {
             "img": "img/bebidas/agua_600.jpg",
@@ -53,14 +53,14 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/gatorade.jpg",
             "title": "Gatorade",
             "description": "",
-            "price": "Precio 3.30"
+            "price": "Precio 3.50"
         },
         #refresco lata
         {
             "img": "img/bebidas/refresco_lata.jpg",
             "title": "Refresco Lata",
             "description": "",
-            "price": "Precio 2.50"
+            "price": "Precio 2.60"
         },
         #refresco 1.5
         {
@@ -88,7 +88,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/yuki_pack.jpg",
             "title": "Jugo Yuky Pack",
             "description": "",
-            "price": "Precio 2.00"
+            "price": "Precio 2.10"
         },
         # redbull
         {
@@ -121,7 +121,8 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/te_jamaica.jpg",
             "title": "Té frío de Jamaica",
             "description": "",
-            "price": "Precio 2.50"
+            "price": "Precio 2.50",
+            "delivery":"False"
         },
     ]
     

@@ -11,19 +11,19 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/canasta_de_pollo.jpg",
             "title": "Canasta de Pollo",
             "description": "Deléitate con nuestra deliciosa canasta de pollo crujiente. Este plato consiste en jugosas piezas de pollo empanizadas y fritas hasta alcanzar un dorado perfecto, acompañada de papas fritas crujientes y salsa miel mostaza que elevan la experiencia.",
-            "price": "Precio 9.00"
+            "price": "Precio 9.20"
         },
         {
             "img": "./img/platos/alitas_bbq.jpg",
             "title": "Alitas BBQ",
             "description": "Irresistibles alitas BBQ, marinadas y glaseadas con nuestra salsa BBQ casera, que combina dulzura y un toque ahumado, creando una experiencia de sabor inigualable. Servidas con papas fritas crujientes.",
-            "price": "Precio 9.60"
+            "price": "Precio 10.20"
         },
         {
             "img": "./img/platos/alitas_asiaticas.jpg",
             "title": "Alitas Asiáticas",
             "description": "Sumérgete en la fusión de sabores orientales con nuestras exquisitas Alitas Asiáticas, una opción que combina lo mejor de la cocina tradicional con un toque moderno, creando un equilibrio perfecto entre lo salado y lo dulce. Se sirven con papas rústicas crujientes.",
-            "price": "Precio 9.00"
+            "price": "Precio 9.20"
         },
         # {
         #     "img": "./img/platos/alitas_crujientes.jpg",
@@ -47,7 +47,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/codillo.jpg",
             "title": "Codillo",
             "description": "Sumérgete en una experiencia culinaria única con nuestro Codillo de Cerdo, servido sobre una exquisita reducción de salsa elaborada con piña y especias que aportan un contraste dulce y ácido que realza la riqueza del cerdo. Acompañada con rodajas de piña asada y deliciosa papa gratinada cremosa y dorada al horno.",
-            "price": "Precio 17.00"
+            "price": "Precio 18.25"
         },
         {
             "img": "./img/platos/solomo_grillado.jpg",
@@ -65,13 +65,13 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/fiesta-bavara.jpg",
             "title": "Tacos de Fiesta Bavara",
             "description": "La Tabla de Tacos de Fiesta Bávara, es una fusión perfecta entre la tradición alemana y la frescura latina que incluye, tierno y jugoso codillo de cerdo asado, chorizo y chistorra, salsas variadas entre lo dulce y picante, tortillas de trigo ideales para envolver todos los sabores, acompañada con ensalada y papas rústicas.",
-            "price": "Precio 28.80"
+            "price": "Precio 31.60"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Tabla Fiestera Maxi",
             "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.[2 Personas]",
-            "price": "Precio 49.80"
+            "price": "Precio 56.30"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",

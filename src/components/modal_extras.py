@@ -5,16 +5,16 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
         {"title": "Aros de Cebolla", "price": "Precio 2.50"},
         {"title": "Papas Fritas", "price": "Precio 2.20"},
         {"title": "Tocineta", "price": "Precio 1.60"},
-        {"title": "Queso Guayanés", "price":"Precio 1.50"},
+        {"title": "Queso Guayanés", "price":"Precio 1.60"},
         {"title": "Queso Cheddar", "price":"Precio 1.40"},
         {"title": "Pepinillos", "price": "Precio 1.00"},
         {"title": "Cebolla Caramelizada", "price": "Precio 1.00"},
         {"title": "Chistorra", "price": "Precio 2.50"},
         {"title": "Queso Crema Empanizado", "price": "Precio 1.40"},
         {"title": "Huevo", "price": "Precio 1.00"},
-        {"title": "Pollo Crispy", "price": "Precio 3.50"},
-        {"title": "Carne", "price": "Precio 2.10"},
-        {"title": "Carne de Costilla", "price": "Precio 3.00"}
+        {"title": "Pollo Crispy", "price": "Precio 3.60"},
+        {"title": "Carne", "price": "Precio 2.20"},
+        {"title": "Carne de Costilla", "price": "Precio 3.16"}
     ]
 
     # Crear lista de extras con icono y divisores

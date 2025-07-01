@@ -11,7 +11,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/promos/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
-            "price": "Precio 9.20"
+            "price": "Precio 9.45"
         },
         {
             "img": "img/burger/burger_minis.jpg",
@@ -29,13 +29,13 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/smokedking.jpg",
             "title": "Smoked King",
             "description": "Blend de carne 50% res y 50% cerdo, mermelada de tocineta, queso Philadelphia empanizado, aros de cebolla empanizados con Doritos en pan brioche.",
-            "price": "Precio 10.80"
+            "price": "Precio 11.20"
         },
         {
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 4.50",
+            "price": "Precio 4.90",
             "adicional": True
         },
         {
@@ -56,7 +56,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_de_costilla.jpg",
             "title": "Burger Costilla BBQ",
             "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
-            "price": "Precio 7.00",
+            "price": "Precio 8.10",
             "adicional": True
         },
         {
@@ -75,7 +75,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_ribs.jpg",
             "title": "Rib's Burger",
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 10.80"
+            "price": "Precio 10.90"
         },
         {
             "img": "img/burger/smoked_burger.jpg",
@@ -99,7 +99,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/lomito_bbq_burger.jpg",
             "title": "Lomito BBQ Burger",
             "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
-            "price": "Precio 10.60"
+            "price": "Precio 12.13"
         }
 
     ]

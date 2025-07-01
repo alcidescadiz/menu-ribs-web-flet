@@ -11,7 +11,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/entrada_minis.jpg",
             "title": "Entrada Mini Minis",
             "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañadas de nuestras deliciosas y crujientes papas chesse and bacon.",
-            "price": "Precio 12.40"
+            "price": "Precio 13.29"
         },
         {
             "img": "img/entradas/dedos_de_mozzarella.jpg",
@@ -41,13 +41,13 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/three_pack.jpg",
             "title": "Three pack",
             "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
-            "price": "Precio 12.20"
+            "price": "Precio 12.31"
         },
         {
             "img": "img/entradas/4x4_tex_mex.jpg",
             "title": "4x4 Tex Mex",
             "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 18.00"
+            "price": "Precio 18.46"
         },
         {
             "img": "img/entradas/aros_de_cebolla.jpg",

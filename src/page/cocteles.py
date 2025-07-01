@@ -11,7 +11,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/aperol_frezze.jpg",
             "title": "Aperol Frezze",
             "description": "Coctel a base del licor italiano Aperol, granizado y con un toque de naranja.",
-            "price": "Precio 6.00"
+            "price": "Precio 6.50"
         },
         {
             "img": "img/cocteles/blue_ocean.jpg",
@@ -50,7 +50,7 @@ def cocteles_page(page, cambiar_pagina):
                 Mojito de Parchita
                 Mojito Caribeño
             """,
-            "price": "Precio 4.00",
+            "price": "Precio 4.50",
             "lista": True
         },
         {
