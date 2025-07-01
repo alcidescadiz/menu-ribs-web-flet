@@ -3,7 +3,7 @@ import flet as ft
 def modal_extras (page,agregar_al_carrito,cambiar_pagina):
     extras = [
         {"title": "Aros de Cebolla", "price": "Precio 2.50"},
-        {"title": "Papas Fritas", "price": "Precio 2.20"},
+        {"title": "Papas Fritas", "price": "Precio 2.70"},
         {"title": "Tocineta", "price": "Precio 1.60"},
         {"title": "Queso Guayanés", "price":"Precio 1.60"},
         {"title": "Queso Cheddar", "price":"Precio 1.40"},
