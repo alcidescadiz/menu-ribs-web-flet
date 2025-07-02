@@ -118,6 +118,12 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 2.20"
         },
         {
+            "img": "img/bebidas/malta.jpg",
+            "title": "Malta",
+            "description": "",
+            "price": "Precio 2.10"
+        },
+        {
             "img": "img/bebidas/te_jamaica.jpg",
             "title": "Té frío de Jamaica",
             "description": "",

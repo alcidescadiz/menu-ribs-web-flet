@@ -6,7 +6,6 @@
 ### Ejecutar app
 
 * flet run main.py
-* flet run --web main.py
 
 ### Complilar app
 
