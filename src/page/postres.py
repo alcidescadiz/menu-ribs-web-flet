@@ -86,7 +86,14 @@ def postres_page(page, cambiar_pagina):
             "title": "Cheese Cake",
             "description": "Un postre cremoso y decadente, elaborado con queso crema y un toque de vainilla, sobre una base de galleta crujiente.",
             "price": "Precio 7.30"
-        }
+        },
+        {
+            "img": "img/postres/galleta_con_helado.jpg",
+            "title": "Galleta con Helado",
+            "description": "Deliciosa Galleta con una porción de helado cremoso.",
+            "price": "Precio 3.60",
+            "delivery":"False"
+        },
     ]
 
     return ft.Column(
