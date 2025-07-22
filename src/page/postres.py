@@ -94,6 +94,13 @@ def postres_page(page, cambiar_pagina):
             "price": "Precio 3.60",
             "delivery":"False"
         },
+        {
+            "img": "img/postres/cookie_bar.jpg",
+            "title": "Cookie Bar",
+            "description": "Crujiente por fuera y sueva en el centro, esta barra de chocolate horneada esconde un corazon de chocolate que se derrite en tu boca en cada bocado, acompañada del mas cremoso helado.",
+            "price": "Precio 4.85",
+            "delivery":"False"
+        },
     ]
 
     return ft.Column(
