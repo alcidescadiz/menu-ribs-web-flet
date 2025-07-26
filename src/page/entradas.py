@@ -68,9 +68,9 @@ def entradas_page(page, cambiar_pagina):
         },
         {
             "img": "img/entradas/ceviche.jpg",
-            "title": "ceviche Ribs",
+            "title": "Ceviche Ribs",
             "description": "",
-            "price": "Precio 2.50"
+            "price": "Precio 7.80"
         },
     ]
     entradas =  get_all(entradas_inicial,"entradas")
