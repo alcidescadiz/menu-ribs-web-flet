@@ -65,7 +65,13 @@ def entradas_page(page, cambiar_pagina):
             ],
             "price": "Precio 9.90",
             "lista": True
-        }
+        },
+        {
+            "img": "img/entradas/ceviche.jpg",
+            "title": "ceviche Ribs",
+            "description": "",
+            "price": "Precio 2.50"
+        },
     ]
     entradas =  get_all(entradas_inicial,"entradas")
     return ft.Column(

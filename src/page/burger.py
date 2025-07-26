@@ -78,6 +78,12 @@ def burger_page(page,cambiar_pagina):
             "price": "Precio 10.90"
         },
         {
+            "img": "img/burger/burger_ribs_chicken.jpg",
+            "title": "Burger Ribs & Chicken Supreme",
+            "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
+            "price": "Precio 10.90"
+        },
+        {
             "img": "img/burger/smoked_burger.jpg",
             "title": "Smoked Burger",
             "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
