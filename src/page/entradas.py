@@ -58,13 +58,12 @@ def entradas_page(page, cambiar_pagina):
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
             "title": "Ensalada César Clásica",
-            "description": [
-                "Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano y extra de tocineta, todo bañado en un aderezo César cremoso.",
-                "Precio US$ 7.00",
-                "Precio US$ 9.90 con extra de pollo"
-            ],
-            "price": "Precio 9.90",
-            "lista": True
+            "description":"""
+            Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano y extra de tocineta, todo bañado en un aderezo César cremoso. 
+            Precio US$ 7.00
+            Precio US$ 9.90 con extra de pollo
+            """,
+            "price": "Precio 9.90"
         },
         {
             "img": "img/entradas/ceviche.jpg",

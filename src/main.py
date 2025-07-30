@@ -1,16 +1,6 @@
 import flet as ft
+import importlib
 from page.home import home_page
-from page.burger import burger_page
-from page.entradas import entradas_page
-from page.cafes import cafes_page
-from page.cocteles import cocteles_page
-from page.extras import extras_page
-from page.licores import licores_page
-from page.platos import platos_page
-from page.postres import postres_page
-from page.promociones import promociones_page
-from page.bebidas import bebidas_page
-from page.carrito import carrito_page
 from components.barra_inferior import barra_inferior
 from components.barra_superior import crear_barra_superior
 
@@ -28,32 +18,10 @@ def main(page: ft.Page):
 
     # 🛠 Rutas
     def cambiar_pagina(ruta):
-        page.route = ruta  # 🔹 Modifica la ruta
-        if ruta == "/home":
-            contenido.content = home_page(page, cambiar_pagina)
-        elif ruta == "/burger":
-            contenido.content = burger_page(page, cambiar_pagina)
-        elif ruta == "/entradas":
-            contenido.content = entradas_page(page, cambiar_pagina)
-        elif ruta == "/cafes":
-            contenido.content = cafes_page(page, cambiar_pagina)
-        elif ruta == "/cocteles":
-            contenido.content = cocteles_page(page, cambiar_pagina)
-        elif ruta == "/extras":
-            contenido.content = extras_page(page, cambiar_pagina)
-        elif ruta == "/licores":
-            contenido.content = licores_page(page, cambiar_pagina)
-        elif ruta == "/platos":
-            contenido.content = platos_page(page, cambiar_pagina)
-        elif ruta == "/postres":
-            contenido.content = postres_page(page, cambiar_pagina)
-        elif ruta == "/promociones":
-            contenido.content = promociones_page(page, cambiar_pagina)
-        elif ruta == "/bebidas":
-            contenido.content = bebidas_page(page, cambiar_pagina)
-        elif ruta == "/carrito":
-            contenido.content = carrito_page(page, cambiar_pagina)
-
+        page.route = ruta
+        modulo = ruta.replace("/", "")
+        vista = importlib.import_module(f"page.{modulo}")
+        contenido.content = getattr(vista, f"{modulo}_page")(page, cambiar_pagina)
         page.drawer.open = False
         page.update()
 

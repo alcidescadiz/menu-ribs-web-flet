@@ -76,7 +76,7 @@ def carrito_page(page, cambiar_pagina):
 
         contenido.controls.clear()  # ✅ Borra todos los controles de la UI
         contenido.controls.append(ft.Text("🛒 Carrito vacío", size=20, color=ft.Colors.RED))  # ✅ Elimina la pagina y la sustituye por un mensaje que el carrito está vacío
-        mostrar_notificacion(page, "✅ Carrito vaciado correctamente",cambiar_pagina)
+        mostrar_notificacion(page, "✅ Carrito vacío correctamente",cambiar_pagina)
 
 
     total_text = ft.Text(f"Total: ${calcular_total():.2f}", size=20, weight=ft.FontWeight.BOLD,color="black")
