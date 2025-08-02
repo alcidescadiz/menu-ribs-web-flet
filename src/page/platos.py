@@ -89,7 +89,19 @@ def platos_page(page, cambiar_pagina):
           "img":"./img/platos/fajitas.jpg",
           "title":"Fajitas ",
           "description":"Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
-          "price":"Precio 14.00"
+          "price":"Precio 15.99"
+        },
+        {
+          "img":"./img/platos/parrilla_belly.jpg",
+          "title":"Parrilla Belly",
+          "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
+          "price":"Precio 32.20"
+        },
+        {
+          "img":"./img/platos/brocheta.jpg",
+          "title":"Brocheta & Bueñuelos",
+          "description":"Una brocheta de intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
+          "price":"Precio 11.50"
         },
     ]
 

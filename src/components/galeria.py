@@ -62,10 +62,12 @@ def galeria(page, titulo, lista_productos, cambiar_pagina):
     galeria_ordenada = sorted(lista_productos, key=extraer_precio, reverse=True)
 
     galeria_productos = ft.ResponsiveRow(
+        alignment=ft.MainAxisAlignment.CENTER,
         controls=[
             ft.Container(
                 content=ft.Column(
-                    [
+                    horizontal_alignment=ft.MainAxisAlignment.CENTER,
+                    controls= [
                         ft.Image(
                             src=lista_producto["img"], fit=ft.ImageFit.COVER, width=400
                         ),
@@ -108,8 +110,7 @@ def galeria(page, titulo, lista_productos, cambiar_pagina):
             )
             
             for lista_producto in galeria_ordenada
-        ],
-        alignment=ft.alignment.center,
+        ]
     )
 
     return galeria_productos

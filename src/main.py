@@ -48,6 +48,10 @@ def main(page: ft.Page):
                 on_click=lambda e: cambiar_pagina("/entradas"),
             ),
             ft.ListTile(
+                title=ft.Text("Menu Kids", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                on_click=lambda e: cambiar_pagina("/kids"),
+            ),
+            ft.ListTile(
                 title=ft.Text("Platos", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
                 on_click=lambda e: cambiar_pagina("/platos"),
             ),

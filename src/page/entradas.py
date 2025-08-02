@@ -71,6 +71,12 @@ def entradas_page(page, cambiar_pagina):
             "description": "",
             "price": "Precio 7.80"
         },
+        {
+            "img": "img/entradas/ensalada_ribs.jpg",
+            "title": "Ensalada Cesar Ribs",
+            "description": "Una versión rebelde y sabrosa de la clásica César: crujientes cubos de pork belly y chicharrón botanero coronan una cama de lechuga fresca bañada en aderezo César casero, con un toque generoso de queso pecorino rallado. Una ensalada que no se anda con rodeos, es fresca, intensa y absolutamente irresistible.",
+            "price": "Precio 13.80"
+        },
     ]
     entradas =  get_all(entradas_inicial,"entradas")
     return ft.Column(
