@@ -5,7 +5,8 @@ from components.peticiones import get_all
 
 def cafes_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
-    cafes_inicial = [
+    
+    cafes = [
         {
             "img": "img/cafes/cafe_pequeño.jpg",
             "title": "Café Americano Pequeño",
@@ -38,7 +39,7 @@ def cafes_page(page, cambiar_pagina):
         }
     ]
     
-    cafes =  get_all(cafes_inicial,"cafes")
+    #cafes =  get_all(cafes_inicial,"cafes")
     
     return ft.Column(
         controls=[

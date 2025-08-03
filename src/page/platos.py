@@ -6,7 +6,7 @@ from components.peticiones import get_all
 def platos_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    platos_inicial = [
+    platos = [
         {
             "img": "./img/platos/canasta_de_pollo.jpg",
             "title": "Canasta de Pollo",
@@ -103,9 +103,15 @@ def platos_page(page, cambiar_pagina):
           "description":"Una brocheta de intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
           "price":"Precio 11.50"
         },
+        {
+          "img":"./img/platos/pineapple_paprika_pork.jpg",
+          "title":"Pineapple Paprika Pork",
+          "description":"Punta de cerdo al grill con salsa de paprika con piña acompañado por buñuelos de yuca y ensalada verde de  rúcula lechuga y perejil con vinagreta balsámica.",
+          "price":"Precio 22.00"
+        },
     ]
 
-    platos =  get_all(platos_inicial,"platos")
+    #platos =  get_all(platos_inicial,"platos")
 
     return ft.Column(
         controls=[

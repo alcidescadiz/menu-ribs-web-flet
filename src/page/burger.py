@@ -45,13 +45,13 @@ def burger_page(page,cambiar_pagina):
             "price": "Precio 7.00",
             "adicional": True
         },
-        {
-            "img": "img/burger/burger_doble_carne.jpg",
-            "title": "Burger Doble Carne",
-            "description": "Doble hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 6.70",
-            "adicional": True
-        },
+        # {
+        #     "img": "img/burger/burger_doble_carne.jpg",
+        #     "title": "Burger Doble Carne",
+        #     "description": "Doble hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
+        #     "price": "Precio 6.70",
+        #     "adicional": True
+        # },
         {
             "img": "img/burger/burger_de_costilla.jpg",
             "title": "Burger Costilla BBQ",
@@ -101,12 +101,12 @@ def burger_page(page,cambiar_pagina):
             "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado.",
             "price": "Precio 8.30"
         },
-        {
-            "img": "img/burger/lomito_bbq_burger.jpg",
-            "title": "Lomito BBQ Burger",
-            "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
-            "price": "Precio 12.13"
-        }
+        # {
+        #     "img": "img/burger/lomito_bbq_burger.jpg",
+        #     "title": "Lomito BBQ Burger",
+        #     "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
+        #     "price": "Precio 12.13"
+        # }
 
     ]
     

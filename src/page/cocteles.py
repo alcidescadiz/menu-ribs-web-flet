@@ -6,7 +6,7 @@ from components.peticiones import get_all
 def cocteles_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    cocteles_inicial = [
+    cocteles = [
         {
             "img": "img/cocteles/aperol_frezze.jpg",
             "title": "Aperol Frezze",
@@ -67,7 +67,7 @@ def cocteles_page(page, cambiar_pagina):
         }
     ]
 
-    cocteles =  get_all(cocteles_inicial,"cocteles")
+    #cocteles =  get_all(cocteles_inicial,"cocteles")
 
     return ft.Column(
         controls=[

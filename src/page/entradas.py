@@ -6,7 +6,7 @@ from components.peticiones import get_all
 def entradas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    entradas_inicial = [
+    entradas = [
         {
             "img": "img/entradas/entrada_minis.jpg",
             "title": "Entrada Mini Minis",
@@ -68,7 +68,7 @@ def entradas_page(page, cambiar_pagina):
         {
             "img": "img/entradas/ceviche.jpg",
             "title": "Ceviche Ribs",
-            "description": "",
+            "description": "Pescado marinado en jugo cítrico con toques de ají, cebolla morada y cilantro, acompañada de nuestros crujientes platanitos artesanales dorados a la perfección. Un bocado refrescante, vibrante.",
             "price": "Precio 7.80"
         },
         {
@@ -78,7 +78,7 @@ def entradas_page(page, cambiar_pagina):
             "price": "Precio 13.80"
         },
     ]
-    entradas =  get_all(entradas_inicial,"entradas")
+    #entradas =  get_all(entradas_inicial,"entradas")
     return ft.Column(
         controls=[
             galeria(page,"Entradas",entradas,cambiar_pagina),

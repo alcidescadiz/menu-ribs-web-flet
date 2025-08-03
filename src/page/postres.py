@@ -101,6 +101,13 @@ def postres_page(page, cambiar_pagina):
             "price": "Precio 4.85",
             "delivery":"False"
         },
+        {
+            "img": "img/postres/paleta_cali.jpg",
+            "title": "Paleta de Helados Cali",
+            "description": "",
+            "price": "Precio 1.00",
+            "delivery":"False"
+        },
     ]
 
     return ft.Column(

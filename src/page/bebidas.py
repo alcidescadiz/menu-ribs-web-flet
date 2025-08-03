@@ -6,7 +6,7 @@ from components.peticiones import get_all
 def bebidas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    bebidas_inicial = [
+    bebidas = [
 
         {
             "img": "img/bebidas/jugos.png",
@@ -132,7 +132,7 @@ def bebidas_page(page, cambiar_pagina):
         },
     ]
     
-    bebidas =  get_all(bebidas_inicial,"bebidas")
+    #bebidas =  get_all(bebidas_inicial,"bebidas")
     return ft.Column(
         controls=[
             galeria(page,"Bebidas", bebidas,cambiar_pagina),

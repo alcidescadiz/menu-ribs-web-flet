@@ -8,7 +8,7 @@ def extras_page(page, cambiar_pagina):
     """vISTA DE EXTRAS"""
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    extras_inicial = [
+    extras = [
         {
             "img": "img/extras/tomates_hilmary.jpg",
             "title": "Tomates Asados",
@@ -34,8 +34,7 @@ def extras_page(page, cambiar_pagina):
                 Precio US$ 5.00 Extra de Chorizo
                 Precio US$ 4.20 Extra de Morcilla
             """,
-            "price": "Precio 5.00",
-            "lista": True
+            "price": "Precio 5.00"
         },
         {
             "img": "img/extras/papas_rusticas.jpeg",
@@ -51,7 +50,7 @@ def extras_page(page, cambiar_pagina):
         }
     ]
     
-    extras =  get_all(extras_inicial,"extras")
+    #extras =  get_all(extras_inicial,"extras")
     return ft.Column(
         controls=[
             galeria(page,"Extras",extras,cambiar_pagina),
