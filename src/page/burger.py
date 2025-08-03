@@ -6,7 +6,7 @@ from components.peticiones import get_all
 def burger_page(page,cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
-    burger_inicial = [
+    burger = [
         {
             "img": "img/promos/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
@@ -110,7 +110,7 @@ def burger_page(page,cambiar_pagina):
 
     ]
     
-    burger =  get_all(burger_inicial,"burger")
+    #burger =  get_all(burger_inicial,"burger")
 
     return ft.Column(
         controls=[
