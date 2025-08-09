@@ -107,6 +107,18 @@ def burger_page(page,cambiar_pagina):
         #     "description": "Lomito salteado con carne de hamburguesa en pan brioche, salsa BBQ casera, queso cheddar y tomate confitado.",
         #     "price": "Precio 12.13"
         # }
+        {
+            "img": "img/burger/burger_emmy.jpg",
+            "title": "Burger Emmy Chicken",
+            "description": "Pollo empanizado en Doritos, servido en pan de berenjena. Acompañado de tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos. Realzada con salsa Emmy, elaborada con chiles coreanos fermentados, ajonjolí y especias, que aportan un sabor ligeramente picante y umami intenso.",
+            "price": "Precio 11.00"
+        },
+        {
+            "img": "img/burger/smoked_italy.jpg",
+            "title": "Smoked Italy",
+            "description": "Pan de tomate con mayonesa de pesto, rúcula fresca y un ligero toque de vinagreta balsámica. En su interior, un blend de carne y cerdo ahumado con queso Holandés Edam fundido y tomates confitados, combinando matices ahumados, herbales y dulces en cada bocado.",
+            "price": "Precio 9.99"
+        },
 
     ]
     
