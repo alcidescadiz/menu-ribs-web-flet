@@ -8,7 +8,7 @@ def promociones_page(page, cambiar_pagina):
     promociones = [
         {
             "img": "img/promos/burger_break.jpg",
-            "title": "Burger Breack",
+            "title": "Burger Break",
             "description": "",
             "price": "Precio 10.50"
         },
