@@ -109,6 +109,12 @@ def platos_page(page, cambiar_pagina):
           "description":"Punta de cerdo al grill con salsa de paprika con piña acompañado por buñuelos de yuca y ensalada verde de  rúcula lechuga y perejil con vinagreta balsámica.",
           "price":"Precio 22.00"
         },
+        {
+          "img":"./img/platos/parrillazo_ribs.jpg",
+          "title":"Parrillazo Ribs",
+          "description":"",
+          "price":"Precio 69.59"
+        },
     ]
 
     #platos =  get_all(platos_inicial,"platos")
