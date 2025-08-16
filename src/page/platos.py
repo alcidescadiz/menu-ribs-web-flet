@@ -100,7 +100,7 @@ def platos_page(page, cambiar_pagina):
         {
           "img":"./img/platos/brocheta.jpg",
           "title":"Brocheta & Bueñuelos",
-          "description":"Una brocheta de intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
+          "description":"Una brocheta intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
           "price":"Precio 11.50"
         },
         {
