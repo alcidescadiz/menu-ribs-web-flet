@@ -65,12 +65,12 @@ def entradas_page(page, cambiar_pagina):
             """,
             "price": "Precio 9.90"
         },
-        {
-            "img": "img/entradas/ceviche.jpg",
-            "title": "Ceviche Ribs",
-            "description": "Pescado marinado en jugo cítrico con toques de ají, cebolla morada y cilantro, acompañada de nuestros crujientes platanitos artesanales dorados a la perfección. Un bocado refrescante, vibrante.",
-            "price": "Precio 7.80"
-        },
+        # {
+        #     "img": "img/entradas/ceviche.jpg",
+        #     "title": "Ceviche Ribs",
+        #     "description": "Pescado marinado en jugo cítrico con toques de ají, cebolla morada y cilantro, acompañada de nuestros crujientes platanitos artesanales dorados a la perfección. Un bocado refrescante, vibrante.",
+        #     "price": "Precio 7.80"
+        # },
         {
             "img": "img/entradas/ensalada_ribs.jpg",
             "title": "Ensalada Cesar Ribs",
