@@ -8,8 +8,7 @@ authors = [
     { name = "Ing. Alcides Cádiz", email = "alcides.cadiz@gmail.com" }
 ]
 dependencies = [
-  "flet==0.27.6",
-  "requests==2.32.3"
+  "flet==0.27.6"
 ]
 
 [tool.flet]
@@ -32,8 +31,7 @@ path = "src"
 
 [tool.uv]
 dev-dependencies = [
-    "flet[all]==0.27.6",
-    "requests==2.32.3"
+    "flet[all]==0.27.6"
 ]
 
 [tool.poetry]

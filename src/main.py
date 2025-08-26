@@ -15,6 +15,7 @@ def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
 
     contenido = ft.Container()
+    contenido.content =  ft.ProgressRing()
 
     # 🛠 Rutas
     def cambiar_pagina(ruta):
@@ -103,7 +104,7 @@ def main(page: ft.Page):
     page.update()
 
 
-ft.app(target=main)
+ft.app(target=main, assets_dir="assets", view=ft.WEB_BROWSER)
 
 # web
 # 1. python -m http.server --directory build\web
