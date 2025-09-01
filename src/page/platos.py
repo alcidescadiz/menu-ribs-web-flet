@@ -1,7 +1,6 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
-from components.peticiones import get_all
 
 def platos_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
@@ -11,19 +10,19 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/canasta_de_pollo.jpg",
             "title": "Canasta de Pollo",
             "description": "Deléitate con nuestra deliciosa canasta de pollo crujiente. Este plato consiste en jugosas piezas de pollo empanizadas y fritas hasta alcanzar un dorado perfecto, acompañada de papas fritas crujientes y salsa miel mostaza que elevan la experiencia.",
-            "price": "Precio 9.20"
+            "price": "Precio 10.00"
         },
         {
             "img": "./img/platos/alitas_bbq.jpg",
             "title": "Alitas BBQ",
             "description": "Irresistibles alitas BBQ, marinadas y glaseadas con nuestra salsa BBQ casera, que combina dulzura y un toque ahumado, creando una experiencia de sabor inigualable. Servidas con papas fritas crujientes.",
-            "price": "Precio 10.20"
+            "price": "Precio 10.40"
         },
         {
             "img": "./img/platos/alitas_asiaticas.jpg",
             "title": "Alitas Asiáticas",
             "description": "Sumérgete en la fusión de sabores orientales con nuestras exquisitas Alitas Asiáticas, una opción que combina lo mejor de la cocina tradicional con un toque moderno, creando un equilibrio perfecto entre lo salado y lo dulce. Se sirven con papas rústicas crujientes.",
-            "price": "Precio 9.20"
+            "price": "Precio 9.90"
         },
         # {
         #     "img": "./img/platos/alitas_crujientes.jpg",
@@ -53,19 +52,19 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/solomo_grillado.jpg",
             "title": "Lomito Grillado",
             "description": "Jugosa y tierna pieza de carne de lomito, cocinada a la perfección en el grill, servido con un toque de chimichurri, y acompañado con una Ensalada César Clásica, tomates asados rellenos de una mezcla de puré de papas y queso crema coronado con queso parmesano o papa gratinada cremosa al horno.",
-            "price": "Precio 16.00"
+            "price": "Precio 16.70"
         },
         {
             "img": "./img/platos/pollo_grillado.jpg",
             "title": "Pollo Grillado",
             "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento, tomates asados rellenos de una mezcla de papas y queso crema o papa gratinada cremosa al horno.",
-            "price": "Precio 12.40"
+            "price": "Precio 12.60"
         },
         {
             "img": "./img/platos/fiesta-bavara.jpg",
             "title": "Tacos de Fiesta Bavara",
             "description": "La Tabla de Tacos de Fiesta Bávara, es una fusión perfecta entre la tradición alemana y la frescura latina que incluye, tierno y jugoso codillo de cerdo asado, chorizo y chistorra, salsas variadas entre lo dulce y picante, tortillas de trigo ideales para envolver todos los sabores, acompañada con ensalada y papas rústicas.",
-            "price": "Precio 31.60"
+            "price": "Precio 32.60"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
@@ -89,13 +88,13 @@ def platos_page(page, cambiar_pagina):
           "img":"./img/platos/fajitas.jpg",
           "title":"Fajitas ",
           "description":"Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
-          "price":"Precio 15.99"
+          "price":"Precio 16.99"
         },
         {
           "img":"./img/platos/parrilla_belly.jpg",
           "title":"Parrilla Belly",
           "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-          "price":"Precio 32.20"
+          "price":"Precio 33.9"
         },
         {
           "img":"./img/platos/brocheta.jpg",

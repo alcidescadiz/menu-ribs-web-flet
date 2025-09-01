@@ -1,7 +1,6 @@
 import flet as ft
 from components.galeria_sin_botones import galeria_sin_botones
 from components.boton import boton_circular
-from components.peticiones import get_all
 
 def licores_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
@@ -29,7 +28,7 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/cerveza_corona.jpg",
             "title": "Cerveza Corona",
             "description": "",
-            "price": "Precio 3.00"
+            "price": "Precio 3.20"
         },
         {
             "img": "img/licores/tobo_cerveza_pilsen.jpg",

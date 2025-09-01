@@ -1,7 +1,6 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
-from components.peticiones import get_all
 
 def burger_page(page,cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
@@ -17,7 +16,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_minis.jpg",
             "title": "Tobo Minimini",
             "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañado con una guarnición de queso cheddar liquido",
-            "price": "Precio 6.00"
+            "price": "Precio 6.30"
         },
         {
             "img": "img/burger/smokedprime.jpg",
@@ -29,7 +28,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/smokedking.jpg",
             "title": "Smoked King",
             "description": "Blend de carne 50% res y 50% cerdo, mermelada de tocineta, queso Philadelphia empanizado, aros de cebolla empanizados con Doritos en pan brioche.",
-            "price": "Precio 11.20"
+            "price": "Precio 11.40"
         },
         {
             "img": "img/burger/burger_de_carne.jpg",
@@ -42,7 +41,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_de_pollo_crispy.jpg",
             "title": "Chicken Crispy Burger",
             "description": "Pollo empanizado en pan de papa con salsa miel mostaza, lechuga, tomate y cebolla.",
-            "price": "Precio 7.00",
+            "price": "Precio 7.60",
             "adicional": True
         },
         # {

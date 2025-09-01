@@ -1,7 +1,6 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
-from components.peticiones import get_all
 
 def bebidas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
@@ -18,7 +17,6 @@ def bebidas_page(page, cambiar_pagina):
             🍍 Jugo de Piña
             Jugo de Guanabana
             Jugo de Tamarindo
-            🥭 Jugo de Mango
             """,
             "price": "Precio 3.50",
             "delivery":"False"
@@ -53,14 +51,14 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/gatorade.jpg",
             "title": "Gatorade",
             "description": "",
-            "price": "Precio 3.50"
+            "price": "Precio 3.80"
         },
         #refresco lata
         {
             "img": "img/bebidas/refresco_lata.jpg",
             "title": "Refresco Lata",
             "description": "",
-            "price": "Precio 2.60"
+            "price": "Precio 2.70"
         },
         #refresco 1.5
         {
@@ -81,14 +79,14 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/soda.jpg",
             "title": "Soda",
             "description": "",
-            "price": "Precio 2.70"
+            "price": "Precio 3.00"
         },
         # yuki pack
         {
             "img": "img/bebidas/yuki_pack.jpg",
             "title": "Jugo Yuky Pack",
             "description": "",
-            "price": "Precio 2.10"
+            "price": "Precio 2.20"
         },
         # redbull
         {

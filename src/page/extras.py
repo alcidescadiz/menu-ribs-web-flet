@@ -2,7 +2,6 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
-from components.peticiones import get_all
 
 def extras_page(page, cambiar_pagina):
     """vISTA DE EXTRAS"""

@@ -1,7 +1,6 @@
 import flet as ft
 from components.galeria_sin_botones import galeria_sin_botones
 from components.boton import boton_circular
-from components.peticiones import get_all
 
 def cocteles_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
@@ -11,7 +10,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/aperol_frezze.jpg",
             "title": "Aperol Frezze",
             "description": "Coctel a base del licor italiano Aperol, granizado y con un toque de naranja.",
-            "price": "Precio 6.50"
+            "price": "Precio 6.80"
         },
         {
             "img": "img/cocteles/blue_ocean.jpg",
@@ -29,7 +28,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/daiquiri_fresa.jpg",
             "title": "Daiquiri Fresa",
             "description": "Fresa congelada, ron blanco, extracto de limón y azúcar.",
-            "price": "Precio 5.00"
+            "price": "Precio 5.50"
         },
         {
             "img": "img/cocteles/tinto_de_verano.jpg",
