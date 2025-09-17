@@ -108,6 +108,13 @@ def postres_page(page, cambiar_pagina):
             "price": "Precio 1.00",
             "delivery":"False"
         },
+        {
+            "img": "img/postres/bocata.jpg",
+            "title": "Bocata Ribs",
+            "description": "",
+            "price": "Precio 6.50",
+            "delivery":"False"
+        },
     ]
 
     return ft.Column(
