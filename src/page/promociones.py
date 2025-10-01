@@ -17,13 +17,13 @@ def promociones_page(page, cambiar_pagina):
             "img": "img/promos/burger_sharing.jpg",
             "title": "Burger Sharing",
             "description": "",
-            "price": "Precio 24.35"
+            "price": "Precio 24.85"
         },
         {
             "img": "img/promos/burger_tropical.jpg",
             "title": "Burger Tropical Queen",
             "description": "",
-            "price": "Precio 8.12"
+            "price": "Precio 8.60"
         },
         
 

@@ -10,31 +10,31 @@ def cafes_page(page, cambiar_pagina):
             "img": "img/cafes/cafe_pequeño.jpg",
             "title": "Café Americano Pequeño",
             "description": "",
-            "price": "Precio 1.00"
+            "price": "Precio 1.10"
         },
         {
             "img": "img/cafes/cafe_grande.jpg",
             "title": "Café Americano Grande",
             "description": "",
-            "price": "Precio 1.20"
+            "price": "Precio 1.30"
         },
         {
             "img": "img/cafes/latte.jpeg",
             "title": "Café Latte",
             "description": "",
-            "price": "Precio 2.50"
+            "price": "Precio 2.60"
         },
         {
             "img": "img/cafes/capuccino.jpg",
             "title": "Café Capuccino",
             "description": "",
-            "price": "Precio 3.00"
+            "price": "Precio 3.10"
         },
         {
             "img": "img/cafes/mocaccino.jpg",
             "title": "Café Moacaccino",
             "description": "",
-            "price": "Precio 2.60"
+            "price": "Precio 3.10"
         }
     ]
     

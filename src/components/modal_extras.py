@@ -2,19 +2,19 @@ import flet as ft
 
 def modal_extras (page,agregar_al_carrito,cambiar_pagina):
     extras = [
-        {"title": "Aros de Cebolla", "price": "Precio 2.50"},
-        {"title": "Papas Fritas", "price": "Precio 2.70"},
-        {"title": "Tocineta", "price": "Precio 1.60"},
-        {"title": "Queso Guayanés", "price":"Precio 1.60"},
-        {"title": "Queso Cheddar", "price":"Precio 1.40"},
-        {"title": "Pepinillos", "price": "Precio 1.00"},
-        {"title": "Cebolla Caramelizada", "price": "Precio 1.00"},
-        {"title": "Chistorra", "price": "Precio 2.50"},
-        {"title": "Queso Crema Empanizado", "price": "Precio 1.40"},
-        {"title": "Huevo", "price": "Precio 1.00"},
-        {"title": "Pollo Crispy", "price": "Precio 3.60"},
-        {"title": "Carne", "price": "Precio 2.20"},
-        {"title": "Carne de Costilla", "price": "Precio 3.16"}
+        {"title": "Aros de Cebolla", "price": "Precio 2.60"},
+        {"title": "Papas Fritas", "price": "Precio 2.80"},
+        {"title": "Tocineta", "price": "Precio 1.66"},
+        {"title": "Queso Guayanés", "price":"Precio 1.66"},
+        {"title": "Queso Cheddar", "price":"Precio 1.46"},
+        {"title": "Pepinillos", "price": "Precio 1.10"},
+        {"title": "Cebolla Caramelizada", "price": "Precio 1.10"},
+        {"title": "Chistorra", "price": "Precio 2.66"},
+        {"title": "Queso Crema Empanizado", "price": "Precio 1.46"},
+        {"title": "Huevo", "price": "Precio 1.10"},
+        {"title": "Pollo Crispy", "price": "Precio 3.66"},
+        {"title": "Carne", "price": "Precio 2.30"},
+        {"title": "Carne de Costilla", "price": "Precio 3.30"}
     ]
 
     # Crear lista de extras con icono y divisores

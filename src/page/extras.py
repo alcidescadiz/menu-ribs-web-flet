@@ -12,46 +12,46 @@ def extras_page(page, cambiar_pagina):
             "img": "img/extras/tomates_hilmary.jpg",
             "title": "Tomates Asados",
             "description": "Tomates asados rellenos con puré de papas, queso crema, queso parmesano gratinado y mezclas de finas hierbas deshidratadas.",
-            "price": "Precio 4.00"
+            "price": "Precio 4.10"
         },
         {
             "img": "img/extras/papas_fritas.jpg",
             "title": "Papas Fritas",
             "description": "",
-            "price": "Precio 2.70"
+            "price": "Precio 2.80"
         },
         {
             "img": "img/extras/ensalada_coleslaw.jpg",
             "title": "Ensalada Cole Slaw",
             "description": "",
-            "price": "Precio 1.00"
+            "price": "Precio 1.10"
         },
         {
             "img": "img/extras/extra_morcilla_chorizo.jpg",
             "title": "Ración de Embutidos",
             "description":"""
-                Precio US$ 5.00 Extra de Chorizo
-                Precio US$ 4.20 Extra de Morcilla
+                Precio US$ 5.10 Extra de Chorizo
+                Precio US$ 4.30 Extra de Morcilla
             """,
-            "price": "Precio 5.00"
+            "price": "Precio 5.10"
         },
         {
             "img": "img/extras/papas_rusticas.jpeg",
             "title": "Ración de Papas Rústicas",
             "description": "",
-            "price": "Precio 3.20"
+            "price": "Precio 3.30"
         },
         {
             "img": "img/extras/tortillas.jpg",
             "title": "Extra de Tortillas",
             "description": "",
-            "price": "Precio 1.60"
+            "price": "Precio 1.66"
         },
         {
             "img": "img/extras/extra_bunuelo.jpg",
             "title": "Extra de Buñuelos",
             "description": "",
-            "price": "Precio 3.00"
+            "price": "Precio 3.10"
         }
     ]
     

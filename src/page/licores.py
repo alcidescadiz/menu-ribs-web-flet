@@ -10,37 +10,37 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/cerveza_solera.jpg",
             "title": "Cerveza Solera",
             "description": "",
-            "price": "Precio 1.80"
+            "price": "Precio 1.90"
         },
         {
             "img": "img/licores/cerveza_pilsen.jpg",
             "title": "Cerveza Pilsen",
             "description": "",
-            "price": "Precio 1.60"
+            "price": "Precio 1.70"
         },
         {
             "img": "img/licores/cerveza_caroreña.jpg",
             "title": "Caroreña",
             "description": "",
-            "price": "Precio 2.50"
+            "price": "Precio 2.60"
         },
         {
             "img": "img/licores/cerveza_corona.jpg",
             "title": "Cerveza Corona",
             "description": "",
-            "price": "Precio 3.20"
+            "price": "Precio 3.30"
         },
         {
             "img": "img/licores/tobo_cerveza_pilsen.jpg",
             "title": "Tobo Cerveza Pilsen (10 und)",
             "description": "",
-            "price": "Precio 14.00"
+            "price": "Precio 14.50"
         },
         {
             "img": "img/licores/tobo_cerveza_solera.jpg",
             "title": "Tobo Cerveza Solera (10 und)",
             "description": "",
-            "price": "Precio 16.00"
+            "price": "Precio 16.50"
         },
         {
             "img": "img/licores/whisky_12años.jpg",
@@ -82,13 +82,13 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/copa_de_vino_tinto.jpg",
             "title": "Copa de Vino Tinto",
             "description": "",
-            "price": "Precio 4.00"
+            "price": "Precio 5.20"
         },
         {
             "img": "img/licores/copa_de_vino_blanco2.jpg",
             "title": "Copa de Vino Blanco",
             "description": "",
-            "price": "Precio 5.00"
+            "price": "Precio 5.20"
         }
     ]
 

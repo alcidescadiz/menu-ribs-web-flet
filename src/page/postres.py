@@ -91,21 +91,21 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/galleta_con_helado.jpg",
             "title": "Galleta con Helado",
             "description": "Deliciosa Galleta con una porción de helado cremoso.",
-            "price": "Precio 3.60",
+            "price": "Precio 3.80",
             "delivery":"False"
         },
         {
             "img": "img/postres/cookie_bar.jpg",
             "title": "Cookie Bar",
             "description": "Crujiente por fuera y sueva en el centro, esta barra de chocolate horneada esconde un corazon de chocolate que se derrite en tu boca en cada bocado, acompañada del mas cremoso helado.",
-            "price": "Precio 4.85",
+            "price": "Precio 5.00",
             "delivery":"False"
         },
         {
             "img": "img/postres/paleta_cali.jpg",
             "title": "Paleta de Helados Cali",
             "description": "",
-            "price": "Precio 1.00",
+            "price": "Precio 1.20",
             "delivery":"False"
         },
         {

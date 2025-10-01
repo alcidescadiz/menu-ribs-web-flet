@@ -10,19 +10,19 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/canasta_de_pollo.jpg",
             "title": "Canasta de Pollo",
             "description": "Deléitate con nuestra deliciosa canasta de pollo crujiente. Este plato consiste en jugosas piezas de pollo empanizadas y fritas hasta alcanzar un dorado perfecto, acompañada de papas fritas crujientes y salsa miel mostaza que elevan la experiencia.",
-            "price": "Precio 10.00"
+            "price": "Precio 10.50"
         },
         {
             "img": "./img/platos/alitas_bbq.jpg",
             "title": "Alitas BBQ",
             "description": "Irresistibles alitas BBQ, marinadas y glaseadas con nuestra salsa BBQ casera, que combina dulzura y un toque ahumado, creando una experiencia de sabor inigualable. Servidas con papas fritas crujientes.",
-            "price": "Precio 10.40"
+            "price": "Precio 10.80"
         },
         {
             "img": "./img/platos/alitas_asiaticas.jpg",
             "title": "Alitas Asiáticas",
             "description": "Sumérgete en la fusión de sabores orientales con nuestras exquisitas Alitas Asiáticas, una opción que combina lo mejor de la cocina tradicional con un toque moderno, creando un equilibrio perfecto entre lo salado y lo dulce. Se sirven con papas rústicas crujientes.",
-            "price": "Precio 9.90"
+            "price": "Precio 10.40"
         },
         # {
         #     "img": "./img/platos/alitas_crujientes.jpg",
@@ -34,85 +34,85 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/costillas_bbq.jpg",
             "title": "Costillas BBQ",
             "description": "Una deliciosa y suculenta costilla de cerdo, cocinada a la perfección y bañada en una salsa BBQ casera, acompañada de una fresca ensalada coleslaw y crujientes papas rústicas. Este plato es una explosión de sabores que combina lo tierno y ahumado de la carne con la frescura y el crujido de los vegetales.",
-            "price": "Precio 28.00"
+            "price": "Precio 28.50"
         },
         {
             "img": "./img/platos/pork_belly.jpg",
             "title": "Pork Belly",
             "description": "Disfruta de una exquisita panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. Este plato se complementa con un fresco pico de gallo, un guacamole cremoso y crujientes papas fritas, creando una experiencia culinaria vibrante y llena de sabor.",
-            "price": "Precio 29.20"
+            "price": "Precio 29.70"
         },
         {
             "img": "./img/platos/codillo.jpg",
             "title": "Codillo",
             "description": "Sumérgete en una experiencia culinaria única con nuestro Codillo de Cerdo, servido sobre una exquisita reducción de salsa elaborada con piña y especias que aportan un contraste dulce y ácido que realza la riqueza del cerdo. Acompañada con rodajas de piña asada y deliciosa papa gratinada cremosa y dorada al horno.",
-            "price": "Precio 18.25"
+            "price": "Precio 18.75"
         },
         {
             "img": "./img/platos/solomo_grillado.jpg",
             "title": "Lomito Grillado",
             "description": "Jugosa y tierna pieza de carne de lomito, cocinada a la perfección en el grill, servido con un toque de chimichurri, y acompañado con una Ensalada César Clásica, tomates asados rellenos de una mezcla de puré de papas y queso crema coronado con queso parmesano o papa gratinada cremosa al horno.",
-            "price": "Precio 16.70"
+            "price": "Precio 17.20"
         },
         {
             "img": "./img/platos/pollo_grillado.jpg",
             "title": "Pollo Grillado",
             "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento, tomates asados rellenos de una mezcla de papas y queso crema o papa gratinada cremosa al horno.",
-            "price": "Precio 12.60"
+            "price": "Precio 13.00"
         },
         {
             "img": "./img/platos/fiesta-bavara.jpg",
             "title": "Tacos de Fiesta Bavara",
             "description": "La Tabla de Tacos de Fiesta Bávara, es una fusión perfecta entre la tradición alemana y la frescura latina que incluye, tierno y jugoso codillo de cerdo asado, chorizo y chistorra, salsas variadas entre lo dulce y picante, tortillas de trigo ideales para envolver todos los sabores, acompañada con ensalada y papas rústicas.",
-            "price": "Precio 32.60"
+            "price": "Precio 33.10"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Tabla Fiestera Maxi",
             "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.[2 Personas]",
-            "price": "Precio 56.30"
+            "price": "Precio 56.80"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Tabla Fiestera Mini",
             "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw. [1 Persona]",
-            "price": "Precio 40.00"
+            "price": "Precio 40.50"
         },
         {
           "img":"./img/platos/parrilla_ribs.jpg",
           "title":"Parrilla Ribs",
           "description":"Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de guasacaca, chimichurri, y a su elección papas rústicas o una ensalada césar clásica. (2 pers)",
-          "price":"Precio 28.40"
+          "price":"Precio 28.90"
         },
         {
           "img":"./img/platos/fajitas.jpg",
           "title":"Fajitas ",
           "description":"Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
-          "price":"Precio 16.99"
+          "price":"Precio 17.50"
         },
         {
           "img":"./img/platos/parrilla_belly.jpg",
           "title":"Parrilla Belly",
           "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-          "price":"Precio 33.9"
+          "price":"Precio 34.40"
         },
-        {
-          "img":"./img/platos/brocheta.jpg",
-          "title":"Brocheta & Bueñuelos",
-          "description":"Una brocheta intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
-          "price":"Precio 11.50"
-        },
-        {
-          "img":"./img/platos/pineapple_paprika_pork.jpg",
-          "title":"Pineapple Paprika Pork",
-          "description":"Punta de cerdo al grill con salsa de paprika con piña acompañado por buñuelos de yuca y ensalada verde de  rúcula lechuga y perejil con vinagreta balsámica.",
-          "price":"Precio 22.00"
-        },
+        # {
+        #   "img":"./img/platos/brocheta.jpg",
+        #   "title":"Brocheta & Bueñuelos",
+        #   "description":"Una brocheta intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
+        #   "price":"Precio 11.50"
+        # },
+        # {
+        #   "img":"./img/platos/pineapple_paprika_pork.jpg",
+        #   "title":"Pineapple Paprika Pork",
+        #   "description":"Punta de cerdo al grill con salsa de paprika con piña acompañado por buñuelos de yuca y ensalada verde de  rúcula lechuga y perejil con vinagreta balsámica.",
+        #   "price":"Precio 22.00"
+        # },
         {
           "img":"./img/platos/parrillazo_ribs.jpg",
           "title":"Parrillazo Ribs",
           "description":"",
-          "price":"Precio 69.59"
+          "price":"Precio 70.10"
         },
     ]
 

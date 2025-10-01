@@ -10,7 +10,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/aperol_frezze.jpg",
             "title": "Aperol Frezze",
             "description": "Coctel a base del licor italiano Aperol, granizado y con un toque de naranja.",
-            "price": "Precio 6.80"
+            "price": "Precio 7.00"
         },
         {
             "img": "img/cocteles/blue_ocean.jpg",
@@ -34,7 +34,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/tinto_de_verano.jpg",
             "title": "Tinto de Verano",
             "description": "Vino tinto, zumo de limón y sprite.",
-            "price": "Precio 5.40"
+            "price": "Precio 5.60"
         },
         {
             "img": "img/cocteles/piña_colada.jpg",
@@ -49,14 +49,14 @@ def cocteles_page(page, cambiar_pagina):
                 Mojito de Parchita
                 Mojito Caribeño
             """,
-            "price": "Precio 4.50",
+            "price": "Precio 4.70",
             "lista": True
         },
         {
             "img": "img/cocteles/morrita.jpg",
             "title": "Morrita",
             "description": "",
-            "price": "Precio 4.40"
+            "price": "Precio 4.50"
         },
         {
             "img": "img/cocteles/margarita_devil.jpg",
