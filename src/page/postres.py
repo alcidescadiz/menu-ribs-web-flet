@@ -84,7 +84,7 @@ def postres_page(page, cambiar_pagina):
         {
             "img": "img/postres/cheesecake.jpg",
             "title": "Cheese Cake",
-            "description": "Un postre cremoso y decadente, elaborado con queso crema y un toque de vainilla, sobre una base de galleta crujiente.",
+            "description": "Un postre cremoso, elaborado con queso crema y un toque de vainilla, sobre una base de galleta crujiente.",
             "price": "Precio 7.30"
         },
         {
@@ -97,7 +97,7 @@ def postres_page(page, cambiar_pagina):
         {
             "img": "img/postres/cookie_bar.jpg",
             "title": "Cookie Bar",
-            "description": "Crujiente por fuera y sueva en el centro, esta barra de chocolate horneada esconde un corazon de chocolate que se derrite en tu boca en cada bocado, acompañada del mas cremoso helado.",
+            "description": "Crujiente por fuera y suave en el centro, esta barra de chocolate horneada esconde un corazón de chocolate que se derrite en tu boca en cada bocado, acompañada del mas cremoso helado.",
             "price": "Precio 5.00",
             "delivery":"False"
         },
