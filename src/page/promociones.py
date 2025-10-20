@@ -25,6 +25,12 @@ def promociones_page(page, cambiar_pagina):
             "description": "",
             "price": "Precio 8.60"
         },
+        {
+            "img": "img/promos/combo_parrillazo.jpg",
+            "title": "Combo Parrillazo",
+            "description": "",
+            "price": "Precio 59.59"
+        },
         
 
     ]
