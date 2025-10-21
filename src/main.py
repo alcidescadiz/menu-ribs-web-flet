@@ -41,20 +41,20 @@ def main(page: ft.Page):
             ),
             ft.Divider(thickness=2),
             ft.ListTile(
-                title=ft.Text("Burger", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
-                on_click=lambda e: cambiar_pagina("/burger"),
-            ),
-            ft.ListTile(
                 title=ft.Text("Entradas", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
                 on_click=lambda e: cambiar_pagina("/entradas"),
             ),
             ft.ListTile(
-                title=ft.Text("Menú Kids", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
-                on_click=lambda e: cambiar_pagina("/kids"),
-            ),
-            ft.ListTile(
                 title=ft.Text("Platos", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
                 on_click=lambda e: cambiar_pagina("/platos"),
+            ),
+            ft.ListTile(
+                title=ft.Text("Burger", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                on_click=lambda e: cambiar_pagina("/burger"),
+            ),
+            ft.ListTile(
+                title=ft.Text("Menú Kids", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                on_click=lambda e: cambiar_pagina("/kids"),
             ),
             ft.ListTile(
                 title=ft.Text("Bebidas", font_family="MiFuente", size=24,color=ft.Colors.BLACK),

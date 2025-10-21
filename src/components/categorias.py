@@ -4,9 +4,9 @@ from components.peticiones import get_all
 def lista_categorias(page: ft.Page):
     categorias = [
         {"titulo": "Entradas", "imagen": "img/categorias/ENTRADAS.jpg", "ruta": "/entradas"},
+        {"titulo": "Platos", "imagen": "img/categorias/PLATOS.jpg", "ruta": "/platos"},
         {"titulo": "Burger", "imagen": "img/categorias/BURGER.jpg", "ruta": "/burger"},
         {"titulo": "Menú Kids", "imagen": "img/categorias/kids.gif", "ruta": "/kids"},
-        {"titulo": "Platos", "imagen": "img/categorias/PLATOS.jpg", "ruta": "/platos"},
         {"titulo": "Bebidas", "imagen": "img/categorias/BEBIDAS.jpg", "ruta": "/bebidas"},
         {"titulo": "Cocteles", "imagen": "img/categorias/COCTELES.jpg", "ruta": "/cocteles"},
         {"titulo": "Postres", "imagen": "img/categorias/POSTRES.jpg", "ruta": "/postres"},

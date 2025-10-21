@@ -29,13 +29,3 @@ copyright = "Copyright (C) 2025 by Ribs Burger"
 [tool.flet.app]
 path = "src"
 
-[tool.uv]
-dev-dependencies = [
-    "flet[all]==0.28.3"
-]
-
-[tool.poetry]
-package-mode = false
-
-[tool.poetry.group.dev.dependencies]
-flet = {extras = ["all"], version = "0.28.3"}
