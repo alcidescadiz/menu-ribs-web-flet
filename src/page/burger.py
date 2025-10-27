@@ -118,6 +118,12 @@ def burger_page(page,cambiar_pagina):
             "description": "Pan de tomate con mayonesa de pesto, rúcula fresca y un ligero toque de vinagreta balsámica. En su interior, un blend de carne y cerdo ahumado con queso Holandés Edam fundido y tomates confitados, combinando matices ahumados, herbales y dulces en cada bocado.",
             "price": "Precio 10.45"
         },
+        {
+            "img": "img/burger/burger_tropical.jpg",
+            "title": "Burger Tropical Queen",
+            "description": "Pan de papa, con nuestra jugosa carne de hamburguesa, acompañada de tocineta, cebollas acevichadas y platanos empanizados, con un toque de la famosa Salsa Emmy",
+            "price": "Precio 8.60"
+        },
 
     ]
     

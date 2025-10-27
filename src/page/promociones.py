@@ -20,12 +20,6 @@ def promociones_page(page, cambiar_pagina):
             "price": "Precio 24.85"
         },
         {
-            "img": "img/promos/burger_tropical.jpg",
-            "title": "Burger Tropical Queen",
-            "description": "",
-            "price": "Precio 8.60"
-        },
-        {
             "img": "img/promos/combo_parrillazo.jpg",
             "title": "Combo Parrillazo",
             "description": "",
