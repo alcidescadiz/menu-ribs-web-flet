@@ -10,13 +10,13 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/cerveza_solera.jpg",
             "title": "Cerveza Solera",
             "description": "",
-            "price": "Precio 1.90"
+            "price": "Precio 1.60"
         },
         {
             "img": "img/licores/cerveza_pilsen.jpg",
             "title": "Cerveza Pilsen",
             "description": "",
-            "price": "Precio 1.70"
+            "price": "Precio 1.40"
         },
         {
             "img": "img/licores/cerveza_caroreña.jpg",
@@ -34,13 +34,13 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/tobo_cerveza_pilsen.jpg",
             "title": "Tobo Cerveza Pilsen (10 und)",
             "description": "",
-            "price": "Precio 14.50"
+            "price": "Precio 13.50"
         },
         {
             "img": "img/licores/tobo_cerveza_solera.jpg",
             "title": "Tobo Cerveza Solera (10 und)",
             "description": "",
-            "price": "Precio 16.50"
+            "price": "Precio 15.00"
         },
         {
             "img": "img/licores/whisky_12años.jpg",

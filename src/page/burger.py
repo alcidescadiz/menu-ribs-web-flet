@@ -10,7 +10,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/promos/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
-            "price": "Precio 9.95"
+            "price": "Precio 10.10"
         },
         {
             "img": "img/burger/burger_minis.jpg",
@@ -34,7 +34,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 5.40",
+            "price": "Precio 5.50",
             "adicional": True
         },
         {
@@ -68,19 +68,19 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/tnt_burger.jpg",
             "title": "Tnt Burger",
             "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado.",
-            "price": "Precio 8.40"
+            "price": "Precio 8.50"
         },
         {
             "img": "img/burger/burger_ribs.jpg",
             "title": "Rib's Burger",
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 11.40"
+            "price": "Precio 11.50"
         },
         {
             "img": "img/burger/burger_ribs_chicken.jpg",
             "title": "Burger Ribs & Chicken Supreme",
             "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 11.40"
+            "price": "Precio 11.50"
         },
         {
             "img": "img/burger/smoked_burger.jpg",
@@ -116,13 +116,19 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/smoked_italy.jpg",
             "title": "Smoked Italy",
             "description": "Pan de tomate con mayonesa de pesto, rúcula fresca y un ligero toque de vinagreta balsámica. En su interior, un blend de carne y cerdo ahumado con queso Holandés Edam fundido y tomates confitados, combinando matices ahumados, herbales y dulces en cada bocado.",
-            "price": "Precio 10.45"
+            "price": "Precio 10.60"
         },
         {
             "img": "img/burger/burger_tropical.jpg",
             "title": "Burger Tropical Queen",
             "description": "Pan de papa, con nuestra jugosa carne de hamburguesa, acompañada de tocineta, cebollas acevichadas y platanos empanizados, con un toque de la famosa Salsa Emmy",
-            "price": "Precio 8.60"
+            "price": "Precio 8.80"
+        },
+        {
+            "img": "img/burger/blue_cheese_burger.png",
+            "title": "Blue Cheese Burger",
+            "description": "Doble carne de res, queso cheddar, pepinillos, tocineta, cebollas ponchadas y una irresistible fusión con queso azul",
+            "price": "Precio 9.00"
         },
 
     ]

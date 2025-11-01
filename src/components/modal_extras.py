@@ -12,8 +12,8 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
         {"title": "Chistorra", "price": "Precio 2.66"},
         {"title": "Queso Crema Empanizado", "price": "Precio 1.46"},
         {"title": "Huevo", "price": "Precio 1.10"},
-        {"title": "Pollo Crispy", "price": "Precio 3.66"},
-        {"title": "Carne", "price": "Precio 2.30"},
+        {"title": "Pollo Crispy", "price": "Precio 3.80"},
+        {"title": "Carne", "price": "Precio 2.50"},
         {"title": "Carne de Costilla", "price": "Precio 3.30"}
     ]
 

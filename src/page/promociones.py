@@ -11,13 +11,13 @@ def promociones_page(page, cambiar_pagina):
             "title": "Burger Break",
             "description": """Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado, acompañada de crujientes papas fritas y de bebida un vaso de refresco bien frío."
             \nDisponible solo de Lunes a Jueves.""",
-            "price": "Precio 8.82"
+            "price": "Precio 9.00"
         },
         {
             "img": "img/promos/burger_sharing.jpg",
             "title": "Burger Sharing",
             "description": "",
-            "price": "Precio 24.85"
+            "price": "Precio 25.00"
         },
         {
             "img": "img/promos/combo_parrillazo.jpg",

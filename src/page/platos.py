@@ -22,7 +22,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/alitas_asiaticas.jpg",
             "title": "Alitas Asiáticas",
             "description": "Sumérgete en la fusión de sabores orientales con nuestras exquisitas Alitas Asiáticas, una opción que combina lo mejor de la cocina tradicional con un toque moderno, creando un equilibrio perfecto entre lo salado y lo dulce. Se sirven con papas rústicas crujientes.",
-            "price": "Precio 10.40"
+            "price": "Precio 10.50"
         },
         # {
         #     "img": "./img/platos/alitas_crujientes.jpg",
@@ -64,7 +64,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/fiesta-bavara.jpg",
             "title": "Tacos de Fiesta Bavara",
             "description": "La Tabla de Tacos de Fiesta Bávara, es una fusión perfecta entre la tradición alemana y la frescura latina que incluye, tierno y jugoso codillo de cerdo asado, chorizo y chistorra, salsas variadas entre lo dulce y picante, tortillas de trigo ideales para envolver todos los sabores, acompañada con ensalada y papas rústicas.",
-            "price": "Precio 33.10"
+            "price": "Precio 33.30"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
@@ -94,7 +94,7 @@ def platos_page(page, cambiar_pagina):
           "img":"./img/platos/parrilla_belly.jpg",
           "title":"Parrilla Belly",
           "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-          "price":"Precio 34.40"
+          "price":"Precio 34.60"
         },
         # {
         #   "img":"./img/platos/brocheta.jpg",
@@ -112,7 +112,7 @@ def platos_page(page, cambiar_pagina):
           "img":"./img/platos/parrillazo_ribs.jpg",
           "title":"Parrillazo Ribs",
           "description":"La mejor opción para comparir y disfrutar lo mejor de Ribs, Carne de lomito y Pollo al Grill, Costillas a la BBQ, Alitas asiaticas, Papas Rusticas, Chorizo, Morcilla, acompañadas de chimichurri, ensalada cole slaw y seis mini burgers. (3 pers)",
-          "price":"Precio 70.10"
+          "price":"Precio 70.30"
         },
     ]
 

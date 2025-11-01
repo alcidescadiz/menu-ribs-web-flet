@@ -23,6 +23,7 @@ def main(page: ft.Page):
         modulo = ruta.replace("/", "")
         vista = importlib.import_module(f"page.{modulo}")
         contenido.content = getattr(vista, f"{modulo}_page")(page, cambiar_pagina)
+        page.scroll_to(0,duration=0)
         page.drawer.open = False
         page.update()
 

@@ -32,28 +32,28 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/copa_de_helado.jpg",
             "title": "Copa de Helado",
             "description": "Dos porciones de helado cremoso de tu preferencia cubierto con crema chantilly y lluvia.",
-            "price": "Precio 4.00",
+            "price": "Precio 4.20",
             "delivery":"False"
         },
         {
             "img": "img/postres/barquillas.jpg",
             "title": "Barquilla o Tinita de dos (2) porciones",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
-            "price": "Precio 2.70",
+            "price": "Precio 3.00",
             "delivery":"False"
         },
                 {
             "img": "img/postres/barquillas.jpg",
             "title": "Barquilla o Tinita de una (1) porción",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
-            "price": "Precio 2.20",
+            "price": "Precio 2.40",
             "delivery":"False"
         },
         {
             "img": "img/postres/malteada.jpg",
             "title": "Malteada",
             "description": "Helado batido decorado con crema chantilly y decorado con lluvia.",
-            "price": "Precio 4.00",
+            "price": "Precio 4.20",
             "delivery":"False"
         },
         {
