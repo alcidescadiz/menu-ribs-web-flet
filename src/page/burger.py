@@ -24,12 +24,12 @@ def burger_page(page,cambiar_pagina):
             "description": "Blend especial de carne de res y cerdo, con queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
             "price": "Precio 11.70"
         },
-        {
-            "img": "img/burger/smokedking.jpg",
-            "title": "Smoked King",
-            "description": "Blend de carne 50% res y 50% cerdo, mermelada de tocineta, queso Philadelphia empanizado, aros de cebolla empanizados con Doritos en pan brioche.",
-            "price": "Precio 11.90"
-        },
+        # {
+        #     "img": "img/burger/smokedking.jpg",
+        #     "title": "Smoked King",
+        #     "description": "Blend de carne 50% res y 50% cerdo, mermelada de tocineta, queso Philadelphia empanizado, aros de cebolla empanizados con Doritos en pan brioche.",
+        #     "price": "Precio 11.90"
+        # },
         {
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
@@ -92,7 +92,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_triple_smash.jpg",
             "title": "Burger Triple Smash",
             "description": "Carne, queso cheddar, tocineta, cebolla dorada, huevo frito y salsa Kevin en pan tostado.",
-            "price": "Precio 10.80"
+            "price": "Precio 11.00"
         },
         {
             "img": "img/burger/burger_hillary.jpg",
