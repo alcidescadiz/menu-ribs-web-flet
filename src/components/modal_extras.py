@@ -14,7 +14,8 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
         {"title": "Huevo", "price": "Precio 1.10"},
         {"title": "Pollo Crispy", "price": "Precio 3.80"},
         {"title": "Carne", "price": "Precio 2.50"},
-        {"title": "Carne de Costilla", "price": "Precio 3.30"}
+        {"title": "Carne de Costilla", "price": "Precio 3.30"},
+        {"title": "Platano empanizado", "price": "Precio 1.00"},
     ]
 
     # Crear lista de extras con icono y divisores

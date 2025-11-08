@@ -15,11 +15,11 @@ def bebidas_page(page, cambiar_pagina):
             🍋 Jugo de Limón
             🍈 Jugo de Parchita
             🍍 Jugo de Piña
-            Jugo de Durazno
+            🍑 Jugo de Durazno
             Jugo de Guanabana
             Jugo de Tamarindo
             """,
-            "price": "Precio 3.60",
+            "price": "Precio 3.70",
             "delivery":"False"
         },
         {
@@ -33,7 +33,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/agua_355.jpg",
             "title": "Agua Minalba 355 ml",
             "description": "",
-            "price": "Precio 1.70"
+            "price": "Precio 1.80"
         },
         {
             "img": "img/bebidas/agua_600.jpg",
@@ -45,21 +45,21 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/agua_saborizada.jpg",
             "title": "Agua Saborizada",
             "description": "",
-            "price": "Precio 2.60"
+            "price": "Precio 3.00"
         },
         # gatorade
         {
             "img": "img/bebidas/gatorade.jpg",
             "title": "Gatorade",
             "description": "",
-            "price": "Precio 3.90"
+            "price": "Precio 4.00"
         },
         #refresco lata
         {
             "img": "img/bebidas/refresco_lata.jpg",
             "title": "Refresco Lata",
             "description": "",
-            "price": "Precio 2.80"
+            "price": "Precio 3.00"
         },
         #refresco 1.5
         {
@@ -126,7 +126,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/te_jamaica.jpg",
             "title": "Té frío de Jamaica",
             "description": "",
-            "price": "Precio 2.60",
+            "price": "Precio 2.70",
             "delivery":"False"
         },
     ]

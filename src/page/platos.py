@@ -10,7 +10,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/canasta_de_pollo.jpg",
             "title": "Canasta de Pollo",
             "description": "Deléitate con nuestra deliciosa canasta de pollo crujiente. Este plato consiste en jugosas piezas de pollo empanizadas y fritas hasta alcanzar un dorado perfecto, acompañada de papas fritas crujientes y salsa miel mostaza que elevan la experiencia.",
-            "price": "Precio 10.50"
+            "price": "Precio 10.70"
         },
         {
             "img": "./img/platos/alitas_bbq.jpg",
@@ -22,14 +22,8 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/alitas_asiaticas.jpg",
             "title": "Alitas Asiáticas",
             "description": "Sumérgete en la fusión de sabores orientales con nuestras exquisitas Alitas Asiáticas, una opción que combina lo mejor de la cocina tradicional con un toque moderno, creando un equilibrio perfecto entre lo salado y lo dulce. Se sirven con papas rústicas crujientes.",
-            "price": "Precio 10.50"
+            "price": "Precio 10.70"
         },
-        # {
-        #     "img": "./img/platos/alitas_crujientes.jpg",
-        #     "title": "Alitas Crujientes",
-        #     "description": "Alitas de pollo doradas y crujientes, sabrosas y jugosas. Papas fritas doradas, crujientes por fuera y suaves por dentro. Salsa tártara cremosa, con el equilibrio perfecto de sabores. Un plato irresistible y lleno de sabor. 🍗🍟✨",
-        #     "price": "Precio 9.60"
-        # },
         {
             "img": "./img/platos/costillas_bbq.jpg",
             "title": "Costillas BBQ",
@@ -46,7 +40,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/codillo.jpg",
             "title": "Codillo",
             "description": "Sumérgete en una experiencia culinaria única con nuestro Codillo de Cerdo, servido sobre una exquisita reducción de salsa elaborada con piña y especias que aportan un contraste dulce y ácido que realza la riqueza del cerdo. Acompañada con rodajas de piña asada y deliciosa papa gratinada cremosa y dorada al horno.",
-            "price": "Precio 18.75"
+            "price": "Precio 19.00"
         },
         {
             "img": "./img/platos/solomo_grillado.jpg",
@@ -94,20 +88,8 @@ def platos_page(page, cambiar_pagina):
           "img":"./img/platos/parrilla_belly.jpg",
           "title":"Parrilla Belly",
           "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-          "price":"Precio 34.60"
+          "price":"Precio 34.80"
         },
-        # {
-        #   "img":"./img/platos/brocheta.jpg",
-        #   "title":"Brocheta & Bueñuelos",
-        #   "description":"Una brocheta intensa y jugosa de carne premium abrazada por tocineta dorada, acompañada de buñuelos artesanales que combinan una crocante suavidad en cada mordida.",
-        #   "price":"Precio 11.50"
-        # },
-        # {
-        #   "img":"./img/platos/pineapple_paprika_pork.jpg",
-        #   "title":"Pineapple Paprika Pork",
-        #   "description":"Punta de cerdo al grill con salsa de paprika con piña acompañado por buñuelos de yuca y ensalada verde de  rúcula lechuga y perejil con vinagreta balsámica.",
-        #   "price":"Precio 22.00"
-        # },
         {
           "img":"./img/platos/parrillazo_ribs.jpg",
           "title":"Parrillazo Ribs",

@@ -10,7 +10,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/entrada_minis.jpg",
             "title": "Entrada Mini Minis",
             "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañadas de nuestras deliciosas y crujientes papas chesse and bacon.",
-            "price": "Precio 13.80"
+            "price": "Precio 14.00"
         },
         {
             "img": "img/entradas/dedos_de_mozzarella.jpg",
@@ -34,7 +34,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/tequeños.jpg",
             "title": "Tequeños",
             "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
-            "price": "Precio 6.10"
+            "price": "Precio 6.20"
         },
         {
             "img": "img/entradas/three_pack.jpg",
@@ -46,7 +46,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/4x4_tex_mex.jpg",
             "title": "4x4 Tex Mex",
             "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 21.70"
+            "price": "Precio 24.00"
         },
         {
             "img": "img/entradas/aros_de_cebolla.jpg",
@@ -64,12 +64,6 @@ def entradas_page(page, cambiar_pagina):
             """,
             "price": "Precio 9.90"
         },
-        # {
-        #     "img": "img/entradas/ceviche.jpg",
-        #     "title": "Ceviche Ribs",
-        #     "description": "Pescado marinado en jugo cítrico con toques de ají, cebolla morada y cilantro, acompañada de nuestros crujientes platanitos artesanales dorados a la perfección. Un bocado refrescante, vibrante.",
-        #     "price": "Precio 7.80"
-        # },
         {
             "img": "img/entradas/ensalada_ribs.jpg",
             "title": "Ensalada Cesar Ribs",

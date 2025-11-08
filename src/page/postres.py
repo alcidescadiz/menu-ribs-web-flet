@@ -11,10 +11,10 @@ def postres_page(page, cambiar_pagina):
             "title": "Malteada de Brownie",
             "description": """
                 Helado Cookie and Cream con una porción de brownie
-                6.00 Malteada grande 12 onz
+                6.50 Malteada grande 12 onz
                 4.00 Malteada pequeña 8 onz
             """,
-            "price": "Precio 6.00",
+            "price": "Precio 6.50",
             "delivery":"False"
         },
         {
@@ -60,7 +60,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/brownie.jpg",
             "title": "Brownie con Helado",
             "description": "Esponjoso Brownie con una porción de helado cremoso y crema chantilly.",
-            "price": "Precio 4.99",
+            "price": "Precio 5.20",
             "delivery":"False"
         },
         {
@@ -105,7 +105,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/paleta_cali.jpg",
             "title": "Paleta de Helados Cali",
             "description": "",
-            "price": "Precio 1.20",
+            "price": "Precio 1.40",
             "delivery":"False"
         },
         {
