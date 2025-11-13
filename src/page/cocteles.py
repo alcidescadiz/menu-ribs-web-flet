@@ -63,6 +63,12 @@ def cocteles_page(page, cambiar_pagina):
             "title": "Margarita Devil",
             "description": "Coctel a base de tequila y vino tinto.",
             "price": "Precio 4.40"
+        },
+        {
+            "img": "img/cocteles/coctel_grinch.jpg",
+            "title": "The Grinch",
+            "description": "Una explosión cítrica y vibrante: tequila y triple sec se mezclan con jugo de naranja fresco y un toque de limón. El Blue Curaçao aporta color y profundidad, mientras el borde de Tajín despierta los sentidos con su picante y salino. Refrescante, visualmente atrevido y perfecto para quienes buscan algo diferente.",
+            "price": "Precio 4.50"
         }
     ]
 
