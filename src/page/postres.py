@@ -39,7 +39,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/barquillas.jpg",
             "title": "Barquilla o Tinita de dos (2) porciones",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
-            "price": "Precio 3.00",
+            "price": "Precio 3.30",
             "delivery":"False"
         },
                 {
@@ -53,7 +53,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/malteada.jpg",
             "title": "Malteada",
             "description": "Helado batido decorado con crema chantilly y decorado con lluvia.",
-            "price": "Precio 4.20",
+            "price": "Precio 4.0",
             "delivery":"False"
         },
         {
@@ -112,7 +112,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/bocata.jpg",
             "title": "Bocata Ribs",
             "description": "",
-            "price": "Precio 6.50",
+            "price": "Precio 6.70",
             "delivery":"False"
         },
     ]
