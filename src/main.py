@@ -15,7 +15,7 @@ def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
 
     contenido = ft.Container()
-    contenido.content =  ft.ProgressRing()
+    contenido.content = ft.ProgressRing()
 
     # 🛠 Rutas
     def cambiar_pagina(ruta):
@@ -23,9 +23,11 @@ def main(page: ft.Page):
         modulo = ruta.replace("/", "")
         vista = importlib.import_module(f"page.{modulo}")
         contenido.content = getattr(vista, f"{modulo}_page")(page, cambiar_pagina)
-        page.scroll_to(0,duration=0)
+        page.scroll_to(0, duration=0)
         page.drawer.open = False
         page.update()
+        if ruta == "/home":
+            page.open(modal_promo)
 
     # 🔹 Vincular `on_route_change` para detectar cambios de ruta
     page.on_route_change = lambda e: cambiar_pagina(e.route)
@@ -37,62 +39,98 @@ def main(page: ft.Page):
         bgcolor=ft.Colors.GREY_100,
         controls=[
             ft.ListTile(
-                title=ft.Text("Categorías", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Categorías", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/home"),
             ),
             ft.Divider(thickness=2),
             ft.ListTile(
-                title=ft.Text("Entradas", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Entradas", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/entradas"),
             ),
             ft.ListTile(
-                title=ft.Text("Platos", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Platos", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/platos"),
             ),
             ft.ListTile(
-                title=ft.Text("Burger", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Burger", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/burger"),
             ),
             ft.ListTile(
-                title=ft.Text("Menú Kids", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Menú Kids", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/kids"),
             ),
             ft.ListTile(
-                title=ft.Text("Bebidas", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Bebidas", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/bebidas"),
             ),
             ft.ListTile(
-                title=ft.Text("Cocteles", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Cocteles", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/cocteles"),
             ),
             ft.ListTile(
-                title=ft.Text("Postres", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Postres", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/postres"),
             ),
             ft.ListTile(
-                title=ft.Text("Cafés", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Cafés", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/cafes"),
             ),
             ft.ListTile(
-                title=ft.Text("Extras", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Extras", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/extras"),
             ),
             ft.ListTile(
-                title=ft.Text("Licores", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Licores", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+                ),
                 on_click=lambda e: cambiar_pagina("/licores"),
             ),
             ft.ListTile(
-                title=ft.Text("Promociones", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "Promociones",
+                    font_family="MiFuente",
+                    size=24,
+                    color=ft.Colors.BLACK,
+                ),
                 on_click=lambda e: cambiar_pagina("/promociones"),
             ),
             ft.Divider(thickness=2),
             ft.ListTile(
-                title=ft.Text("🛒 Carrito de Compras", font_family="MiFuente", size=24,color=ft.Colors.BLACK),
+                title=ft.Text(
+                    "🛒 Carrito de Compras",
+                    font_family="MiFuente",
+                    size=24,
+                    color=ft.Colors.BLACK,
+                ),
                 on_click=lambda e: cambiar_pagina("/carrito"),
             ),
         ],
     )
-
+    modal_promo = ft.AlertDialog(
+        content=ft.Image(src="img/promos/plato_navidad_promo.jpg", fit=ft.ImageFit.COVER, width=400)
+    )
+    page.add(modal_promo)
+    page.open(modal_promo)
     page.scroll = ft.ScrollMode.AUTO
     page.add(
         # barra_superior,

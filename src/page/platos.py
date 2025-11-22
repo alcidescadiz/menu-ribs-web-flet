@@ -96,6 +96,12 @@ def platos_page(page, cambiar_pagina):
           "description":"La mejor opción para comparir y disfrutar lo mejor de Ribs, Carne de lomito y Pollo al Grill, Costillas a la BBQ, Alitas asiaticas, Papas Rusticas, Chorizo, Morcilla, acompañadas de chimichurri, ensalada cole slaw y seis mini burgers. (3 pers)",
           "price":"Precio 70.30"
         },
+        {
+            "img": "img/promos/plato_navidad.jpg",
+            "title": "Plato Navidad Ribs",
+            "description": "La tradición se sirve con sabor, Hallaca, pan de jamón, ensalada de gallina y nuestro toque especial, Pollo de res ahumado en salsa de carne.",
+            "price": "Precio 18.00"
+        },
     ]
 
     #platos =  get_all(platos_inicial,"platos")
