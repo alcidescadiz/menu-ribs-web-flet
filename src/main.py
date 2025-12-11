@@ -131,6 +131,7 @@ def main(page: ft.Page):
     )
     page.add(modal_promo)
     page.open(modal_promo)
+    contenido.content = home_page(page, cambiar_pagina)
     page.scroll = ft.ScrollMode.AUTO
     page.add(
         # barra_superior,
@@ -138,9 +139,6 @@ def main(page: ft.Page):
         barra_inferior(),
     )
 
-    # 🔹 Vista inicial con tarjetas
-    contenido.content = home_page(page, cambiar_pagina)
-    page.update()
 
 
 ft.app(target=main, assets_dir="assets", view=ft.WEB_BROWSER)

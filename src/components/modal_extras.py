@@ -26,12 +26,12 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
                 [
                     ft.Row(
                         [
-                            ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
+                            #ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
                             ft.Column(
                                 controls=[
                                     ft.ElevatedButton(
                                         extra["title"], 
-                                        width=200,
+                                        width=260,
                                         color=ft.Colors.BLACK,
                                         bgcolor=ft.Colors.GREEN_100,
                                         on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]},cambiar_pagina)
@@ -63,7 +63,8 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
             height=500,  # Define una altura personalizada
             padding=10
         ),
-        actions=[ft.TextButton("Cerrar", on_click=lambda e:page.close(modal))],
+        actions=[ft.TextButton("Cerrar", on_click=lambda e:page.close(modal), width=100,
+                               style=ft.ButtonStyle(color=ft.Colors.BLACK, bgcolor=ft.Colors.GREEN  ))],
         bgcolor=ft.Colors.WHITE
     )
     return modal
