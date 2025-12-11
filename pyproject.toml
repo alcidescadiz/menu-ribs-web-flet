@@ -8,7 +8,8 @@ authors = [
     { name = "Ing. Alcides Cádiz", email = "alcides.cadiz@gmail.com" }
 ]
 dependencies = [
-  "flet==0.28.3"
+  "flet==0.28.3",
+  "certifi"
 ]
 
 [tool.flet]
@@ -28,4 +29,5 @@ copyright = "Copyright (C) 2025 by Ribs Burger"
 
 [tool.flet.app]
 path = "src"
+packages = ["page", "components", "globales"]
 
