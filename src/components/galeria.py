@@ -37,7 +37,7 @@ def galeria(page, titulo, lista_productos, cambiar_pagina):
         )
 
     modal = modal_extras(page, agregar_al_carrito, cambiar_pagina)
-    page.add(modal)
+    #page.add(modal)
 
     def boton_agregar_al_carrito(lista_producto):
         return ft.ElevatedButton(

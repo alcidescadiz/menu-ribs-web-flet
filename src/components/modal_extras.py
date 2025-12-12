@@ -1,12 +1,13 @@
 import flet as ft
 
-def modal_extras (page,agregar_al_carrito,cambiar_pagina):
+
+def modal_extras(page, agregar_al_carrito, cambiar_pagina):
     extras = [
         {"title": "Aros de Cebolla", "price": "Precio 2.60"},
         {"title": "Papas Fritas", "price": "Precio 2.80"},
         {"title": "Tocineta", "price": "Precio 1.66"},
-        {"title": "Queso Guayanés", "price":"Precio 1.66"},
-        {"title": "Queso Cheddar", "price":"Precio 1.46"},
+        {"title": "Queso Guayanés", "price": "Precio 1.66"},
+        {"title": "Queso Cheddar", "price": "Precio 1.46"},
         {"title": "Pepinillos", "price": "Precio 1.10"},
         {"title": "Cebolla Caramelizada", "price": "Precio 1.10"},
         {"title": "Chistorra", "price": "Precio 2.66"},
@@ -20,53 +21,70 @@ def modal_extras (page,agregar_al_carrito,cambiar_pagina):
 
     # Crear lista de extras con icono y divisores
     contenido = ft.Column(
-    
         controls=[
             ft.Column(
                 [
                     ft.Row(
                         [
-                            #ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
+                            # ft.Icon(ft.Icons.FIBER_MANUAL_RECORD, color=ft.Colors.BLUE, size=12),
                             ft.Column(
                                 controls=[
                                     ft.ElevatedButton(
-                                        extra["title"], 
+                                        extra["title"],
                                         width=260,
                                         color=ft.Colors.BLACK,
                                         bgcolor=ft.Colors.GREEN_100,
-                                        on_click=lambda e,item= extra,: agregar_al_carrito( e,page,{"title": f"Extra de {item['title']}", "price": item["price"]},cambiar_pagina)
+                                        on_click=lambda e, item=extra,: agregar_al_carrito(
+                                            e,
+                                            page,
+                                            {
+                                                "title": f"Extra de {item['title']}",
+                                                "price": item["price"],
+                                            },
+                                            cambiar_pagina,
+                                        ),
                                     ),
-                                    ft.Text(f"{extra['price']}", color=ft.Colors.BLACK,size=14),
+                                    ft.Text(
+                                        f"{extra['price']}",
+                                        color=ft.Colors.BLACK,
+                                        size=14,
+                                    ),
                                 ],
-                                spacing=5,  
-                                horizontal_alignment=ft.CrossAxisAlignment.CENTER
+                                spacing=5,
+                                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                             )
-                            
                         ],
                         spacing=12,
                     ),
-                    ft.Divider()  # Línea divisora entre cada ítem
+                    ft.Divider(),  # Línea divisora entre cada ítem
                 ]
-            ) for extra in extras
+            )
+            for extra in extras
         ],
         scroll=ft.ScrollMode.ALWAYS,  # Habilita el desplazamiento cuando hay mucho contenido
-        expand=True
+        expand=True,
     )
 
     # Crear el diálogo modal responsive
     modal = ft.AlertDialog(
         content_padding=10,
-        title=ft.Text("EXTRAS", size=22, weight=ft.FontWeight.BOLD,color=ft.Colors.BLACK ),
+        title=ft.Text(
+            "EXTRAS", size=22, weight=ft.FontWeight.BOLD, color=ft.Colors.BLACK
+        ),
         content=ft.Container(
             content=contenido,
             width=280,  # Establece el ancho del modal
             height=500,  # Define una altura personalizada
-            padding=10
+            padding=10,
         ),
-        actions=[ft.TextButton("Cerrar", on_click=lambda e:page.close(modal), width=100,
-                               style=ft.ButtonStyle(color=ft.Colors.BLACK, bgcolor=ft.Colors.GREEN  ))],
-        bgcolor=ft.Colors.WHITE
+        actions=[
+            ft.TextButton(
+                "Cerrar",
+                on_click=lambda e: page.close(modal),
+                width=100,
+                style=ft.ButtonStyle(color=ft.Colors.BLACK, bgcolor=ft.Colors.GREEN),
+            )
+        ],
+        bgcolor=ft.Colors.WHITE,
     )
     return modal
-
-

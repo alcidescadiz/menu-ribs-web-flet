@@ -102,10 +102,8 @@ def carrito_page(page, cambiar_pagina):
 
         if not nombre or not telefono or not direccion or not tipo_pago:
             # ✅ Mostrar advertencia si faltan datos
-            page.open(ft.SnackBar(
-                content=ft.Text("⚠️ Por favor completa todos los datos antes de enviar"),
-                bgcolor=ft.Colors.RED
-            ))
+            mensaje_error.value = "⚠️ Por favor completa todos los datos antes de enviar"
+            page.update()
         else:
             page.launch_url(generar_mensaje(nombre, telefono, direccion, tipo_pago))  # ✅ Enviar mensaje con datos correctos
             nombre_field.value=""
@@ -129,10 +127,11 @@ def carrito_page(page, cambiar_pagina):
         width=400,
         color="black"
     )
+    mensaje_error = ft.Text("", color=ft.Colors.RED)
 
     boton_enviar = ft.ElevatedButton(
         text="Enviar pedido",
-        on_click=enviar_pedido,
+        on_click=lambda e: enviar_pedido(e),
         bgcolor=ft.Colors.GREEN,
         color=ft.Colors.WHITE,
         width=400
@@ -151,6 +150,7 @@ def carrito_page(page, cambiar_pagina):
             telefono_field,
             direccion_field,
             tipo_pago_field,
+            mensaje_error,
             boton_enviar
         ],
         spacing=20,
