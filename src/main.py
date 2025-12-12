@@ -26,8 +26,7 @@ def main(page: ft.Page):
         page.scroll_to(0, duration=0)
         page.drawer.open = False
         page.update()
-        if ruta == "/home":
-            page.open(modal_promo)
+
 
     # 🔹 Vincular `on_route_change` para detectar cambios de ruta
     page.on_route_change = lambda e: cambiar_pagina(e.route)
@@ -126,11 +125,7 @@ def main(page: ft.Page):
             ),
         ],
     )
-    modal_promo = ft.AlertDialog(
-        content=ft.Image(src="img/promos/plato_navidad_promo.jpg", fit=ft.ImageFit.COVER, width=400)
-    )
-    page.add(modal_promo)
-    page.open(modal_promo)
+    
     contenido.content = home_page(page, cambiar_pagina)
     page.scroll = ft.ScrollMode.AUTO
     page.add(
