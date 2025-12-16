@@ -102,9 +102,14 @@ def platos_page(page, cambiar_pagina):
             "description": "La tradición se sirve con sabor, Hallaca, pan de jamón, ensalada de gallina y nuestro toque especial, Pollo de res ahumado en salsa de carne.",
             "price": "Precio 18.00"
         },
+        {
+            "img": "img/platos/costillas_de_res.jpg",
+            "title": "Short Rib",
+            "description": "Una majestuosa Costilla de Res cocinada a fuego lento hasta alcanzar una ternura sublime. La carne, aún adherida a su hueso, se glasea con una profunda y oscura Reducción de Pipilongo (pimienta larga), que aporta notas complejas, dulces y ligeramente cítricas. Reposa sobre una cremosa y sedosa cama de Puré de Papas rústico, enriquecido con mantequilla y especias.",
+            "price": "Precio 27.00"
+        },
     ]
 
-    #platos =  get_all(platos_inicial,"platos")
 
     return ft.Column(
         controls=[

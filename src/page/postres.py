@@ -39,7 +39,7 @@ def postres_page(page, cambiar_pagina):
             "img": "img/postres/barquillas.jpg",
             "title": "Barquilla o Tinita de dos (2) porciones",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
-            "price": "Precio 3.30",
+            "price": "Precio 3.60",
             "delivery":"False"
         },
                 {

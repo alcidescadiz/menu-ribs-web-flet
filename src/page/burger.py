@@ -99,6 +99,12 @@ def burger_page(page,cambiar_pagina):
             "description": "Doble carne de res, salsa de la casa con un toque picante, queso cheddar, pepinillos y una irresistible fusión de cebollas ponchadas con tociteta y queso azul.",
             "price": "Precio 9.90"
         },
+        {
+            "img": "img/burger/burger_navidad.jpeg",
+            "title": "Burger Navidad",
+            "description": " Prueba nuestra Burger Aniversario, donde la jugosa carne se encuentra con la tradición del Guiso de Hallacas y la cremosidad del Queso Guayanés. El toque mágico lo ponen la dulzura de la Mermelada de Pasas y Miel, la Crema de Aceitunas, y nuestra irresistible salsa de mostaza. Todo en Pan Brioche.",
+            "price": "Precio 10.90"
+        },
 
     ]
     
