@@ -82,18 +82,6 @@ def burger_page(page,cambiar_pagina):
             "price": "Precio 9.30"
         },
         {
-            "img": "img/burger/burger_emmy.jpg",
-            "title": "Burger Emmy Chicken",
-            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos, servido en un pan de berenjena. ",
-            "price": "Precio 11.50"
-        },
-        {
-            "img": "img/burger/smoked_italy.jpg",
-            "title": "Smoked Italy",
-            "description": "Pan de tomate con mayonesa de pesto, rúcula fresca y un ligero toque de vinagreta balsámica. En su interior, un blend de carne y cerdo ahumado con queso Holandés Edam fundido y tomates confitados, combinando matices ahumados, herbales y dulces en cada bocado.",
-            "price": "Precio 11.00"
-        },
-        {
             "img": "img/burger/blue_cheese_burger.png",
             "title": "Blue Cheese Burger",
             "description": "Doble carne de res, salsa de la casa con un toque picante, queso cheddar, pepinillos y una irresistible fusión de cebollas ponchadas con tociteta y queso azul.",
