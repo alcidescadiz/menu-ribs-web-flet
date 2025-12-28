@@ -29,7 +29,7 @@ def promociones_page(page, cambiar_pagina):
             "img": "img/promos/plato_navidad_promo.jpg",
             "title": "Plato Navidad Ribs",
             "description": "La tradición se sirve con sabor, Hallaca, pan de jamón, ensalada de gallina y nuestro toque especial, Pollo de res ahumado en salsa de carne.",
-            "price": "Precio 18.00"
+            "price": "Precio 16.50"
         },
 
     ]

@@ -93,6 +93,12 @@ def burger_page(page,cambiar_pagina):
             "description": " Prueba nuestra Burger Aniversario, donde la jugosa carne se encuentra con la tradición del Guiso de Hallacas y la cremosidad del Queso Guayanés. El toque mágico lo ponen la dulzura de la Mermelada de Pasas y Miel, la Crema de Aceitunas, y nuestra irresistible salsa de mostaza. Todo en Pan Brioche.",
             "price": "Precio 10.90"
         },
+        {
+            "img": "img/burger/burger_emmy.jpg",
+            "title": "Burger Emmy Chicken",
+            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos, servido en un pan de berenjena. ",
+            "price": "Precio 11.50"
+        },
 
     ]
     
