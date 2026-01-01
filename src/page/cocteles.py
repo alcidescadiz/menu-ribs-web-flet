@@ -40,7 +40,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/piña_colada.jpg",
             "title": "Piña Colada",
             "description": "Piña congelada, crema de coco y ron de coco.",
-            "price": "Precio 4.80"
+            "price": "Precio 5.00"
         },
         {
             "img": "img/cocteles/mojito_parchita.jpg",
@@ -49,7 +49,7 @@ def cocteles_page(page, cambiar_pagina):
                 Mojito de Parchita
                 Mojito Caribeño
             """,
-            "price": "Precio 4.70",
+            "price": "Precio 4.80",
             "lista": True
         },
         {

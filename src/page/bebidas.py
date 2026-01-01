@@ -66,28 +66,28 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/refresco1.5.jpg",
             "title": "Refresco 1.5lt (Solo por delivery)",
             "description": "",
-            "price": "Precio 3.30"
+            "price": "Precio 3.50"
         },
         #refresco 2lt
         {
             "img": "img/bebidas/refresco2.jpg",
             "title": "Refresco 2lt (Solo por delivery)",
             "description": "",
-            "price": "Precio 4.10"
+            "price": "Precio 4.20"
         } ,
         # soda
         {
             "img": "img/bebidas/soda.jpg",
             "title": "Soda",
             "description": "",
-            "price": "Precio 3.10"
+            "price": "Precio 3.20"
         },
         # yuki pack
         {
             "img": "img/bebidas/yuki_pack.jpg",
             "title": "Jugo Yuky Pack",
             "description": "",
-            "price": "Precio 2.30"
+            "price": "Precio 2.50"
         },
         # redbull
         {
@@ -114,13 +114,13 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/jugo_yukery.jpg",
             "title": "Jugo Yukery",
             "description": "",
-            "price": "Precio 2.30"
+            "price": "Precio 2.50"
         },
         {
             "img": "img/bebidas/malta.jpg",
             "title": "Malta",
             "description": "",
-            "price": "Precio 2.20"
+            "price": "Precio 2.50"
         },
         {
             "img": "img/bebidas/te_jamaica.jpg",

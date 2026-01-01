@@ -1,6 +1,7 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
+import datetime
 
 def burger_page(page,cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
@@ -10,19 +11,13 @@ def burger_page(page,cambiar_pagina):
             "img": "img/promos/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
-            "price": "Precio 10.50"
+            "price": "Precio 11.00"
         },
         {
             "img": "img/burger/burger_minis.jpg",
             "title": "Tobo Minimini",
             "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañado con una guarnición de queso cheddar liquido",
             "price": "Precio 7.00"
-        },
-        {
-            "img": "img/burger/smokedprime.jpg",
-            "title": "Smoked Prime",
-            "description": "Blend especial de carne de res y cerdo, con queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
-            "price": "Precio 12.50"
         },
         {
             "img": "img/burger/burger_de_carne.jpg",
@@ -49,13 +44,13 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_pollo_cesar.jpg",
             "title": "Burger Pollo César",
             "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
-            "price": "Precio 11.40"
+            "price": "Precio 11.50"
         },
         {
             "img": "img/burger/tnt_burger.jpg",
             "title": "Tnt Burger",
             "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado.",
-            "price": "Precio 9.50"
+            "price": "Precio 10.00"
         },
         {
             "img": "img/burger/burger_ribs.jpg",
@@ -64,34 +59,27 @@ def burger_page(page,cambiar_pagina):
             "price": "Precio 12.50"
         },
         {
+            "img": "img/burger/burger_hillary.jpg",
+            "title": "Burger Hillary",
+            "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
+            "price": "Precio 10.90"
+        },
+        
+
+    ]
+
+    viernes_a_domingos = [
+        {
             "img": "img/burger/burger_ribs_chicken.jpg",
             "title": "Burger Ribs & Chicken Supreme",
             "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
             "price": "Precio 12.50"
         },
         {
-            "img": "img/burger/smoked_burger.jpg",
-            "title": "Smoked Burger",
-            "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
-            "price": "Precio 11.00"
-        },
-        {
-            "img": "img/burger/burger_hillary.jpg",
-            "title": "Burger Hillary",
-            "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado.",
-            "price": "Precio 9.30"
-        },
-        {
-            "img": "img/burger/blue_cheese_burger.png",
-            "title": "Blue Cheese Burger",
-            "description": "Doble carne de res, salsa de la casa con un toque picante, queso cheddar, pepinillos y una irresistible fusión de cebollas ponchadas con tociteta y queso azul.",
-            "price": "Precio 9.90"
-        },
-        {
-            "img": "img/burger/burger_navidad.jpeg",
-            "title": "Burger Navidad",
-            "description": " Prueba nuestra Burger Aniversario, donde la jugosa carne se encuentra con la tradición del Guiso de Hallacas y la cremosidad del Queso Guayanés. El toque mágico lo ponen la dulzura de la Mermelada de Pasas y Miel, la Crema de Aceitunas, y nuestra irresistible salsa de mostaza. Todo en Pan Brioche.",
-            "price": "Precio 10.90"
+            "img": "img/burger/smokedprime.jpg",
+            "title": "Smoked Prime",
+            "description": "Blend especial de carne de res y cerdo, con queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
+            "price": "Precio 12.50"
         },
         {
             "img": "img/burger/burger_emmy.jpg",
@@ -99,10 +87,19 @@ def burger_page(page,cambiar_pagina):
             "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos, servido en un pan de berenjena. ",
             "price": "Precio 11.50"
         },
+        {
+            "img": "img/burger/smoked_burger.jpg",
+            "title": "Smoked Burger",
+            "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
+            "price": "Precio 11.40"
+        },
 
     ]
-    
-    #burger =  get_all(burger_inicial,"burger")
+    hoy = datetime.date.today().weekday()
+
+    if hoy == 4 or hoy == 5 or hoy == 6:
+        # burger + viernes_a_domingos
+        burger = burger + viernes_a_domingos
 
     return ft.Column(
         controls=[

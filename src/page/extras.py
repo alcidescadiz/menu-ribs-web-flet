@@ -21,12 +21,6 @@ def extras_page(page, cambiar_pagina):
             "price": "Precio 2.80"
         },
         {
-            "img": "img/extras/ensalada_coleslaw.jpg",
-            "title": "Ensalada Cole Slaw",
-            "description": "",
-            "price": "Precio 1.10"
-        },
-        {
             "img": "img/extras/extra_morcilla_chorizo.jpg",
             "title": "Ración de Embutidos",
             "description":"""

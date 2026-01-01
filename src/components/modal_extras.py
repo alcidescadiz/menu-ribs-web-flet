@@ -10,12 +10,10 @@ def modal_extras(page, agregar_al_carrito, cambiar_pagina):
         {"title": "Queso Cheddar", "price": "Precio 1.46"},
         {"title": "Pepinillos", "price": "Precio 1.10"},
         {"title": "Cebolla Caramelizada", "price": "Precio 1.10"},
-        {"title": "Chistorra", "price": "Precio 2.66"},
         {"title": "Queso Crema Empanizado", "price": "Precio 1.46"},
         {"title": "Huevo", "price": "Precio 1.10"},
         {"title": "Pollo Crispy", "price": "Precio 3.80"},
         {"title": "Carne", "price": "Precio 2.50"},
-        {"title": "Carne de Costilla", "price": "Precio 3.30"},
         {"title": "Platano empanizado", "price": "Precio 1.00"},
     ]
 
