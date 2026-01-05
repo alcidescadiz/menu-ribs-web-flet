@@ -34,13 +34,6 @@ def burger_page(page,cambiar_pagina):
             "adicional": True
         },
         {
-            "img": "img/burger/burger_de_costilla.jpg",
-            "title": "Burger Costilla BBQ",
-            "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
-            "price": "Precio 8.60",
-            "adicional": True
-        },
-        {
             "img": "img/burger/burger_pollo_cesar.jpg",
             "title": "Burger Pollo César",
             "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
@@ -63,6 +56,12 @@ def burger_page(page,cambiar_pagina):
             "title": "Burger Hillary",
             "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
             "price": "Precio 10.90"
+        },
+        {
+            "img": "img/burger/smoked_burger.jpg",
+            "title": "Smoked Burger",
+            "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
+            "price": "Precio 11.40"
         },
         
 
@@ -88,10 +87,11 @@ def burger_page(page,cambiar_pagina):
             "price": "Precio 11.50"
         },
         {
-            "img": "img/burger/smoked_burger.jpg",
-            "title": "Smoked Burger",
-            "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
-            "price": "Precio 11.40"
+            "img": "img/burger/burger_de_costilla.jpg",
+            "title": "Burger Costilla BBQ",
+            "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
+            "price": "Precio 8.60",
+            "adicional": True
         },
 
     ]

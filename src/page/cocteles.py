@@ -6,12 +6,12 @@ def cocteles_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     cocteles = [
-        {
-            "img": "img/cocteles/aperol_frezze.jpg",
-            "title": "Aperol Frezze",
-            "description": "Coctel a base del licor italiano Aperol, granizado y con un toque de naranja.",
-            "price": "Precio 7.00"
-        },
+        # {
+        #     "img": "img/cocteles/aperol_frezze.jpg",
+        #     "title": "Aperol Frezze",
+        #     "description": "Coctel a base del licor italiano Aperol, granizado y con un toque de naranja.",
+        #     "price": "Precio 7.00"
+        # },
         {
             "img": "img/cocteles/blue_ocean.jpg",
             "title": "Blue Ocean",

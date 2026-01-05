@@ -59,10 +59,16 @@ def entradas_page(page, cambiar_pagina):
             "title": "Ensalada César Clásica",
             "description":"""
             Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano y extra de tocineta, todo bañado en un aderezo César cremoso. 
-            Precio US$ 7.40
-            Precio US$ 10.30 con extra de pollo
             """,
-            "price": "Precio 9.90"
+            "price": "Precio 7.40"
+        },
+        {
+            "img": "img/entradas/ensalada_cesar_con_carne.jpg",
+            "title": "Ensalada César con Pollo",
+            "description":"""
+            Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano, extra de tocineta con exquisito pollo a la parrilla, todo bañado en un aderezo César cremoso. 
+            """,
+            "price": "Precio 10.30"
         },
         {
             "img": "img/entradas/ensalada_ribs.jpg",

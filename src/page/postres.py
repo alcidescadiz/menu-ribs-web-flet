@@ -75,32 +75,32 @@ def postres_page(page, cambiar_pagina):
             "description": "Pie horneado con una base de galleta y una crema de (Limón / Parchita).",
             "price": "Precio 5.50"
         },
-        {
-            "img": "img/postres/cheesepie.jpg",
-            "title": "Cheese Pie",
-            "description": "Cremoso postre frío con una combinación magnífica entre dulce, cítrico y salado.",
-            "price": "Precio 6.80"
-        },
-        {
-            "img": "img/postres/cheesecake.jpg",
-            "title": "Cheese Cake",
-            "description": "Un postre cremoso, elaborado con queso crema y un toque de vainilla, sobre una base de galleta crujiente.",
-            "price": "Precio 7.30"
-        },
+        # {
+        #     "img": "img/postres/cheesepie.jpg",
+        #     "title": "Cheese Pie",
+        #     "description": "Cremoso postre frío con una combinación magnífica entre dulce, cítrico y salado.",
+        #     "price": "Precio 6.80"
+        # },
+        # {
+        #     "img": "img/postres/cheesecake.jpg",
+        #     "title": "Cheese Cake",
+        #     "description": "Un postre cremoso, elaborado con queso crema y un toque de vainilla, sobre una base de galleta crujiente.",
+        #     "price": "Precio 7.30"
+        # },
         {
             "img": "img/postres/galleta_con_helado.jpg",
             "title": "Galleta con Helado",
             "description": "Deliciosa Galleta con una porción de helado cremoso.",
-            "price": "Precio 3.80",
+            "price": "Precio 3.90",
             "delivery":"False"
         },
-        {
-            "img": "img/postres/cookie_bar.jpg",
-            "title": "Cookie Bar",
-            "description": "Crujiente por fuera y suave en el centro, esta barra de chocolate horneada esconde un corazón de chocolate que se derrite en tu boca en cada bocado, acompañada del mas cremoso helado.",
-            "price": "Precio 5.00",
-            "delivery":"False"
-        },
+        # {
+        #     "img": "img/postres/cookie_bar.jpg",
+        #     "title": "Cookie Bar",
+        #     "description": "Crujiente por fuera y suave en el centro, esta barra de chocolate horneada esconde un corazón de chocolate que se derrite en tu boca en cada bocado, acompañada del mas cremoso helado.",
+        #     "price": "Precio 5.00",
+        #     "delivery":"False"
+        # },
         {
             "img": "img/postres/paleta_cali.jpg",
             "title": "Paleta de Helados Cali",
