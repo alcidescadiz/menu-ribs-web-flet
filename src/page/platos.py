@@ -84,6 +84,12 @@ def platos_page(page, cambiar_pagina):
             "description": "Una majestuosa Costilla de Res cocinada a fuego lento hasta alcanzar una ternura sublime. La carne, aún adherida a su hueso, se glasea con una profunda y oscura Reducción de Pipilongo (pimienta larga), que aporta notas complejas, dulces y ligeramente cítricas. Reposa sobre una cremosa y sedosa cama de Puré de Papas rústico, enriquecido con mantequilla y especias.",
             "price": "Precio 28.00"
         },
+        {
+            "img": "img/platos/deluxe_de_pollo.jpg",
+            "title": "Deluxe de Pollo",
+            "description": "Disfruta  de nuestras irresistibles Alitas BBQ y nuestra deliciosa canasta de pollo crujiente, acompañadas de una ración de papas fritas",
+            "price": "Precio 11.70"
+        },
     ]
 
 
