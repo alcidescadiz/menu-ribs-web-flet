@@ -17,8 +17,12 @@ def main(page: ft.Page):
     contenido = ft.Container()
     contenido.content = ft.ProgressRing()
 
-    # 🛠 Rutas
+    
+    
+      # 🛠 Rutas
     def cambiar_pagina(ruta):
+        if ruta == "/home":
+            page.open(dialog)
         page.route = ruta
         modulo = ruta.replace("/", "")
         vista = importlib.import_module(f"page.{modulo}")
@@ -128,6 +132,17 @@ def main(page: ft.Page):
     
     contenido.content = home_page(page, cambiar_pagina)
     page.scroll = ft.ScrollMode.AUTO
+
+    # un dialog modal con un mensaje de bienvenida
+    dialog =ft.AlertDialog(
+        bgcolor=ft.Colors.BLACK,
+        title=ft.Text("Ribs Burger"),
+        content=ft.Text("Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios."),
+        open=True,
+    )
+    page.add(dialog)
+    page.open(dialog)
+
     page.add(
         # barra_superior,
         contenido,

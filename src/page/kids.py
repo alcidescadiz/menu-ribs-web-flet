@@ -11,7 +11,7 @@ def kids_page(page,cambiar_pagina):
             "title": "Combo Burger Kid",
             "description": """
             
-            Disponible solo en local: El Combo Burger Kid tiene un pvp de 11.00 usd, pero si desea agregarle un helado de paleta el pvp sería de 11.95 usd.
+            Disponible solo en local: El Combo Burger Kid tiene un pvp de 11.00 usd, pero si desea agregarle un helado de paleta el pvp sería de 12.40 usd.
             """,
             "price": "Precio 11.00"
         },
@@ -20,7 +20,7 @@ def kids_page(page,cambiar_pagina):
             "title": "Combo Minimini kid",
             "description": """
             
-            Disponible solo en local: El Combo Minimini Kid tiene un pvp de 11.00 usd, pero si desea agregarle un helado de paleta el pvp sería de 11.95 usd.
+            Disponible solo en local: El Combo Minimini Kid tiene un pvp de 11.00 usd, pero si desea agregarle un helado de paleta el pvp sería de 12.40 usd.
             """,
             "price": "Precio 11.00"
         },
@@ -29,7 +29,7 @@ def kids_page(page,cambiar_pagina):
             "title": "Combo Canasta Kid",
             "description": """
             
-            Disponible solo en local: El Combo Canasta Kid tiene un pvp de 13.50 usd, pero si desea agregarle un helado de paleta el pvp sería de 14.50 usd.
+            Disponible solo en local: El Combo Canasta Kid tiene un pvp de 13.50 usd, pero si desea agregarle un helado de paleta el pvp sería de 15.40 usd.
             """,
             "price": "Precio 13.50"
         },

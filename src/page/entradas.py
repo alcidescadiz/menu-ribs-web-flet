@@ -16,13 +16,13 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/dedos_de_mozzarella.jpg",
             "title": "Dedos de Mozarella",
             "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
-            "price": "Precio 7.60"
+            "price": "Precio 9.40"
         },
         {
             "img": "img/entradas/papas_cheese_bacon.jpg",
             "title": "Papas Cheese and Bacon",
             "description": "Deliciosas papas fritas, cubiertas con una generosa porción de queso derretido y un toque de polvo de tocineta para realzar su sabor.",
-            "price": "Precio 8.10"
+            "price": "Precio 10.00"
         },
         {
             "img": "img/entradas/nachos.jpg",
@@ -34,19 +34,19 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/tequeños.jpg",
             "title": "Tequeños",
             "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
-            "price": "Precio 6.20"
+            "price": "Precio 6.70"
         },
         {
             "img": "img/entradas/three_pack.jpg",
             "title": "Three pack",
             "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
-            "price": "Precio 13.10"
+            "price": "Precio 14.00"
         },
         {
             "img": "img/entradas/4x4_tex_mex.jpg",
             "title": "4x4 Tex Mex",
             "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 24.00"
+            "price": "Precio 24.50"
         },
         {
             "img": "img/entradas/aros_de_cebolla.jpg",

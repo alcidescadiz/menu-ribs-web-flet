@@ -39,49 +39,49 @@ def platos_page(page, cambiar_pagina):
         {
             "img": "./img/platos/solomo_grillado.jpg",
             "title": "Lomito Grillado",
-            "description": "Jugosa y tierna pieza de carne de lomito, cocinada a la perfección en el grill, servido con un toque de chimichurri, y acompañado con una Ensalada César Clásica y papa gratinada cremosa al horno.",
-            "price": "Precio 17.20"
+            "description": "Jugosa y tierna pieza de carne de lomito, cocinada a la perfección en el grill, servido con un toque de chimichurri, acompañado con una Ensalada César Clásica y papa gratinada cremosa al horno.",
+            "price": "Precio 18.00"
         },
         {
             "img": "./img/platos/pollo_grillado.jpg",
             "title": "Pollo Grillado",
             "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento tomate asado relleno de una mezcla de papas.",
-            "price": "Precio 13.00"
+            "price": "Precio 14.00"
         },
         {
             "img": "./img/platos/fiesta-bavara.jpg",
             "title": "Tacos de Fiesta Bavara",
             "description": "La Tabla de Tacos de Fiesta Bávara, es una fusión perfecta entre la tradición alemana y la frescura latina que incluye, tierno y jugoso codillo de cerdo asado, chorizo y chistorra, salsas variadas entre lo dulce y picante, tortillas de trigo ideales para envolver todos los sabores, acompañada con ensalada y papas rústicas.",
-            "price": "Precio 34.00"
+            "price": "Precio 36.00"
         },
         {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Tabla Fiestera Maxi",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese y Ensalada Cole Slaw.[2 Personas]",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
             "price": "Precio 56.80"
         },
         {
           "img":"./img/platos/parrilla_ribs.jpg",
           "title":"Parrilla Ribs",
-          "description":"Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de guasacaca, chimichurri, y una ensalada césar clásica. (2 pers)",
-          "price":"Precio 28.90"
+          "description":"Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de guasacaca, chimichurri. (2 pers)",
+          "price":"Precio 31.00"
         },
         {
           "img":"./img/platos/fajitas.jpg",
           "title":"Fajitas ",
           "description":"Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
-          "price":"Precio 17.50"
+          "price":"Precio 18.00"
         },
         {
           "img":"./img/platos/parrilla_belly.jpg",
           "title":"Parrilla Belly",
           "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-          "price":"Precio 34.80"
+          "price":"Precio 36.00"
         },
         {
             "img": "img/platos/costillas_de_res.jpg",
             "title": "Short Rib",
-            "description": "Una majestuosa Costilla de Res cocinada a fuego lento hasta alcanzar una ternura sublime. La carne, aún adherida a su hueso, se glasea con una profunda y oscura Reducción de Pipilongo (pimienta larga), que aporta notas complejas, dulces y ligeramente cítricas. Reposa sobre una cremosa y sedosa cama de Puré de Papas rústico, enriquecido con mantequilla y especias.",
+            "description": "Una majestuosa Costilla de Res glaseada con una profunda y oscura Reducción de demi glace con el toque especial de pipilongo (pimienta larga de origen colombiano), servida con un suave Puré de Papas enriquecido con mantequilla y especias.",
             "price": "Precio 28.00"
         },
         {

@@ -11,19 +11,19 @@ def burger_page(page,cambiar_pagina):
             "img": "img/promos/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa.",
-            "price": "Precio 11.00"
+            "price": "Precio 12.00"
         },
         {
             "img": "img/burger/burger_minis.jpg",
             "title": "Tobo Minimini",
             "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañado con una guarnición de queso cheddar liquido",
-            "price": "Precio 7.00"
+            "price": "Precio 7.80"
         },
         {
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 5.50",
+            "price": "Precio 5.60",
             "adicional": True
         },
         {
@@ -37,7 +37,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_pollo_cesar.jpg",
             "title": "Burger Pollo César",
             "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
-            "price": "Precio 11.50"
+            "price": "Precio 11.60"
         },
         {
             "img": "img/burger/tnt_burger.jpg",
@@ -55,13 +55,19 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_hillary.jpg",
             "title": "Burger Hillary",
             "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
-            "price": "Precio 10.90"
+            "price": "Precio 11.00"
         },
         {
             "img": "img/burger/smoked_burger.jpg",
             "title": "Smoked Burger",
             "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
             "price": "Precio 11.40"
+        },
+        {
+            "img": "img/burger/febrero2026.jpg",
+            "title": "Edición Especial: Mes del Amor y la Amistad",
+            "description": "¡Un flechazo directo al paladar! Disfruta de una jugosa mezcla de carne de res y cerdo, bañada en nuestra irresistible y cremosa salsa de champiñones. Coronada con tocineta crocante y queso mozzarella fundido, sobre una cama de lechuga fresca y abrazada por un tierno pan de parmesano especial.",
+            "price": "Precio 12.80"
         },
         
 
@@ -83,7 +89,7 @@ def burger_page(page,cambiar_pagina):
         {
             "img": "img/burger/burger_emmy.jpg",
             "title": "Burger Emmy Chicken",
-            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos, servido en un pan de berenjena. ",
+            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lecguga fresca y pepinillos, servido en un pan de berenjena. ",
             "price": "Precio 11.50"
         },
         {
