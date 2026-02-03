@@ -22,7 +22,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/daiquiri_parchita.jpg",
             "title": "Daiquiri Parchita",
             "description": "Parchita congelada, ron blanco, extracto de limón y azúcar.",
-            "price": "Precio 4.60"
+            "price": "Precio 5.50"
         },
         {
             "img": "img/cocteles/daiquiri_fresa.jpg",
@@ -71,6 +71,8 @@ def cocteles_page(page, cambiar_pagina):
             "price": "Precio 4.50"
         }
     ]
+
+    
 
     #cocteles =  get_all(cocteles_inicial,"cocteles")
 

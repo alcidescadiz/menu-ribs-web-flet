@@ -61,20 +61,6 @@ def bebidas_page(page, cambiar_pagina):
             "description": "",
             "price": "Precio 3.80"
         },
-        #refresco 1.5
-        {
-            "img": "img/bebidas/refresco1.5.jpg",
-            "title": "Refresco 1.5lt (Solo por delivery)",
-            "description": "",
-            "price": "Precio 3.50"
-        },
-        #refresco 2lt
-        {
-            "img": "img/bebidas/refresco2.jpg",
-            "title": "Refresco 2lt (Solo por delivery)",
-            "description": "",
-            "price": "Precio 4.20"
-        } ,
         # soda
         {
             "img": "img/bebidas/soda.jpg",
@@ -90,26 +76,12 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 2.50"
         },
         # redbull
-        {
-            "img": "img/bebidas/redbull.jpg",
-            "title": "Redbull",
-            "description": "",
-            "price": "Precio 5.20"
-        },
-        {
-            "img": "img/bebidas/vaso_nestea.jpg",
-            "title": "Vaso de Nestea 16oz (Durazno o Limón)",
-            "description": "",
-            "price": "Precio 2.70",
-            "delivery":"False"
-        },
-        {
-            "img": "img/bebidas/vaso_refresco.jpg",
-            "title": "Vaso de Refresco 16oz (Recargable)",
-            "description": "",
-            "price": "Precio 2.30",
-            "delivery":"False"
-        },
+        # {
+        #     "img": "img/bebidas/redbull.jpg",
+        #     "title": "Redbull",
+        #     "description": "",
+        #     "price": "Precio 5.20"
+        # },
         {
             "img": "img/bebidas/jugo_yukery.jpg",
             "title": "Jugo Yukery",
@@ -129,9 +101,42 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 2.70",
             "delivery":"False"
         },
+        {
+            "img": "img/bebidas/vaso_nestea.jpg",
+            "title": "Vaso de Nestea 16oz (Durazno o Limón)",
+            "description": "",
+            "price": "Precio 2.70",
+            "delivery":"False"
+        },
+        {
+            "img": "img/bebidas/vaso_refresco.jpg",
+            "title": "Vaso de Refresco 16oz (Recargable)",
+            "description": "",
+            "price": "Precio 2.30",
+            "delivery":"False"
+        }
     ]
     
-    #bebidas =  get_all(bebidas_inicial,"bebidas")
+    bebidas_solo_por_delivery = [
+        #refresco 1.5
+        {
+            "img": "img/bebidas/refresco1.5.jpg",
+            "title": "Refresco 1.5lt (Solo por delivery)",
+            "description": "",
+            "price": "Precio 3.50"
+        },
+        #refresco 2lt
+        {
+            "img": "img/bebidas/refresco2.jpg",
+            "title": "Refresco 2lt (Solo por delivery)",
+            "description": "",
+            "price": "Precio 4.20"
+        } 
+    ]
+
+    if page.platform != ft.PagePlatform.ANDROID:
+        bebidas = bebidas + bebidas_solo_por_delivery
+
     return ft.Column(
         controls=[
             galeria(page,"Bebidas", bebidas,cambiar_pagina),

@@ -65,12 +65,10 @@ def burger_page(page,cambiar_pagina):
         },
         {
             "img": "img/burger/febrero2026.jpg",
-            "title": "Edición Especial: Mes del Amor y la Amistad",
-            "description": "¡Un flechazo directo al paladar! Disfruta de una jugosa mezcla de carne de res y cerdo, bañada en nuestra irresistible y cremosa salsa de champiñones. Coronada con tocineta crocante y queso mozzarella fundido, sobre una cama de lechuga fresca y abrazada por un tierno pan de parmesano especial.",
+            "title": "Burger de temporada Febrero 2026",
+            "description": "Disfruta de nuestra Jugosa carne de res y cerdo con crema de champiñones con queso azul, tocineta y mozzarella en un pan de parmesano",
             "price": "Precio 12.80"
-        },
-        
-
+        }
     ]
 
     viernes_a_domingos = [
