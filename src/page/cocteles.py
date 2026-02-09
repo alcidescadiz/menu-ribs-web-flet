@@ -69,6 +69,12 @@ def cocteles_page(page, cambiar_pagina):
             "title": "The Grinch",
             "description": "Una explosión cítrica y vibrante: tequila y triple sec se mezclan con jugo de naranja fresco y un toque de limón. El Blue Curaçao aporta color y profundidad, mientras el borde de Tajín despierta los sentidos con su picante y salino. Refrescante, visualmente atrevido y perfecto para quienes buscan algo diferente.",
             "price": "Precio 4.50"
+        },
+        {
+            "img": "img/cocteles/roques.jpg",
+            "title": "Los Roques ⛱️",
+            "description": "Fusión tropical de licor de coco, piña fresca y cítricos, con el toque exótico del Blue Curazao. Servido con un borde de Tajín para resaltar sus notas frutales. ¡El cóctel más instagrameable de nuestra carta!",
+            "price": "Precio 6.00"
         }
     ]
 

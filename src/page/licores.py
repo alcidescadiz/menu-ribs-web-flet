@@ -76,7 +76,7 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/trago_whisky.jpg",
             "title": "Trago de Whisky",
             "description": "",
-            "price": "Precio 5.00"
+            "price": "Precio 7.00"
         },
         {
             "img": "img/licores/copa_de_vino_tinto.jpg",

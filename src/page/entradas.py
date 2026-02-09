@@ -6,12 +6,12 @@ def entradas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     entradas = [
-        {
-            "img": "img/entradas/entrada_minis.jpg",
-            "title": "Entrada Mini Minis",
-            "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañadas de nuestras deliciosas y crujientes papas chesse and bacon.",
-            "price": "Precio 14.00"
-        },
+        # {
+        #     "img": "img/entradas/entrada_minis.jpg",
+        #     "title": "Entrada Mini Minis",
+        #     "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañadas de nuestras deliciosas y crujientes papas chesse and bacon.",
+        #     "price": "Precio 14.00"
+        # },
         {
             "img": "img/entradas/dedos_de_mozzarella.jpg",
             "title": "Dedos de Mozarella",

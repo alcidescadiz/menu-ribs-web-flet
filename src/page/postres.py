@@ -115,6 +115,13 @@ def postres_page(page, cambiar_pagina):
             "price": "Precio 6.70",
             "delivery":"False"
         },
+        {
+            "img": "img/postres/malteadaberry.jpg",
+            "title": "Explosión de Brownie y Fresa",
+            "description": "Nuestra malteada más completa: trozos de brownie sumergidos en jarabe de fresa, batido premium, una bola de helado adicional y tope de crema chantilly. ¡Grande, densa e irresistible!",
+            "price": "Precio 8.00",
+            "delivery":"False"
+        },
     ]
 
     return ft.Column(

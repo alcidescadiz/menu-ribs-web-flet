@@ -68,6 +68,12 @@ def burger_page(page,cambiar_pagina):
             "title": "Burger de temporada Febrero 2026",
             "description": "Disfruta de nuestra Jugosa carne de res y cerdo con crema de champiñones con queso azul, tocineta y mozzarella en un pan de parmesano",
             "price": "Precio 12.80"
+        },
+        {
+            "img": "img/burger/trioburger.jpg",
+            "title": "Medium Trio Burger",
+            "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
+            "price": "Precio 15.00"
         }
     ]
 
@@ -96,7 +102,7 @@ def burger_page(page,cambiar_pagina):
             "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
             "price": "Precio 8.60",
             "adicional": True
-        },
+        }
 
     ]
     hoy = datetime.date.today().weekday()
