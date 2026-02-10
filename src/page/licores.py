@@ -46,7 +46,7 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/whisky_12años.jpg",
             "title": "Botella Whisky 12 años",
             "description": "",
-            "price": "Precio 50.00"
+            "price": "Precio 75.00"
         },
         {
             "img": "img/licores/cacique_500.jpg",

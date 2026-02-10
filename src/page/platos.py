@@ -78,12 +78,12 @@ def platos_page(page, cambiar_pagina):
           "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
           "price":"Precio 36.00"
         },
-        {
-            "img": "img/platos/costillas_de_res.jpg",
-            "title": "Short Rib",
-            "description": "Una majestuosa Costilla de Res glaseada con una profunda y oscura Reducción de demi glace con el toque especial de pipilongo (pimienta larga de origen colombiano), servida con un suave Puré de Papas enriquecido con mantequilla y especias.",
-            "price": "Precio 28.00"
-        },
+        # {
+        #     "img": "img/platos/costillas_de_res.jpg",
+        #     "title": "Short Rib",
+        #     "description": "Una majestuosa Costilla de Res glaseada con una profunda y oscura Reducción de demi glace con el toque especial de pipilongo (pimienta larga de origen colombiano), servida con un suave Puré de Papas enriquecido con mantequilla y especias.",
+        #     "price": "Precio 28.00"
+        # },
         {
             "img": "img/platos/deluxe_de_pollo.jpg",
             "title": "Deluxe de Pollo",
