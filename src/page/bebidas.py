@@ -108,13 +108,13 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 2.70",
             "delivery":"False"
         },
-        {
-            "img": "img/bebidas/vaso_refresco.jpg",
-            "title": "Vaso de Refresco 16oz (Recargable)",
-            "description": "",
-            "price": "Precio 2.30",
-            "delivery":"False"
-        }
+        # {
+        #     "img": "img/bebidas/vaso_refresco.jpg",
+        #     "title": "Vaso de Refresco 16oz (Recargable)",
+        #     "description": "",
+        #     "price": "Precio 2.30",
+        #     "delivery":"False"
+        # }
     ]
     
     bebidas_solo_por_delivery = [
