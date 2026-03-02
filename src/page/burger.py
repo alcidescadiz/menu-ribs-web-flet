@@ -14,12 +14,6 @@ def burger_page(page,cambiar_pagina):
             "price": "Precio 12.00"
         },
         {
-            "img": "img/burger/burger_minis.jpg",
-            "title": "Tobo Minimini",
-            "description": "Diviertete y disfruta con tres mini burger de pollo y tres mini burger de carne, todas con queso cheddar y salsa especial de la casa, acompañado con una guarnición de queso cheddar liquido",
-            "price": "Precio 7.80"
-        },
-        {
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
@@ -49,7 +43,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_ribs.jpg",
             "title": "Rib's Burger",
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 12.50"
+            "price": "Precio 13.00"
         },
         {
             "img": "img/burger/burger_hillary.jpg",
@@ -74,6 +68,12 @@ def burger_page(page,cambiar_pagina):
             "title": "Medium Trio Burger",
             "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
             "price": "Precio 15.00"
+        },
+        {
+            "img": "img/burger/burger_italy.jpg",
+            "title": "Burger Italy",
+            "description": "Una oda a los sabores clásicos de Italia en formato burger. Disfruta de una jugosa carne de res a la parrilla escoltada por la cremosidad del queso mozzarella fundido y el toque vibrante de nuestra salsa pesto artesanal.",
+            "price": "Precio 10.00"
         }
     ]
 
@@ -82,7 +82,7 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_ribs_chicken.jpg",
             "title": "Burger Ribs & Chicken Supreme",
             "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 12.50"
+            "price": "Precio 13.00"
         },
         {
             "img": "img/burger/smokedprime.jpg",

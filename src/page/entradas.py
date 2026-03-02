@@ -36,12 +36,12 @@ def entradas_page(page, cambiar_pagina):
             "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
             "price": "Precio 6.70"
         },
-        {
-            "img": "img/entradas/three_pack.jpg",
-            "title": "Three pack",
-            "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
-            "price": "Precio 14.00"
-        },
+        # {
+        #     "img": "img/entradas/three_pack.jpg",
+        #     "title": "Three pack",
+        #     "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
+        #     "price": "Precio 14.00"
+        # },
         {
             "img": "img/entradas/4x4_tex_mex.jpg",
             "title": "4x4 Tex Mex",
@@ -70,12 +70,12 @@ def entradas_page(page, cambiar_pagina):
             """,
             "price": "Precio 10.30"
         },
-        {
-            "img": "img/entradas/ensalada_ribs.jpg",
-            "title": "Ensalada Cesar Ribs",
-            "description": "Una versión rebelde y sabrosa de la clásica César: crujientes cubos de pork belly y chicharrón botanero coronan una cama de lechuga fresca bañada en aderezo César casero, con un toque generoso de queso pecorino rallado. Una ensalada que no se anda con rodeos, es fresca, intensa y absolutamente irresistible.",
-            "price": "Precio 14.20"
-        },
+        # {
+        #     "img": "img/entradas/ensalada_ribs.jpg",
+        #     "title": "Ensalada Cesar Ribs",
+        #     "description": "Una versión rebelde y sabrosa de la clásica César: crujientes cubos de pork belly y chicharrón botanero coronan una cama de lechuga fresca bañada en aderezo César casero, con un toque generoso de queso pecorino rallado. Una ensalada que no se anda con rodeos, es fresca, intensa y absolutamente irresistible.",
+        #     "price": "Precio 14.20"
+        # },
         {
             "img": "img/entradas/bunuelos.jpg",
             "title": "Buñuelos",

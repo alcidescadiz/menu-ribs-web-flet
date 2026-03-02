@@ -137,7 +137,7 @@ def main(page: ft.Page):
     dialog =ft.AlertDialog(
         bgcolor=ft.Colors.BLACK,
         title=ft.Text("Ribs Burger"),
-        content=ft.Text("Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo."),
+        content=ft.Text("Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo y de cumpleaños"),
         open=True,
     )
     page.add(dialog)

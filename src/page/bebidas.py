@@ -59,7 +59,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/refresco_lata.jpg",
             "title": "Refresco Lata",
             "description": "",
-            "price": "Precio 3.80"
+            "price": "Precio 3.20"
         },
         # soda
         {
