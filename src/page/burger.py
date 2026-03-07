@@ -72,7 +72,7 @@ def burger_page(page,cambiar_pagina):
         {
             "img": "img/burger/burger_italy.jpg",
             "title": "Burger Italy",
-            "description": "Una oda a los sabores clásicos de Italia en formato burger. Disfruta de una jugosa carne de res a la parrilla escoltada por la cremosidad del queso mozzarella fundido y el toque vibrante de nuestra salsa pesto artesanal.",
+            "description": "Disfruta de una jugosa carne de res a la parrilla, acompañada de queso mozzarella fundido, galleta de parmesano, tomate confitado, rucula y nuestra vibrante salsa pesto.",
             "price": "Precio 10.00"
         }
     ]
