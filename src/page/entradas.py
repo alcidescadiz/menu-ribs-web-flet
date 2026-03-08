@@ -24,30 +24,31 @@ def entradas_page(page, cambiar_pagina):
             "description": "Deliciosas papas fritas, cubiertas con una generosa porción de queso derretido y un toque de polvo de tocineta para realzar su sabor.",
             "price": "Precio 10.00"
         },
+        # falda{
+        #     "img": "img/entradas/nachos.jpg",
+        #     "title": "Nachos Falderos",
+        #     "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
+        #     "price": "Precio 11.70"
+        # },
         {
-            "img": "img/entradas/nachos.jpg",
-            "title": "Nachos Falderos",
-            "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
-            "price": "Precio 11.70"
+            "img": "img/entradas/chiliconcarne.jpg",
+            "title": "Nachos con Chili y Guacamole",
+            "description": "Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación de  mix de carne & caraota roja, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa guacamole.",
+            "price": "Precio 12.20"
         },
+
         {
             "img": "img/entradas/tequeños.jpg",
             "title": "Tequeños",
             "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
             "price": "Precio 6.70"
         },
-        # {
-        #     "img": "img/entradas/three_pack.jpg",
-        #     "title": "Three pack",
-        #     "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
-        #     "price": "Precio 14.00"
+        # falda {
+        #     "img": "img/entradas/4x4_tex_mex.jpg",
+        #     "title": "4x4 Tex Mex",
+        #     "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
+        #     "price": "Precio 24.50"
         # },
-        {
-            "img": "img/entradas/4x4_tex_mex.jpg",
-            "title": "4x4 Tex Mex",
-            "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 24.50"
-        },
         {
             "img": "img/entradas/aros_de_cebolla.jpg",
             "title": "Aros de Cebolla",
