@@ -39,41 +39,48 @@ def burger_page(page,cambiar_pagina):
             "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado.",
             "price": "Precio 10.00"
         },
-        # falda {
-        #     "img": "img/burger/burger_ribs.jpg",
-        #     "title": "Rib's Burger",
-        #     "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-        #     "price": "Precio 13.00"
-        # },
+        {
+            "img": "img/burger/burger_ribs.jpg",
+            "title": "Rib's Burger",
+            "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo, mozzarella y guayanés, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
+            "price": "Precio 13.00"
+        },
         {
             "img": "img/burger/burger_hillary.jpg",
             "title": "Burger Hillary",
             "description": "Filete de pollo, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
             "price": "Precio 11.00"
         },
-        # falda{
-        #     "img": "img/burger/smoked_burger.jpg",
-        #     "title": "Smoked Burger",
-        #     "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
-        #     "price": "Precio 11.40"
-        # },
+        {
+            "img": "img/burger/smoked_burger.jpg",
+            "title": "Smoked Burger",
+            "description": "Carne de res y cerdo ahumada rellena con queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche.",
+            "price": "Precio 11.40"
+        },
         {
             "img": "img/burger/febrero2026.jpg",
             "title": "Burger de temporada Febrero 2026",
             "description": "Disfruta de nuestra Jugosa carne de res y cerdo con crema de champiñones con queso azul, tocineta y mozzarella en un pan de parmesano",
             "price": "Precio 12.80"
         },
-        # falda{
-        #     "img": "img/burger/trioburger.jpg",
-        #     "title": "Medium Trio Burger",
-        #     "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
-        #     "price": "Precio 15.00"
-        # },
+        {
+            "img": "img/burger/trioburger.jpg",
+            "title": "Medium Trio Burger",
+            "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
+            "price": "Precio 15.00"
+        },
         {
             "img": "img/burger/burger_italy.jpg",
             "title": "Burger Italy",
             "description": "Disfruta de una jugosa carne de res a la parrilla, acompañada de queso mozzarella fundido, galleta de parmesano, tomate confitado, rucula y nuestra vibrante salsa pesto.",
             "price": "Precio 10.00"
+        },
+        {
+            "img": "img/burger/burger_de_costilla.jpg",
+            "title": "Burger Costilla BBQ",
+            "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
+            "price": "Precio 8.60",
+            "adicional": True
         }
     ]
 
@@ -95,15 +102,7 @@ def burger_page(page,cambiar_pagina):
             "title": "Burger Emmy Chicken",
             "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lecguga fresca y pepinillos, servido en un pan de berenjena. ",
             "price": "Precio 11.50"
-        },
-        # falda {
-        #     "img": "img/burger/burger_de_costilla.jpg",
-        #     "title": "Burger Costilla BBQ",
-        #     "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
-        #     "price": "Precio 8.60",
-        #     "adicional": True
-        # }
-
+        }
     ]
     hoy = datetime.date.today().weekday()
 
