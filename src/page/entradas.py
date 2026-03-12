@@ -47,7 +47,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/aros_de_cebolla.jpg",
             "title": "Aros de Cebolla",
             "description": "",
-            "price": "Precio 2.50"
+            "price": "Precio 3.80"
         },
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
