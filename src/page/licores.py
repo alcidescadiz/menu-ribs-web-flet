@@ -22,7 +22,7 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/cerveza_caroreña.jpg",
             "title": "Caroreña",
             "description": "",
-            "price": "Precio 2.60"
+            "price": "Precio 3.00"
         },
         {
             "img": "img/licores/cerveza_corona.jpg",
@@ -52,19 +52,19 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/cacique_500.jpg",
             "title": "Botella Cacique 500",
             "description": "",
-            "price": "Precio 30.00"
+            "price": "Precio 35.00"
         },
         {
             "img": "img/licores/vino_blanco.jpg",
             "title": "Botella de Vino Blanco",
             "description": "",
-            "price": "Precio 18.00"
+            "price": "Precio 20.00"
         },
         {
             "img": "img/licores/vino_tinto.jpg",
             "title": "Botella de Vino Tinto",
             "description": "",
-            "price": "Precio 18.00"
+            "price": "Precio 20.00"
         },
         {
             "img": "img/licores/trago_ron.jpg",
