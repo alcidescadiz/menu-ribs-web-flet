@@ -10,7 +10,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/dedos_de_mozzarella.jpg",
             "title": "Dedos de Mozarella",
             "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
-            "price": "Precio 9.40"
+            "price": "Precio 9.50"
         },
         {
             "img": "img/entradas/papas_cheese_bacon.jpg",
@@ -22,7 +22,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/nachos.jpg",
             "title": "Nachos Falderos",
             "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
-            "price": "Precio 12.20"
+            "price": "Precio 13.00"
         },
         {
             "img": "img/entradas/chiliconcarne.jpg",

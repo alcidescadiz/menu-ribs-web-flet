@@ -18,13 +18,13 @@ def extras_page(page, cambiar_pagina):
             "img": "img/extras/papas_fritas.jpg",
             "title": "Papas Fritas",
             "description": "",
-            "price": "Precio 2.80"
+            "price": "Precio 3.00"
         },
         {
             "img": "img/extras/extra_morcilla_chorizo.jpg",
             "title": "Ración de Embutidos",
             "description":"""
-                Precio US$ 6.00 Extra de Chorizo
+                Precio US$ 7.00 Extra de Chorizo
                 Precio US$ 4.30 Extra de Morcilla
             """,
             "price": "Precio 5.10"
