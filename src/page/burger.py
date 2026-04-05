@@ -100,7 +100,7 @@ def burger_page(page,cambiar_pagina):
         {
             "img": "img/burger/burger_emmy.jpg",
             "title": "Burger Emmy Chicken",
-            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lechuga fresca y pepinillos, servido en un pan de berenjena. ",
+            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lechuga fresca y pepinillos, acompañada de nuestras crujientes papas fritas. ",
             "price": "Precio 11.50"
         }
     ]

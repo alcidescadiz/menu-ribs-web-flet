@@ -24,10 +24,10 @@ def extras_page(page, cambiar_pagina):
             "img": "img/extras/extra_morcilla_chorizo.jpg",
             "title": "Ración de Embutidos",
             "description":"""
-                Precio US$ 7.00 Extra de Chorizo
+                Precio US$ 5.70 Extra de Chorizo
                 Precio US$ 4.30 Extra de Morcilla
             """,
-            "price": "Precio 5.10"
+            "price": "Precio 5.70"
         },
         {
             "img": "img/extras/papas_rusticas.jpeg",
