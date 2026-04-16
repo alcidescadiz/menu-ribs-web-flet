@@ -41,12 +41,12 @@ def extras_page(page, cambiar_pagina):
             "description": "",
             "price": "Precio 1.66"
         },
-        {
-            "img": "img/extras/extra_bunuelo.jpg",
-            "title": "Extra de Buñuelos",
-            "description": "",
-            "price": "Precio 3.10"
-        }
+        # {
+        #     "img": "img/extras/extra_bunuelo.jpg",
+        #     "title": "Extra de Buñuelos",
+        #     "description": "",
+        #     "price": "Precio 3.10"
+        # }
     ]
     
     #extras =  get_all(extras_inicial,"extras")
