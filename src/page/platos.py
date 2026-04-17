@@ -78,12 +78,12 @@ def platos_page(page, cambiar_pagina):
             "description": "Deliciosos burritos rellenos de mix de carne & caraota roja, bañados con guacamole, pico de gallo, coronado con un toque de queso cheddar.",
             "price": "Precio 10.00"
         },
-        {
-            "img": "img/platos/cheddarcorners.jpg",
-            "title": "Cheddar Corners",
-            "description": "Pidelo sin rodeos ni pensarlo: Nachos con  mix de carne & caraota roja, guacamole, pico de gallo y queso cheddar liquido coronandolos, acompañados de tres tringulos crocantes de queso cheddar rellenos con la combinación perfecta de carne de res y cerdo, y coon nuestra irresistible Salsa Emmy.",
-            "price": "Precio 14.99"
-        },
+        # {
+        #     "img": "img/platos/ribsgoldentable.jpg",
+        #     "title": "The Rib´s Golden Table",
+        #     "description": "",
+        #     "price": "Precio 120.00"
+        # },
     ]
 
 
