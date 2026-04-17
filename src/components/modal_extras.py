@@ -6,7 +6,7 @@ def modal_extras(page, agregar_al_carrito, cambiar_pagina):
         {"title": "Aros de Cebolla", "price": "Precio 2.60"},
         {"title": "Papas Fritas", "price": "Precio 3.00"},
         {"title": "Tocineta", "price": "Precio 1.70"},
-        {"title": "Queso Guayanés", "price": "Precio 1.70"},
+        #{"title": "Queso Guayanés", "price": "Precio 1.70"},
         {"title": "Queso Cheddar", "price": "Precio 1.50"},
         {"title": "Pepinillos", "price": "Precio 1.10"},
         {"title": "Cebolla Caramelizada", "price": "Precio 1.10"},
