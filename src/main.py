@@ -66,12 +66,12 @@ def main(page: ft.Page):
                 ),
                 on_click=lambda e: cambiar_pagina("/burger"),
             ),
-            ft.ListTile(
-                title=ft.Text(
-                    "Menú Kids", font_family="MiFuente", size=24, color=ft.Colors.BLACK
-                ),
-                on_click=lambda e: cambiar_pagina("/kids"),
-            ),
+            # ft.ListTile(
+            #     title=ft.Text(
+            #         "Menú Kids", font_family="MiFuente", size=24, color=ft.Colors.BLACK
+            #     ),
+            #     on_click=lambda e: cambiar_pagina("/kids"),
+            # ),
             ft.ListTile(
                 title=ft.Text(
                     "Bebidas", font_family="MiFuente", size=24, color=ft.Colors.BLACK

@@ -10,7 +10,7 @@ def burger_page(page,cambiar_pagina):
         {
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
-            "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa espcial de la casa, presentada en un delicioso pan de papa y acompañadas de una ración de papas.",
+            "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa especial de la casa, presentada en un delicioso pan de papa y acompañadas de una ración de papas.",
             "price": "Precio 12.00"
         },
         {

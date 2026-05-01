@@ -55,7 +55,7 @@ def entradas_page(page, cambiar_pagina):
             "description":"""
             Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano y extra de tocineta, todo bañado en un aderezo César cremoso. 
             """,
-            "price": "Precio 7.40"
+            "price": "Precio 8.00"
         },
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
@@ -63,7 +63,7 @@ def entradas_page(page, cambiar_pagina):
             "description":"""
             Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano, extra de tocineta con exquisito pollo a la parrilla, todo bañado en un aderezo César cremoso. 
             """,
-            "price": "Precio 10.30"
+            "price": "Precio 11.00"
         },
         # {
         #     "img": "img/entradas/ensalada_ribs.jpg",
