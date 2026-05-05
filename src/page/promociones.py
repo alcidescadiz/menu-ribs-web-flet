@@ -11,7 +11,7 @@ def promociones_page(page, cambiar_pagina):
             "img": "img/promos/elcuadredoble.jpeg",
             "title": "El cuadre doble",
             "description": "",
-            "price": "Precio 34.56"
+            "price": "Precio 32.48"
         },
         {
             "img": "img/promos/thegoldentable.jpeg",
