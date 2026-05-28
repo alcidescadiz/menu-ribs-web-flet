@@ -63,12 +63,12 @@ def postres_page(page, cambiar_pagina):
             "price": "Precio 5.20",
             "delivery":"False"
         },
-        {
-            "img": "img/postres/quesillo.jpg",
-            "title": "Quesillo",
-            "description": "Suave quesillo bañado en almíbar.",
-            "price": "Precio 4.50"
-        },
+        # {
+        #     "img": "img/postres/quesillo.jpg",
+        #     "title": "Quesillo",
+        #     "description": "Suave quesillo bañado en almíbar.",
+        #     "price": "Precio 4.50"
+        # },
         {
             "img": "img/postres/pie.jpg",
             "title": "Pie de Limón / Parchita",
@@ -108,13 +108,13 @@ def postres_page(page, cambiar_pagina):
             "price": "Precio 1.50",
             "delivery":"False"
         },
-        {
-            "img": "img/postres/bocata.jpg",
-            "title": "Bocata Ribs",
-            "description": "",
-            "price": "Precio 6.70",
-            "delivery":"False"
-        },
+        # {
+        #     "img": "img/postres/bocata.jpg",
+        #     "title": "Bocata Ribs",
+        #     "description": "",
+        #     "price": "Precio 6.70",
+        #     "delivery":"False"
+        # },
         {
             "img": "img/postres/malteadaberry.jpg",
             "title": "Explosión de Brownie y Fresa",

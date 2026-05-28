@@ -42,12 +42,12 @@ def platos_page(page, cambiar_pagina):
             "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento tomate asado relleno de una mezcla de papas.",
             "price": "Precio 14.20"
         },
-        {
-            "img": "./img/platos/tabla_fiestera.jpg",
-            "title": "Tabla Fiestera",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
-            "price": "Precio 56.90"
-        },
+        # {
+        #     "img": "./img/platos/tabla_fiestera.jpg",
+        #     "title": "Tabla Fiestera",
+        #     "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
+        #     "price": "Precio 56.90"
+        # },
         {
           "img":"./img/platos/parrilla_ribs.jpg",
           "title":"Parrilla Ribs",
@@ -60,17 +60,23 @@ def platos_page(page, cambiar_pagina):
           "description":"Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
           "price":"Precio 18.00"
         },
+        # {
+        #   "img":"./img/platos/parrilla_belly.jpg",
+        #   "title":"Parrilla Belly",
+        #   "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
+        #   "price":"Precio 36.50"
+        # },
+        # {
+        #     "img": "img/platos/deluxe_de_pollo.jpg",
+        #     "title": "Deluxe de Pollo",
+        #     "description": "Disfruta  de nuestras irresistibles Alitas BBQ y nuestra deliciosa canasta de pollo crujiente, acompañadas de una ración de papas fritas",
+        #     "price": "Precio 11.70"
+        # },
         {
-          "img":"./img/platos/parrilla_belly.jpg",
-          "title":"Parrilla Belly",
-          "description":"Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-          "price":"Precio 36.50"
-        },
-        {
-            "img": "img/platos/deluxe_de_pollo.jpg",
-            "title": "Deluxe de Pollo",
-            "description": "Disfruta  de nuestras irresistibles Alitas BBQ y nuestra deliciosa canasta de pollo crujiente, acompañadas de una ración de papas fritas",
-            "price": "Precio 11.70"
+            "img": "img/promos/thegoldentable.jpeg",
+            "title": "Ribs Golden Table",
+            "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajiras, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
+            "price": "Precio 120.00"
         },
         # {
         #     "img": "img/platos/trikillos.jpg",

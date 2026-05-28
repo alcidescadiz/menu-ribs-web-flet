@@ -6,18 +6,16 @@ def bebidas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     bebidas = [
-
+        # 🍑 Jugo de Durazno Jugo de Tamarindo 🍋 Jugo de Limón
         {
             "img": "img/bebidas/jugos.png",
             "title": "Jugos",
             "description": """
             🍓 Jugo de Fresa
-            🍋 Jugo de Limón
             🍈 Jugo de Parchita
             🍍 Jugo de Piña
-            🍑 Jugo de Durazno
             Jugo de Guanabana
-            Jugo de Tamarindo
+            
             """,
             "price": "Precio 3.70",
             "delivery":"False"
