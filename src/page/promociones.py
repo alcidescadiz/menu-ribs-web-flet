@@ -8,12 +8,6 @@ def promociones_page(page, cambiar_pagina):
 
     promociones = [
         {
-            "img": "img/promos/elcuadredoble.jpeg",
-            "title": "El cuadre doble",
-            "description": "",
-            "price": "Precio 32.48"
-        },
-        {
             "img": "img/promos/thegoldentable.jpeg",
             "title": "Ribs Golden Table",
             "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajiras, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",

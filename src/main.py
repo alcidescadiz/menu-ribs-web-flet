@@ -139,22 +139,21 @@ def main(page: ft.Page):
         title=ft.Text("🍔 Ribs Burger"),
         content=ft.Container(
             content= ft.Column(
-                height=450,
+                height=300,
                 controls=[
-                    ft.Image(
-                            src='img/promos/burger_tributo.jpeg', fit=ft.ImageFit.COVER, width=350
-                        ),
+                    #ft.Image(src='img/promos/burger_tributo.jpeg', fit=ft.ImageFit.COVER, width=350),
                     ft.Text(
-                            'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
+                            "Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo y de cumpleaños",
+                            #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
                             size=24,
                             font_family="MiFuente",
                             color="white",
-                            text_align=ft.TextAlign.CENTER,
+                            #text_align=ft.TextAlign.CENTER,
                         ),
                 ]
             )      
         ) ,
-        #ft.Text("Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo y de cumpleaños"),
+        
         open=True,
     )
     page.add(dialog)

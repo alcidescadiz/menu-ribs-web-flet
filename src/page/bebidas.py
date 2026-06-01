@@ -17,14 +17,14 @@ def bebidas_page(page, cambiar_pagina):
             Jugo de Guanabana
             
             """,
-            "price": "Precio 3.70",
+            "price": "Precio 3.80",
             "delivery":"False"
         },
         {
             "img": "img/bebidas/berry_bliss.jpg",
             "title": "Berry Bliss",
             "description": "Una bebida vibrante y colorida, perfecta para cualquier ocasión. Rica en vitamina C y antioxidantes, lo que la convierte en una opción saludable. Servido bien frío.",
-            "price": "Precio 3.70",
+            "price": "Precio 3.80",
             "delivery":"False"
         },
         {
@@ -96,7 +96,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/te_jamaica.jpg",
             "title": "Té frío de Jamaica",
             "description": "",
-            "price": "Precio 2.70",
+            "price": "Precio 2.80",
             "delivery":"False"
         },
         {

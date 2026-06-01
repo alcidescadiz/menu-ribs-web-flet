@@ -24,12 +24,12 @@ def entradas_page(page, cambiar_pagina):
             "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
             "price": "Precio 13.00"
         },
-        # {
-        #     "img": "img/entradas/chiliconcarne.jpg",
-        #     "title": "Nachos con Chili y Guacamole",
-        #     "description": "Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación de  mix de carne & caraota roja, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa guacamole.",
-        #     "price": "Precio 12.20"
-        # },
+        {
+            "img": "img/entradas/chiliconcarne.jpg",
+            "title": "Nachos con Chili y Guacamole",
+            "description": "Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación de  mix de carne & caraota roja, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa guacamole.",
+            "price": "Precio 12.20"
+        },
 
         {
             "img": "img/entradas/tequeños.jpg",

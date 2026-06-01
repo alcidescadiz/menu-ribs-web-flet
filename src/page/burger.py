@@ -11,13 +11,13 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa especial de la casa, presentada en un delicioso pan de papa y acompañadas de una ración de papas.",
-            "price": "Precio 12.10"
+            "price": "Precio 12.20"
         },
         {
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 5.70",
+            "price": "Precio 5.80",
             "adicional": True
         },
         {
@@ -50,31 +50,19 @@ def burger_page(page,cambiar_pagina):
             "img": "img/burger/burger_hillary.jpg",
             "title": "Burger Hillary",
             "description": "Filete de pollo empanizado, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
-            "price": "Precio 11.10"
+            "price": "Precio 11.20"
         },
-        # {
-        #     "img": "img/burger/smoked_burger.jpg",
-        #     "title": "Smoked Burger",
-        #     "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche, acompañadas de una ración de papas.",
-        #     "price": "Precio 11.50"
-        # },
-        # {
-        #     "img": "img/burger/febrero2026.jpg",
-        #     "title": "Burger de temporada Febrero 2026",
-        #     "description": "Blend ahumado (Carne de res y cerdo), crema de champiñones con queso azul, tocineta y mozzarella en un pan de parmesano.",
-        #     "price": "Precio 12.90"
-        # },
-        # {
-        #     "img": "img/burger/trioburger.jpg",
-        #     "title": "Medium Trio Burger",
-        #     "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
-        #     "price": "Precio 15.10"
-        # },
         {
-            "img": "img/burger/burger_italy.jpg",
-            "title": "Burger Italy",
-            "description": "Disfruta de una jugosa carne de res a la parrilla, acompañada de queso mozzarella fundido, galleta de parmesano, tomate confitado, rucula y nuestra vibrante salsa pesto.",
-            "price": "Precio 10.10"
+            "img": "img/burger/smoked_burger.jpg",
+            "title": "Smoked Burger",
+            "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche, acompañadas de una ración de papas.",
+            "price": "Precio 11.50"
+        },
+        {
+            "img": "img/burger/trioburger.jpg",
+            "title": "Medium Trio Burger",
+            "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
+            "price": "Precio 15.10"
         },
         {
             "img": "img/burger/burger_de_costilla.jpg",
@@ -89,17 +77,11 @@ def burger_page(page,cambiar_pagina):
             "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
             "price": "Precio 13.10"
         },
-        # {
-        #     "img": "img/burger/smokedprime.jpg",
-        #     "title": "Smoked Prime",
-        #     "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
-        #     "price": "Precio 12.50"
-        # },
         {
-            "img": "img/burger/burger_emmy.jpg",
-            "title": "Burger Emmy Chicken",
-            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lechuga fresca y pepinillos, acompañada de nuestras crujientes papas fritas. ",
-            "price": "Precio 11.60"
+            "img": "img/burger/smokedprime.jpg",
+            "title": "Smoked Prime",
+            "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
+            "price": "Precio 12.50"
         },
         {
             "img": 'img/promos/burger_tributo.jpeg',
