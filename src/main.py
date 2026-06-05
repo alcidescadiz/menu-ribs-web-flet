@@ -21,8 +21,8 @@ def main(page: ft.Page):
     
       # 🛠 Rutas
     def cambiar_pagina(ruta):
-        if ruta == "/home":
-            page.open(dialog)
+        #if ruta == "/home":
+            #page.open(dialog)
         page.route = ruta
         modulo = ruta.replace("/", "")
         vista = importlib.import_module(f"page.{modulo}")
@@ -134,30 +134,30 @@ def main(page: ft.Page):
     page.scroll = ft.ScrollMode.AUTO
 
     # un dialog modal con un mensaje de bienvenida
-    dialog =ft.AlertDialog(
-        bgcolor=ft.Colors.BLACK,
-        title=ft.Text("🍔 Ribs Burger"),
-        content=ft.Container(
-            content= ft.Column(
-                height=300,
-                controls=[
-                    #ft.Image(src='img/promos/burger_tributo.jpeg', fit=ft.ImageFit.COVER, width=350),
-                    ft.Text(
-                            "Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo y de cumpleaños",
-                            #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
-                            size=24,
-                            font_family="MiFuente",
-                            color="white",
-                            #text_align=ft.TextAlign.CENTER,
-                        ),
-                ]
-            )      
-        ) ,
+    # dialog =ft.AlertDialog(
+    #     bgcolor=ft.Colors.BLACK,
+    #     title=ft.Text("🍔 Ribs Burger"),
+    #     content=ft.Container(
+    #         content= ft.Column(
+    #             height=300,
+    #             controls=[
+    #                 #ft.Image(src='img/promos/burger_tributo.jpeg', fit=ft.ImageFit.COVER, width=350),
+    #                 ft.Text(
+    #                         "Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo y de cumpleaños",
+    #                         #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
+    #                         size=24,
+    #                         font_family="MiFuente",
+    #                         color="white",
+    #                         #text_align=ft.TextAlign.CENTER,
+    #                     ),
+    #             ]
+    #         )      
+    #     ) ,
         
-        open=True,
-    )
-    page.add(dialog)
-    page.open(dialog)
+    #     open=True,
+    # )
+    # page.add(dialog)
+    # page.open(dialog)
 
     page.add(
         # barra_superior,

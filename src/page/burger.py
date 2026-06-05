@@ -36,8 +36,8 @@ def burger_page(page,cambiar_pagina):
         {
             "img": "img/burger/tnt_burger.jpg",
             "title": "Tnt Burger",
-            "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado.",
-            "price": "Precio 10.10"
+            "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado, acompañada de papas fritas crujientes.",
+            "price": "Precio 13.00"
         },
         {
             "img": "img/burger/burger_ribs.jpg",
@@ -52,18 +52,18 @@ def burger_page(page,cambiar_pagina):
             "description": "Filete de pollo empanizado, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
             "price": "Precio 11.20"
         },
-        # {
-        #     "img": "img/burger/smoked_burger.jpg",
-        #     "title": "Smoked Burger",
-        #     "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de ceniza de berenjena o brioche, acompañadas de una ración de papas.",
-        #     "price": "Precio 11.50"
-        # },
-        # {
-        #     "img": "img/burger/trioburger.jpg",
-        #     "title": "Medium Trio Burger",
-        #     "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
-        #     "price": "Precio 15.10"
-        # },
+        {
+            "img": "img/burger/smoked_burger.jpg",
+            "title": "Smoked Burger",
+            "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de papa, acompañadas de una ración de papas.",
+            "price": "Precio 11.50"
+        },
+        {
+            "img": "img/burger/trioburger.jpg",
+            "title": "Medium Trio Burger",
+            "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
+            "price": "Precio 15.10"
+        },
         {
             "img": "img/burger/burger_de_costilla.jpg",
             "title": "Burger Costilla BBQ",
