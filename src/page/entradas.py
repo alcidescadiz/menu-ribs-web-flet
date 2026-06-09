@@ -1,62 +1,38 @@
 import flet as ft
 from components.galeria import galeria
 from components.boton import boton_circular
+import datetime
+
 
 def entradas_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     entradas = [
         {
-            "img": "img/entradas/dedos_de_mozzarella.jpg",
-            "title": "Dedos de Mozarella",
-            "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
-            "price": "Precio 9.50"
-        },
-        {
             "img": "img/entradas/papas_cheese_bacon.jpg",
             "title": "Papas Cheese and Bacon",
             "description": "Deliciosas papas fritas, cubiertas con una generosa porción de queso derretido y un toque de polvo de tocineta para realzar su sabor.",
-            "price": "Precio 10.00"
-        },
-        {
-            "img": "img/entradas/nachos.jpg",
-            "title": "Nachos Falderos",
-            "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
-            "price": "Precio 13.00"
-        },
-        {
-            "img": "img/entradas/tequeños.jpg",
-            "title": "Tequeños",
-            "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
-            "price": "Precio 6.70"
+            "price": "Precio 10.00",
         },
         {
             "img": "img/entradas/4x4_tex_mex.jpg",
             "title": "4x4 Tex Mex",
             "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 24.50"
+            "price": "Precio 24.50",
         },
         {
             "img": "img/entradas/aros_de_cebolla.jpg",
             "title": "Aros de Cebolla",
             "description": "",
-            "price": "Precio 3.80"
+            "price": "Precio 3.80",
         },
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
             "title": "Ensalada César Clásica",
-            "description":"""
+            "description": """
             Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano y extra de tocineta, todo bañado en un aderezo César cremoso. 
             """,
-            "price": "Precio 8.00"
-        },
-        {
-            "img": "img/entradas/ensalada_cesar_con_carne.jpg",
-            "title": "Ensalada César con Pollo",
-            "description":"""
-            Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano, extra de tocineta con exquisito pollo a la parrilla, todo bañado en un aderezo César cremoso. 
-            """,
-            "price": "Precio 11.00"
+            "price": "Precio 8.00",
         },
         # {
         #     "img": "img/entradas/ensalada_ribs.jpg",
@@ -65,9 +41,43 @@ def entradas_page(page, cambiar_pagina):
         #     "price": "Precio 14.20"
         # }
     ]
-    #entradas =  get_all(entradas_inicial,"entradas")
+    hoy = datetime.date.today().strftime("%Y/%m/%d")
+
+    MENU_REDUCIDO = [
+        {
+            "img": "img/entradas/dedos_de_mozzarella.jpg",
+            "title": "Dedos de Mozarella",
+            "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
+            "price": "Precio 9.50",
+        },
+        {
+            "img": "img/entradas/ensalada_cesar_con_carne.jpg",
+            "title": "Ensalada César con Pollo",
+            "description": """
+                        Una fresca mezcla de lechuga romana, crutones dorados, queso parmesano, extra de tocineta con exquisito pollo a la parrilla, todo bañado en un aderezo César cremoso. 
+                        """,
+            "price": "Precio 11.00",
+        },
+        {
+            "img": "img/entradas/nachos.jpg",
+            "title": "Nachos Falderos",
+            "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
+            "price": "Precio 13.00",
+        },
+        {
+            "img": "img/entradas/tequeños.jpg",
+            "title": "Tequeños",
+            "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
+            "price": "Precio 6.70",
+        },
+    ]
+    if hoy == "2026/06/09":
+        # platos + MENU_REDUCIDO
+        entradas = MENU_REDUCIDO
+
+    # entradas =  get_all(entradas_inicial,"entradas")
     return ft.Column(
         controls=[
-            galeria(page,"Entradas",entradas,cambiar_pagina),
+            galeria(page, "Entradas", entradas, cambiar_pagina),
         ]
     )
