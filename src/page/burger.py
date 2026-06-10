@@ -95,7 +95,7 @@ def burger_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
 
-    if hoy == "2026/06/09":
+    if hoy == "2026/06/09" or hoy == "2026/06/10" or hoy == "2026/06/11" or hoy == "2026/06/12":
         # burger + MENU_REDUCIDO
         burger = MENU_REDUCIDO
     else:
