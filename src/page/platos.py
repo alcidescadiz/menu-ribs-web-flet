@@ -91,7 +91,7 @@ def platos_page(page, cambiar_pagina):
         # platos + MENU_REDUCIDO
         platos = MENU_REDUCIDO
     else:
-        platos = burger + MENU_REDUCIDO
+        platos = platos + MENU_REDUCIDO
 
     return ft.Column(
         controls=[
