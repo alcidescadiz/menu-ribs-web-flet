@@ -98,5 +98,7 @@ def burger_page(page, cambiar_pagina):
     if hoy == "2026/06/09":
         # burger + MENU_REDUCIDO
         burger = MENU_REDUCIDO
+    else:
+        burger = burger + MENU_REDUCIDO
 
     return ft.Column(controls=[galeria(page, "Burger", burger, cambiar_pagina)])
