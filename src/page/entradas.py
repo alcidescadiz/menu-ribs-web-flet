@@ -71,9 +71,12 @@ def entradas_page(page, cambiar_pagina):
             "price": "Precio 6.70",
         },
     ]
-    if hoy == "2026/06/09":
+    
+    if hoy == "2026/06/09" or hoy == "2026/06/10" or hoy == "2026/06/11" or hoy == "2026/06/12":
         # platos + MENU_REDUCIDO
         entradas = MENU_REDUCIDO
+    else:
+        entradas = entradas + MENU_REDUCIDO
 
     # entradas =  get_all(entradas_inicial,"entradas")
     return ft.Column(
