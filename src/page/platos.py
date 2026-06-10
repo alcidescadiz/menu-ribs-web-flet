@@ -87,9 +87,11 @@ def platos_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
     
-    if hoy == "2026/06/09":
+    if hoy == "2026/06/09" or hoy == "2026/06/10" or hoy == "2026/06/11" or hoy == "2026/06/12":
         # platos + MENU_REDUCIDO
         platos = MENU_REDUCIDO
+    else:
+        platos = burger + MENU_REDUCIDO
 
     return ft.Column(
         controls=[
