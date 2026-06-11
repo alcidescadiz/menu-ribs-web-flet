@@ -13,12 +13,33 @@ def promociones_page(page, cambiar_pagina):
             "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajiras, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
             "price": "Precio 120.00"
         },
-        # {
-        #     "img": "img/promos/promo-pollo_deluxe.jpeg",
-        #     "title": "Deluxe de Pollo",
-        #     "description": "De lunes a Miercoles: Disfruta  de nuestras irresistibles Alitas BBQ y nuestra deliciosa canasta de pollo crujiente, acompañadas de una ración de papas fritas y de bebida un vaso de Nestea.",
-        #     "price": "Precio 10.44"
-        # },
+        {
+             "img": "img/promos/mundial.jpg",
+             "title": "COMBO GOLAZO",
+             "description": """"
+                •	UNA BURGER DOBLE SMASH + 180 GR DE PAPAS
+                •	UNA BURGER HILARY + 180 GR PAPAS
+                •	UNA (1) ALITAS BBQ (300 GR)
+                •	DOS REFRESCO DE LATA
+             "",
+             "price": "Precio 33.70"
+        },
+        {
+             "img": "img/promos/mundial.jpg",
+             "title": "COMBO MUNDIALISTA",
+             "description": """"
+                •	UNA (1) RACION DE PAPAS FALDERAS 
+                    o	360 GR PAPAS CONGELADAS
+                    o	80 GRS DE QUESO CHEDDAR LIQUIDO 
+                    o	140 GR DE FALDA DE COSTILLA
+                    o	RACION DE 40 GR DE PICO DE GALLO
+                •	CUATRO (4) BURGER DOBLE SMASH + 180 GR DE PAPAS FRITAS
+                •	DOS (2) RAIONES DE ALITAS BBQ (600 GR)
+                •	DOS RACIONES DE SALSA MIEL MOSTAZA  40 GR
+                •	CUATRO (4) LATA DE REFRESCO
+             "",
+             "price": "Precio 72.00"
+        },
         # {
         #     "img": "img/promos/promo_trikillos.jpeg",
         #     "title": "Trikillos Tex Mex",
