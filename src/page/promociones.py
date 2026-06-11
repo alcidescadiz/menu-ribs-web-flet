@@ -15,28 +15,24 @@ def promociones_page(page, cambiar_pagina):
         },
         {
              "img": "img/promos/mundial.jpg",
-             "title": "COMBO GOLAZO",
+             "title": "Combo Golazo",
              "description": """
-                •	UNA BURGER DOBLE SMASH + 180 GR DE PAPAS
-                •	UNA BURGER HILARY + 180 GR PAPAS
-                •	UNA (1) ALITAS BBQ (300 GR)
-                •	DOS REFRESCO DE LATA
+            •	UNA BURGER DOBLE SMASH + 180 GR DE PAPAS
+            •	UNA BURGER HILARY + 180 GR PAPAS
+            •	UNA (1) ALITAS BBQ (300 GR)
+            •	DOS REFRESCO DE LATA
              """,
              "price": "Precio 33.70"
         },
         {
              "img": "img/promos/mundial.jpg",
-             "title": "COMBO MUNDIALISTA",
+             "title": "Combo Mundialista",
              "description": """
-                •	UNA (1) RACION DE PAPAS FALDERAS 
-                    o	360 GR PAPAS CONGELADAS
-                    o	80 GRS DE QUESO CHEDDAR LIQUIDO 
-                    o	140 GR DE FALDA DE COSTILLA
-                    o	RACION DE 40 GR DE PICO DE GALLO
-                •	CUATRO (4) BURGER DOBLE SMASH + 180 GR DE PAPAS FRITAS
-                •	DOS (2) RAIONES DE ALITAS BBQ (600 GR)
-                •	DOS RACIONES DE SALSA MIEL MOSTAZA  40 GR
-                •	CUATRO (4) LATA DE REFRESCO
+            •	UNA (1) RACION DE PAPAS FALDERAS 
+            •	CUATRO (4) BURGER DOBLE SMASH + 180 GR DE PAPAS FRITAS
+            •	DOS (2) RAIONES DE ALITAS BBQ (600 GR)
+            •	DOS RACIONES DE SALSA MIEL MOSTAZA  40 GR
+            •	CUATRO (4) LATA DE REFRESCO
              """,
              "price": "Precio 72.00"
         },
