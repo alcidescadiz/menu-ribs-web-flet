@@ -61,17 +61,17 @@ def promociones_page(page, cambiar_pagina):
 
     ]
 
-    hoy = datetime.date.today().weekday()
+    #hoy = datetime.date.today().weekday()
 
-    if hoy == 3 or hoy == 4 or hoy == 5 or hoy == 6:
-        promociones =[
-            {
-                "img": "img/promos/thegoldentable.jpeg",
-                "title": "Ribs Golden Table",
-                "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
-                "price": "Precio 120.00"
-            },
-        ]
+    #if hoy == 3 or hoy == 4 or hoy == 5 or hoy == 6:
+    #    promociones =[
+    #        {
+    #            "img": "img/promos/thegoldentable.jpeg",
+    #            "title": "Ribs Golden Table",
+    #            "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
+    #            "price": "Precio 120.00"
+    #        },
+    #    ]
 
     return ft.Column(
         controls=[
