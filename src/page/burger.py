@@ -16,11 +16,10 @@ def burger_page(page, cambiar_pagina):
             "adicional": True,
         },
         {
-            "img": "img/burger/burger_de_pollo_crispy.jpg",
-            "title": "Chicken Crispy Burger",
-            "description": "Pollo empanizado en pan de papa con salsa miel mostaza, lechuga, tomate y cebolla.",
-            "price": "Precio 8.60",
-            "adicional": True,
+            "img": "img/burger/burger_ribs_chicken.jpg",
+            "title": "Burger Ribs & Chicken Supreme",
+            "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
+            "price": "Precio 13.10",
         },
         {
             "img": "img/burger/burger_pollo_cesar.jpg",
@@ -57,6 +56,13 @@ def burger_page(page, cambiar_pagina):
 
     MENU_REDUCIDO = [
         {
+            "img": "img/burger/burger_de_pollo_crispy.jpg",
+            "title": "Chicken Crispy Burger",
+            "description": "Pollo empanizado en pan de papa con salsa miel mostaza, lechuga, tomate y cebolla.",
+            "price": "Precio 8.60",
+            "adicional": True,
+        },
+        {
             "img": "img/promos/burger_tributo.jpeg",
             "title": "Burger Tributo",
             "description": "Blend doble al carbón , crema de pecorino y pimienta, tierra de morcilla carupanera , fideos crocantes de tocineta caramelizados en BBQ . Todo eso en pan de chicharrón y Tajín.",
@@ -68,12 +74,7 @@ def burger_page(page, cambiar_pagina):
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
             "price": "Precio 13.10" "",
         },
-        {
-            "img": "img/burger/burger_ribs_chicken.jpg",
-            "title": "Burger Ribs & Chicken Supreme",
-            "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 13.10",
-        },
+        
         {
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
