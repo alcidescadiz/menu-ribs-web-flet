@@ -9,12 +9,6 @@ def platos_page(page, cambiar_pagina):
 
     platos = [
         {
-            "img": "./img/platos/pork_belly.jpg",
-            "title": "Pork Belly",
-            "description": "Disfruta de una exquisita panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. Este plato se complementa con un fresco pico de gallo, un guacamole cremoso y crujientes papas fritas, creando una experiencia culinaria vibrante y llena de sabor.",
-            "price": "Precio 29.70",
-        },
-        {
             "img": "./img/platos/tabla_fiestera.jpg",
             "title": "Tabla Fiestera",
             "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
@@ -39,7 +33,6 @@ def platos_page(page, cambiar_pagina):
             "price": "Precio 11.70",
         },
     ]
-
 
     MENU_REDUCIDO = [
         {
@@ -84,10 +77,16 @@ def platos_page(page, cambiar_pagina):
             "description": "Deléitate con nuestra deliciosa canasta de pollo crujiente. Este plato consiste en jugosas piezas de pollo empanizadas y fritas hasta alcanzar un dorado perfecto, acompañada de papas fritas crujientes y salsa miel mostaza que elevan la experiencia.",
             "price": "Precio 10.70",
         },
+        {
+            "img": "./img/platos/pork_belly.jpg",
+            "title": "Pork Belly",
+            "description": "Disfruta de una exquisita panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. Este plato se complementa con un fresco pico de gallo, un guacamole cremoso y crujientes papas fritas, creando una experiencia culinaria vibrante y llena de sabor.",
+            "price": "Precio 29.70",
+        },
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
-    
-    if hoy == "2026/06/09" or hoy == "2026/06/10" or hoy == "2026/06/11" or hoy == "2026/06/12":
+
+    if hoy <= "2026/07/01":
         # platos + MENU_REDUCIDO
         platos = MENU_REDUCIDO
     else:
