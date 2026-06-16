@@ -34,12 +34,6 @@ def burger_page(page, cambiar_pagina):
             "price": "Precio 11.50",
         },
         {
-            "img": "img/burger/trioburger.jpg",
-            "title": "Medium Trio Burger",
-            "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
-            "price": "Precio 15.10",
-        },
-        {
             "img": "img/burger/burger_de_costilla.jpg",
             "title": "Burger Costilla BBQ",
             "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
@@ -74,7 +68,6 @@ def burger_page(page, cambiar_pagina):
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
             "price": "Precio 13.10" "",
         },
-        
         {
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
@@ -92,6 +85,12 @@ def burger_page(page, cambiar_pagina):
             "title": "Burger Hillary",
             "description": "Filete de pollo empanizado, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
             "price": "Precio 11.20",
+        },
+        {
+            "img": "img/burger/trioburger.jpg",
+            "title": "Medium Trio Burger",
+            "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
+            "price": "Precio 15.10",
         },
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")

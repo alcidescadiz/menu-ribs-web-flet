@@ -15,12 +15,6 @@ def entradas_page(page, cambiar_pagina):
             "price": "Precio 10.00",
         },
         {
-            "img": "img/entradas/4x4_tex_mex.jpg",
-            "title": "4x4 Tex Mex",
-            "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 24.50",
-        },
-        {
             "img": "img/entradas/aros_de_cebolla.jpg",
             "title": "Aros de Cebolla",
             "description": "",
@@ -70,8 +64,14 @@ def entradas_page(page, cambiar_pagina):
             "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
             "price": "Precio 6.70",
         },
+        {
+            "img": "img/entradas/4x4_tex_mex.jpg",
+            "title": "4x4 Tex Mex",
+            "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
+            "price": "Precio 24.50",
+        },
     ]
-    
+
     if hoy <= "2026/07/01":
         # platos + MENU_REDUCIDO
         entradas = MENU_REDUCIDO
