@@ -24,7 +24,7 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/parrilla_belly.jpg",
             "title": "Parrilla Belly",
             "description": "Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
-            "price": "Precio 36.50",
+            "price": "Precio 44.00",
         },
         {
             "img": "img/platos/deluxe_de_pollo.jpg",
@@ -63,13 +63,13 @@ def platos_page(page, cambiar_pagina):
             "img": "./img/platos/solomo_grillado.jpg",
             "title": "Lomito Grillado",
             "description": "Jugosa y tierna pieza de carne de lomito, cocinada a la perfección en el grill, servido con un toque de chimichurri, acompañado con una Ensalada César Clásica y papa gratinada cremosa al horno.",
-            "price": "Precio 18.00",
+            "price": "Precio 20.00",
         },
         {
             "img": "./img/platos/pollo_grillado.jpg",
             "title": "Pollo Grillado",
             "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento tomate asado relleno de una mezcla de papas.",
-            "price": "Precio 14.20",
+            "price": "Precio 15.70",
         },
         {
             "img": "./img/platos/canasta_de_pollo.jpg",

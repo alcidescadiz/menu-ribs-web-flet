@@ -12,7 +12,7 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 5.80",
+            "price": "Precio 6.00",
             "adicional": True,
         },
         {
@@ -60,37 +60,37 @@ def burger_page(page, cambiar_pagina):
             "img": "img/promos/burger_tributo.jpeg",
             "title": "Burger Tributo",
             "description": "Blend doble al carbón , crema de pecorino y pimienta, tierra de morcilla carupanera , fideos crocantes de tocineta caramelizados en BBQ . Todo eso en pan de chicharrón y Tajín.",
-            "price": "Precio 13.00",
+            "price": "Precio 13.90",
         },
         {
             "img": "img/burger/burger_ribs.jpg",
             "title": "Rib's Burger",
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 13.10" "",
+            "price": "Precio 14.87" "",
         },
         {
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa especial de la casa, presentada en un delicioso pan de papa y acompañadas de una ración de papas.",
-            "price": "Precio 12.20",
+            "price": "Precio 12.88",
         },
         {
             "img": "img/burger/tnt_burger.jpg",
             "title": "Tnt Burger",
             "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado, acompañada de papas fritas crujientes.",
-            "price": "Precio 13.00",
+            "price": "Precio 13.33",
         },
         {
             "img": "img/burger/burger_hillary.jpg",
             "title": "Burger Hillary",
             "description": "Filete de pollo empanizado, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
-            "price": "Precio 11.20",
+            "price": "Precio 12.05",
         },
         {
             "img": "img/burger/trioburger.jpg",
             "title": "Medium Trio Burger",
             "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
-            "price": "Precio 15.10",
+            "price": "Precio 14.61",
         },
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")

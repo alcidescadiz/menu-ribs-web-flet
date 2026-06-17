@@ -18,7 +18,7 @@ def extras_page(page, cambiar_pagina):
             "img": "img/extras/papas_fritas.jpg",
             "title": "Papas Fritas",
             "description": "",
-            "price": "Precio 3.00"
+            "price": "Precio 3.30"
         },
         {
             "img": "img/extras/extra_morcilla_chorizo.jpg",

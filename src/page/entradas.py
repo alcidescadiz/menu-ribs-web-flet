@@ -42,7 +42,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/dedos_de_mozzarella.jpg",
             "title": "Dedos de Mozarella",
             "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
-            "price": "Precio 9.50",
+            "price": "Precio 10.00",
         },
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
@@ -56,19 +56,19 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/nachos.jpg",
             "title": "Nachos Falderos",
             "description": "¡Un festín para compartir! Nuestros nachos de maíz, son la base perfecta para una deliciosa combinación con carne de cerdo BBQ, desmenuzada, pico de gallo fresco, queso fundido. Todo ello bañado con una cremosa salsa de aguacate.",
-            "price": "Precio 13.00",
+            "price": "Precio 16.90",
         },
         {
             "img": "img/entradas/tequeños.jpg",
             "title": "Tequeños",
             "description": "Tradicionales tequeños rellenos de queso, envueltos en una masa suave y crujiente. Servidos con una salsa miel mostaza que complementa perfectamente su sabor.",
-            "price": "Precio 6.70",
+            "price": "Precio 7.50",
         },
         {
             "img": "img/entradas/4x4_tex_mex.jpg",
             "title": "4x4 Tex Mex",
             "description": "Deliciosas quesahots acompañadas de dedos de mozzarella, media ración de nachos, tres golden tenders empanizado con doritos.",
-            "price": "Precio 24.50",
+            "price": "Precio 26.00",
         },
     ]
 
