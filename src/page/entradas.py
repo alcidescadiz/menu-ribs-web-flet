@@ -72,7 +72,7 @@ def entradas_page(page, cambiar_pagina):
         },
     ]
 
-    if hoy <= "2026/07/01":
+    if hoy <= "2026/08/01":
         # platos + MENU_REDUCIDO
         entradas = MENU_REDUCIDO
     else:

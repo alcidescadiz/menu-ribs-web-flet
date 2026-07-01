@@ -9,36 +9,16 @@ def burger_page(page, cambiar_pagina):
 
     burger = [
         {
-            "img": "img/burger/burger_de_carne.jpg",
-            "title": "Burger de Carne",
-            "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 6.00",
-            "adicional": True,
-        },
-        {
             "img": "img/burger/burger_ribs_chicken.jpg",
             "title": "Burger Ribs & Chicken Supreme",
             "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
             "price": "Precio 13.10",
         },
         {
-            "img": "img/burger/burger_pollo_cesar.jpg",
-            "title": "Burger Pollo César",
-            "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
-            "price": "Precio 11.70",
-        },
-        {
             "img": "img/burger/smoked_burger.jpg",
             "title": "Smoked Burger",
             "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de papa, acompañadas de una ración de papas.",
             "price": "Precio 11.50",
-        },
-        {
-            "img": "img/burger/burger_de_costilla.jpg",
-            "title": "Burger Costilla BBQ",
-            "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
-            "price": "Precio 8.70",
-            "adicional": True,
         },
         {
             "img": "img/burger/smokedprime.jpg",
@@ -49,6 +29,26 @@ def burger_page(page, cambiar_pagina):
     ]
 
     MENU_REDUCIDO = [
+        {
+            "img": "img/burger/burger_de_carne.jpg",
+            "title": "Burger de Carne",
+            "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
+            "price": "Precio 6.00",
+            "adicional": True,
+        },
+        {
+            "img": "img/burger/burger_de_costilla.jpg",
+            "title": "Burger Costilla BBQ",
+            "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
+            "price": "Precio 8.70",
+            "adicional": True,
+        },
+        {
+            "img": "img/burger/burger_pollo_cesar.jpg",
+            "title": "Burger Pollo César",
+            "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
+            "price": "Precio 11.70",
+        },
         {
             "img": "img/burger/burger_de_pollo_crispy.jpg",
             "title": "Chicken Crispy Burger",
@@ -95,7 +95,7 @@ def burger_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
 
-    if hoy <= "2026/07/01":
+    if hoy <= "2026/08/01":
         # burger + MENU_REDUCIDO
         burger = MENU_REDUCIDO
     else:

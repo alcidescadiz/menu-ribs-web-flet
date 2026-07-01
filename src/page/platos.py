@@ -86,7 +86,7 @@ def platos_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
 
-    if hoy <= "2026/07/01":
+    if hoy <= "2026/08/01":
         # platos + MENU_REDUCIDO
         platos = MENU_REDUCIDO
     else:
