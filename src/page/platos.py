@@ -14,12 +14,7 @@ def platos_page(page, cambiar_pagina):
             "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
             "price": "Precio 56.90",
         },
-        {
-            "img": "./img/platos/fajitas.jpg",
-            "title": "Fajitas ",
-            "description": "Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
-            "price": "Precio 18.00",
-        },
+        
         {
             "img": "./img/platos/parrilla_belly.jpg",
             "title": "Parrilla Belly",
@@ -35,6 +30,12 @@ def platos_page(page, cambiar_pagina):
     ]
 
     MENU_REDUCIDO = [
+        {
+            "img": "./img/platos/fajitas.jpg",
+            "title": "Fajitas ",
+            "description": "Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
+            "price": "Precio 19.00",
+        },
         {
             "img": "./img/platos/alitas_bbq.jpg",
             "title": "Alitas BBQ",
