@@ -42,7 +42,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/dedos_de_mozzarella.jpg",
             "title": "Dedos de Mozarella",
             "description": "Crujientes palitos de queso mozzarella empanizados y fritos hasta alcanzar un dorado perfecto. Servidos con una deliciosa salsa miel mostaza.",
-            "price": "Precio 10.00",
+            "price": "Precio 10.54",
         },
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
