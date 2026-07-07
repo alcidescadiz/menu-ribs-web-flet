@@ -33,7 +33,7 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
-            "price": "Precio 6.00",
+            "price": "Precio 6.70",
             "adicional": True,
         },
         {
