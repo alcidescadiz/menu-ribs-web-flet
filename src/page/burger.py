@@ -30,6 +30,14 @@ def burger_page(page, cambiar_pagina):
 
     MENU_REDUCIDO = [
         {
+            "img": "img/kids/burger_kid.jpg",
+            "title": "🎁 Cajita Kids Ribs",
+            "description": """Incluye: 🍔 Hamburguesa de carne con queso cheddar, 🍟 Papitas, 🧃 Jugo,🍧 Helado Sorpresa y 🎉 Juguete sorpresa
+            """,
+            "price": "Precio 14.00",
+            "adicional": True,
+        },
+        {
             "img": "img/burger/burger_de_carne.jpg",
             "title": "Burger de Carne",
             "description": "Hamburguesa de carne vacuna al grill en pan de papa, con lechuga, cebolla, tomate y salsa especial Kevin.",
