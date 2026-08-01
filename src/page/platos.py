@@ -9,13 +9,6 @@ def platos_page(page, cambiar_pagina):
 
     platos = [
         {
-            "img": "./img/platos/tabla_fiestera.jpg",
-            "title": "Tabla Fiestera",
-            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
-            "price": "Precio 56.90",
-        },
-        
-        {
             "img": "./img/platos/parrilla_belly.jpg",
             "title": "Parrilla Belly",
             "description": "Disfruta de nuestra suculenta Parrilla Ribs acompañada coon una panceta de cerdo ahumada, cocida a la perfección para lograr una textura crujiente por fuera y tierna por dentro. ",
@@ -30,6 +23,12 @@ def platos_page(page, cambiar_pagina):
     ]
 
     MENU_REDUCIDO = [
+        {
+            "img": "./img/platos/tabla_fiestera.jpg",
+            "title": "Tabla Fiestera",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
+            "price": "Precio 76.00",
+        },
         {
             "img": "./img/platos/fajitas.jpg",
             "title": "Fajitas ",
@@ -51,13 +50,13 @@ def platos_page(page, cambiar_pagina):
         {
             "img": "./img/platos/parrilla_ribs.jpg",
             "title": "Parrilla Ribs",
-            "description": "Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de guasacaca, chimichurri. (2 pers)",
-            "price": "Precio 32.00",
+            "description": "Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de pico de gallo, chimichurri, papas rusticas y una guarnición de ensalada cesar. (2 pers)",
+            "price": "Precio 33.00",
         },
         {
-            "img": "img/promos/thegoldentable.jpeg",
+            "img": "img/promos/thegoldentable.jpg",
             "title": "Ribs Golden Table",
-            "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajiras, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
+            "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
             "price": "Precio 120.00",
         },
         {
@@ -87,7 +86,7 @@ def platos_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
 
-    if hoy <= "2026/08/01":
+    if hoy <= "2026/09/01":
         # platos + MENU_REDUCIDO
         platos = MENU_REDUCIDO
     else:

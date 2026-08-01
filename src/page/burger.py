@@ -9,12 +9,6 @@ def burger_page(page, cambiar_pagina):
 
     burger = [
         {
-            "img": "img/burger/burger_ribs_chicken.jpg",
-            "title": "Burger Ribs & Chicken Supreme",
-            "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 13.10",
-        },
-        {
             "img": "img/burger/smoked_burger.jpg",
             "title": "Smoked Burger",
             "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de papa, acompañadas de una ración de papas.",
@@ -30,11 +24,17 @@ def burger_page(page, cambiar_pagina):
 
     MENU_REDUCIDO = [
         {
+            "img": "img/burger/burger_emmy.jpg",
+            "title": "Burger Emmy Chicken",
+            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos, servido en un pan de berenjena. ",
+            "price": "Precio 12.85"
+        },
+        {
             "img": "img/kids/burger_kid.jpg",
             "title": "🎁 Cajita Kids Ribs",
             "description": """Incluye: 🍔 Hamburguesa de carne con queso cheddar, 🍟 Papitas, 🧃 Jugo,🍧 Helado Sorpresa y 🎉 Juguete sorpresa
             """,
-            "price": "Precio 14.00",
+            "price": "Precio 15.00",
             "adicional": True,
         },
         {
@@ -48,7 +48,7 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/burger_de_costilla.jpg",
             "title": "Burger Costilla BBQ",
             "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
-            "price": "Precio 8.70",
+            "price": "Precio 9.00",
             "adicional": True,
         },
         {
@@ -74,13 +74,19 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/burger_ribs.jpg",
             "title": "Rib's Burger",
             "description": "Carne de res y cerdo con salsa BBQ, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
-            "price": "Precio 14.87" "",
+            "price": "Precio 14.91" "",
+        },
+        {
+            "img": "img/burger/burger_ribs_chicken.jpg",
+            "title": "Burger Ribs & Chicken Supreme",
+            "description": "Carne de cerdo con salsa BBQ, pollo empanizado, quesos amarillo y mozzarella, aros de cebolla crujientes y tocineta caramelizada en pan brioche.",
+            "price": "Precio 14.91",
         },
         {
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa especial de la casa, presentada en un delicioso pan de papa y acompañadas de una ración de papas.",
-            "price": "Precio 12.88",
+            "price": "Precio 13.00",
         },
         {
             "img": "img/burger/tnt_burger.jpg",
@@ -103,7 +109,7 @@ def burger_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
 
-    if hoy <= "2026/08/01":
+    if hoy <= "2026/09/01":
         # burger + MENU_REDUCIDO
         burger = MENU_REDUCIDO
     else:
