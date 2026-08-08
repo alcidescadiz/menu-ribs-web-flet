@@ -26,8 +26,14 @@ def burger_page(page, cambiar_pagina):
         {
             "img": "img/burger/burger_emmy.jpg",
             "title": "Burger Emmy Chicken",
-            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, coleslaw fresco y pepinillos, servido en un pan de berenjena. ",
-            "price": "Precio 12.85"
+            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lechuga y pepinillos, servido en un pan de berenjena. ",
+            "price": "Precio 12.85",
+        },
+        {
+            "img": "img/burger/burger_willy.jpg",
+            "title": "Burger Willy",
+            "description": "Una creación de carácter firme. Carne jugosa sobre un suave pan de papa, abrazada por queso fundido y cebolla caramelizada. Coronada con el sabor del hueso rojo  y bañada en nuestra exclusiva Salsa Willy Cánibal. Intensa, jugosa e inolvidable. ",
+            "price": "Precio 12.00",
         },
         {
             "img": "img/kids/burger_kid.jpg",

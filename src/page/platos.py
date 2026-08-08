@@ -50,7 +50,7 @@ def platos_page(page, cambiar_pagina):
         {
             "img": "./img/platos/parrilla_ribs.jpg",
             "title": "Parrilla Ribs",
-            "description": "Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de pico de gallo, chimichurri, papas rusticas y una guarnición de ensalada cesar. (2 pers)",
+            "description": "Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de pico de gallo, chimichurri, papas rusticas y una ensalada césar. (2 pers)",
             "price": "Precio 33.00",
         },
         {
