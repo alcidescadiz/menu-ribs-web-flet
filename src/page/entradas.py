@@ -16,7 +16,7 @@ def entradas_page(page, cambiar_pagina):
         },
         {
             "img": "img/entradas/aros_de_cebolla.jpg",
-            "title": "Aros de Cebolla",
+            "title": "Ración Cebollita Crispy",
             "description": "",
             "price": "Precio 3.80",
         },

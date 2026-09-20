@@ -107,6 +107,12 @@ def burger_page(page, cambiar_pagina):
             "price": "Precio 12.05",
         },
         {
+            "img": "img/burger/burger_española.jpg",
+            "title": "Burger Española",
+            "description": "Carne jugosa de res, chitorra monserratina, crujiente tortilla española, queso manchego fundido, acompañado de nuestras cebollitas caramelizadas y la salsa mayo pimentón ahumada, todo dentro del mejor pan brioche.",
+            "price": "Precio 13.30",
+        },
+        {
             "img": "img/burger/trioburger.jpg",
             "title": "Medium Trio Burger",
             "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
