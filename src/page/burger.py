@@ -8,18 +8,18 @@ def burger_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     burger = [
-        {
-            "img": "img/burger/smoked_burger.jpg",
-            "title": "Smoked Burger",
-            "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de papa, acompañadas de una ración de papas.",
-            "price": "Precio 11.50",
-        },
-        {
-            "img": "img/burger/smokedprime.jpg",
-            "title": "Smoked Prime",
-            "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
-            "price": "Precio 12.50",
-        },
+        # {
+        #     "img": "img/burger/smoked_burger.jpg",
+        #     "title": "Smoked Burger",
+        #     "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de papa, acompañadas de una ración de papas.",
+        #     "price": "Precio 11.50",
+        # },
+        # {
+        #     "img": "img/burger/smokedprime.jpg",
+        #     "title": "Smoked Prime",
+        #     "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
+        #     "price": "Precio 12.50",
+        # },
     ]
 
     MENU_REDUCIDO = [
