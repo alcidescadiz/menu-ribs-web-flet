@@ -18,18 +18,18 @@ def licores_page(page, cambiar_pagina):
             "description": "",
             "price": "Precio 1.40"
         },
-        {
-            "img": "img/licores/cerveza_caroreña.jpg",
-            "title": "Caroreña",
-            "description": "",
-            "price": "Precio 3.00"
-        },
-        {
-            "img": "img/licores/cerveza_corona.jpg",
-            "title": "Cerveza Corona",
-            "description": "",
-            "price": "Precio 3.30"
-        },
+        # {
+        #     "img": "img/licores/cerveza_caroreña.jpg",
+        #     "title": "Caroreña",
+        #     "description": "",
+        #     "price": "Precio 3.00"
+        # },
+        # {
+        #     "img": "img/licores/cerveza_corona.jpg",
+        #     "title": "Cerveza Corona",
+        #     "description": "",
+        #     "price": "Precio 3.30"
+        # },
         {
             "img": "img/licores/tobo_cerveza_pilsen.jpg",
             "title": "Tobo Cerveza Pilsen (10 und)",
