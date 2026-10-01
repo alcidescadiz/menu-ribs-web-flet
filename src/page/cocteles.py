@@ -56,7 +56,7 @@ def cocteles_page(page, cambiar_pagina):
             "img": "img/cocteles/morrita.jpg",
             "title": "Morrita",
             "description": "",
-            "price": "Precio 4.50"
+            "price": "Precio 4.60"
         },
         # {
         #     "img": "img/cocteles/margarita_devil.jpg",

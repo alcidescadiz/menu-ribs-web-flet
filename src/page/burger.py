@@ -26,21 +26,21 @@ def burger_page(page, cambiar_pagina):
         {
             "img": "img/burger/burger_emmy.jpg",
             "title": "Burger Emmy Chicken",
-            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lechuga y pepinillos, servido en un pan de berenjena. ",
-            "price": "Precio 12.85",
+            "description": "La Salsa Emmy, a base de pasta coreana Gochujang, que tiene un picor suave y textura cremosa, acompaña un Pollo empanizado en Doritos, tocineta caramelizada con BBQ, queso cheddar fundido, lechuga y pepinillos, servido en un pan de papa. ",
+            "price": "Precio 13.26",
         },
         {
             "img": "img/burger/burger_willy.jpg",
             "title": "Burger Willy",
             "description": "Una creación de carácter firme. Carne jugosa sobre un suave pan de papa, abrazada por queso fundido y cebolla caramelizada. Coronada con el sabor del hueso rojo  y bañada en nuestra exclusiva Salsa Willy Cánibal. Intensa, jugosa e inolvidable. ",
-            "price": "Precio 12.00",
+            "price": "Precio 12.34",
         },
         {
             "img": "img/kids/burger_kid.jpg",
             "title": "🎁 Cajita Kids Ribs",
             "description": """Incluye: 🍔 Hamburguesa de carne con queso cheddar, 🍟 Papitas, 🧃 Jugo,🍧 Helado Sorpresa y 🎉 Juguete sorpresa
             """,
-            "price": "Precio 15.00",
+            "price": "Precio 17.00",
             "adicional": True,
         },
         {
@@ -54,14 +54,14 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/burger_de_costilla.jpg",
             "title": "Burger Costilla BBQ",
             "description": "Hamburguesa de costilla de cerdo en pan de papa con salsa BBQ casera, lechuga, tomate y cebolla.",
-            "price": "Precio 9.00",
+            "price": "Precio 10.22",
             "adicional": True,
         },
         {
             "img": "img/burger/burger_pollo_cesar.jpg",
             "title": "Burger Pollo César",
             "description": "Hamburguesa de pollo con aderezo César casero, lechuga fresca, tocineta crujiente y queso parmesano en pan brioche.",
-            "price": "Precio 11.70",
+            "price": "Precio 12.13",
         },
         {
             "img": "img/burger/burger_de_pollo_crispy.jpg",
@@ -74,7 +74,7 @@ def burger_page(page, cambiar_pagina):
             "img": "img/promos/burger_tributo.jpeg",
             "title": "Burger Tributo",
             "description": "Blend doble al carbón , crema de pecorino y pimienta, tierra de morcilla carupanera , fideos crocantes de tocineta caramelizados en BBQ . Todo eso en pan de chicharrón y Tajín.",
-            "price": "Precio 13.90",
+            "price": "Precio 14.83",
         },
         {
             "img": "img/burger/burger_ribs.jpg",
@@ -92,19 +92,19 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/doble_smash.jpg",
             "title": "Burger doble Smash Cheese",
             "description": " Hamburguesa con doble carne de res, doble feta de queso cheddar, pepinillos, salsa especial de la casa, presentada en un delicioso pan de papa y acompañadas de una ración de papas.",
-            "price": "Precio 13.00",
+            "price": "Precio 13.38",
         },
         {
             "img": "img/burger/tnt_burger.jpg",
             "title": "Tnt Burger",
             "description": "Carne de res, tocineta, tomates confitados, queso crema empanizado, salsa de pimentón ahumado, acompañada de papas fritas crujientes.",
-            "price": "Precio 13.33",
+            "price": "Precio 14.13",
         },
         {
             "img": "img/burger/burger_hillary.jpg",
             "title": "Burger Hillary",
             "description": "Filete de pollo empanizado, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
-            "price": "Precio 12.05",
+            "price": "Precio 12.26",
         },
         {
             "img": "img/burger/burger_española.jpg",
@@ -116,7 +116,7 @@ def burger_page(page, cambiar_pagina):
             "img": "img/burger/trioburger.jpg",
             "title": "Medium Trio Burger",
             "description": "Degustación de tres hamburguesas: Res Smashed, Pollo Crispy y Costilla. Incluye tocineta, vegetales, salsas artesanales (Kevin y Mostaza Miel) y un aro de cebolla crujiente. Acompañadas de papas fritas y dip de ketchup. ",
-            "price": "Precio 14.61",
+            "price": "Precio 15.21",
         },
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")

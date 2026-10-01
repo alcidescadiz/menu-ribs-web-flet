@@ -24,15 +24,15 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/berry_bliss.jpg",
             "title": "Berry Bliss",
             "description": "Una bebida vibrante y colorida, perfecta para cualquier ocasión. Rica en vitamina C y antioxidantes, lo que la convierte en una opción saludable. Servido bien frío.",
-            "price": "Precio 3.80",
+            "price": "Precio 4.00",
             "delivery":"False"
         },
-        {
-            "img": "img/bebidas/agua_355.jpg",
-            "title": "Agua Minalba 355 ml",
-            "description": "",
-            "price": "Precio 1.80"
-        },
+        # {
+        #     "img": "img/bebidas/agua_355.jpg",
+        #     "title": "Agua Minalba 355 ml",
+        #     "description": "",
+        #     "price": "Precio 1.80"
+        # },
         {
             "img": "img/bebidas/agua_600.jpg",
             "title": "Agua Minalba 600 ml",
@@ -43,7 +43,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/agua_saborizada.jpg",
             "title": "Agua Saborizada",
             "description": "",
-            "price": "Precio 3.00"
+            "price": "Precio 3.20"
         },
         # gatorade
         {
@@ -96,7 +96,7 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/te_jamaica.jpg",
             "title": "Té frío de Jamaica",
             "description": "",
-            "price": "Precio 2.80",
+            "price": "Precio 3.00",
             "delivery":"False"
         },
         {
@@ -124,12 +124,12 @@ def bebidas_page(page, cambiar_pagina):
             "price": "Precio 3.50"
         },
         #refresco 2lt
-        {
-            "img": "img/bebidas/refresco2.jpg",
-            "title": "Refresco 2lt (Solo por delivery)",
-            "description": "",
-            "price": "Precio 4.20"
-        } 
+        # {
+        #     "img": "img/bebidas/refresco2.jpg",
+        #     "title": "Refresco 2lt (Solo por delivery)",
+        #     "description": "",
+        #     "price": "Precio 4.20"
+        # } 
     ]
 
     if page.platform != ft.PagePlatform.ANDROID:

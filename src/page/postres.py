@@ -7,28 +7,6 @@ def postres_page(page, cambiar_pagina):
 
     postres = [
         {
-            "img": "img/postres/malteada_brownie.jpg",
-            "title": "Malteada de Brownie",
-            "description": """
-                Helado Cookie and Cream con una porción de brownie
-                6.50 Malteada grande 12 onz
-                4.00 Malteada pequeña 8 onz
-            """,
-            "price": "Precio 6.50",
-            "delivery":"False"
-        },
-        {
-            "img": "img/postres/malteada_oreo.jpg",
-            "title": "Malteada de Oreo",
-            "description": """
-                Helado de mantecado con galletas oreos.
-                5.70 Malteada grande 12 onz
-                3.30 Malteada pequeña 8 onz
-            """,
-            "price": "Precio 5.70",
-            "delivery":"False"
-        },
-        {
             "img": "img/postres/copa_de_helado.jpg",
             "title": "Copa de Helado",
             "description": "Dos porciones de helado cremoso de tu preferencia cubierto con crema chantilly y lluvia.",
@@ -47,13 +25,6 @@ def postres_page(page, cambiar_pagina):
             "title": "Barquilla o Tinita de una (1) porción",
             "description": "Una porción de helado cremoso de tu preferencia con lluvia.",
             "price": "Precio 2.40",
-            "delivery":"False"
-        },
-        {
-            "img": "img/postres/malteada.jpg",
-            "title": "Malteada",
-            "description": "Helado batido decorado con crema chantilly y decorado con lluvia.",
-            "price": "Precio 4.0",
             "delivery":"False"
         },
         {
@@ -107,21 +78,7 @@ def postres_page(page, cambiar_pagina):
             "description": "",
             "price": "Precio 1.50",
             "delivery":"False"
-        },
-        # {
-        #     "img": "img/postres/bocata.jpg",
-        #     "title": "Bocata Ribs",
-        #     "description": "",
-        #     "price": "Precio 6.70",
-        #     "delivery":"False"
-        # },
-        {
-            "img": "img/postres/malteadaberry.jpg",
-            "title": "Explosión de Brownie y Fresa",
-            "description": "Nuestra malteada más completa: trozos de brownie sumergidos en jarabe de fresa, batido premium, una bola de helado adicional y tope de crema chantilly. ¡Grande, densa e irresistible!",
-            "price": "Precio 8.00",
-            "delivery":"False"
-        },
+        }
     ]
 
     return ft.Column(

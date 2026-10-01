@@ -16,7 +16,7 @@ def licores_page(page, cambiar_pagina):
             "img": "img/licores/cerveza_pilsen.jpg",
             "title": "Cerveza Pilsen",
             "description": "",
-            "price": "Precio 1.40"
+            "price": "Precio 1.50"
         },
         # {
         #     "img": "img/licores/cerveza_caroreña.jpg",
