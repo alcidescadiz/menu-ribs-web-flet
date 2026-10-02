@@ -14,12 +14,12 @@ def burger_page(page, cambiar_pagina):
         #     "description": "Blend ahumado (Carne de res y cerdo), feta de queso cheddar, cebolla caramelizada en pan de papa, acompañadas de una ración de papas.",
         #     "price": "Precio 11.50",
         # },
-        # {
-        #     "img": "img/burger/smokedprime.jpg",
-        #     "title": "Smoked Prime",
-        #     "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella y cheddar derretido, chorizo ahumado, pepinos encurtidos, salsa mayoahumada y chimichurri fresco en pan brioche.",
-        #     "price": "Precio 12.50",
-        # },
+        {
+            "img": "img/burger/smokedprime.jpg",
+            "title": "Smoked Prime",
+            "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella, chorizo ahumado,  chistorra, salsa mayo pimenton y chimichurri fresco en pan de papa.",
+            "price": "Precio 15.00",
+        },
     ]
 
     MENU_REDUCIDO = [
@@ -121,7 +121,7 @@ def burger_page(page, cambiar_pagina):
     ]
     hoy = datetime.date.today().strftime("%Y/%m/%d")
 
-    if hoy <= "2026/11/01":
+    if hoy <= "2026/09/01":
         # burger + MENU_REDUCIDO
         burger = MENU_REDUCIDO
     else:

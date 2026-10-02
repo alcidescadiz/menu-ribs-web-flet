@@ -23,12 +23,12 @@ def platos_page(page, cambiar_pagina):
     ]
 
     MENU_REDUCIDO = [
-        # {
-        #     "img": "./img/platos/tabla_fiestera.jpg",
-        #     "title": "Tabla Fiestera",
-        #     "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y exquisito dorado crocante Pork Belly, acompañados de Papas Cheese.[2 Personas]",
-        #     "price": "Precio 62.00",
-        # },
+        {
+            "img": "./img/platos/tabla_fiestera.jpg",
+            "title": "Tabla Fiestera",
+            "description": "Una combinación de lo más pedido de la casa: suculenta Costilla de Cerdo bañada en salsa BBQ, irresistibles Alitas BBQ y Carne de lomito, acompañados de Papas Cheese.[2 Personas], pico de gallo y chimichurri.",
+            "price": "Precio 62.00",
+        },
         {
             "img": "./img/platos/fajitas.jpg",
             "title": "Fajitas ",
