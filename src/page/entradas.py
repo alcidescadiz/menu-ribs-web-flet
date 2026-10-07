@@ -9,6 +9,12 @@ def entradas_page(page, cambiar_pagina):
 
     entradas = [
         {
+            "img": "img/entradas/three_pack.jpg",
+            "title": "Three pack",
+            "description": "Un plato combinado, con nuestros exquisitos tradicionales tequeños, palitos de queso empanizados y nuestras alitas ahumadas y bañadas en salsa BBQ casera.",
+            "price": "Precio 17.30"
+        },
+        {
             "img": "img/entradas/papas_cheese_bacon.jpg",
             "title": "Papas Cheese and Bacon",
             "description": "Deliciosas papas fritas, cubiertas con una generosa porción de queso derretido y un toque de polvo de tocineta para realzar su sabor.",
@@ -18,7 +24,7 @@ def entradas_page(page, cambiar_pagina):
             "img": "img/entradas/aros_de_cebolla.jpg",
             "title": "Ración Aros de Cebolla",
             "description": "",
-            "price": "Precio 4.00",
+            "price": "Precio 4.00", 
         },
         {
             "img": "img/entradas/ensalada_cesar_con_carne.jpg",
