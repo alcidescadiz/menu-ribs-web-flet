@@ -106,12 +106,12 @@ def burger_page(page, cambiar_pagina):
             "description": "Filete de pollo empanizado, queso crema empanizado, tocineta, lechuga y salsa César en pan tostado, acompañada de papas fritas crujientes.",
             "price": "Precio 12.26",
         },
-        {
-            "img": "img/burger/burger_española.jpg",
-            "title": "Burger Española",
-            "description": "Carne jugosa de res, chitorra monserratina, crujiente tortilla española, queso manchego fundido, acompañado de nuestras cebollitas caramelizadas y la salsa mayo pimentón ahumada, todo dentro del mejor pan brioche.",
-            "price": "Precio 13.30",
-        },
+        # {
+        #     "img": "img/burger/burger_española.jpg",
+        #     "title": "Burger Española",
+        #     "description": "Carne jugosa de res, chitorra monserratina, crujiente tortilla española, queso manchego fundido, acompañado de nuestras cebollitas caramelizadas y la salsa mayo pimentón ahumada, todo dentro del mejor pan brioche.",
+        #     "price": "Precio 13.30",
+        # },
         {
             "img": "img/burger/trioburger.jpg",
             "title": "Medium Trio Burger",
