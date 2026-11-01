@@ -53,12 +53,12 @@ def platos_page(page, cambiar_pagina):
             "description": "Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de pico de gallo, chimichurri, papas rusticas y una ensalada césar. (2 pers)",
             "price": "Precio 43.00",
         },
-        {
-            "img": "img/promos/thegoldentable.jpg",
-            "title": "Ribs Golden Table",
-            "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
-            "price": "Precio 120.00",
-        },
+        # {
+        #     "img": "img/promos/thegoldentable.jpg",
+        #     "title": "Ribs Golden Table",
+        #     "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
+        #     "price": "Precio 120.00",
+        # },
         {
             "img": "./img/platos/solomo_grillado.jpg",
             "title": "Lomito Grillado",
@@ -68,7 +68,7 @@ def platos_page(page, cambiar_pagina):
         {
             "img": "./img/platos/pollo_grillado.jpg",
             "title": "Pollo Grillado",
-            "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento tomate asado relleno de una mezcla de papas.",
+            "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento crujientes papas fritas.",
             "price": "Precio 17.00",
         },
         {

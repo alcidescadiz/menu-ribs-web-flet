@@ -6,15 +6,15 @@ def cafes_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
     
     cafes = [
-        {
-            "img": "img/cafes/cafe_pequeño.jpg",
-            "title": "Café Americano Pequeño",
-            "description": "",
-            "price": "Precio 1.10"
-        },
+        # {
+        #     "img": "img/cafes/cafe_pequeño.jpg",
+        #     "title": "Café Americano Pequeño",
+        #     "description": "",
+        #     "price": "Precio 1.10"
+        # },
         {
             "img": "img/cafes/cafe_grande.jpg",
-            "title": "Café Americano Grande",
+            "title": "Café Americano",
             "description": "",
             "price": "Precio 1.30"
         },

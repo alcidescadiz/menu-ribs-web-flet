@@ -8,12 +8,12 @@ def extras_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     extras = [
-        {
-            "img": "img/extras/tomates_hilmary.jpg",
-            "title": "Tomates Asados",
-            "description": "Tomates asados rellenos con puré de papas, queso crema, queso parmesano gratinado y mezclas de finas hierbas deshidratadas.",
-            "price": "Precio 4.10"
-        },
+        # {
+        #     "img": "img/extras/tomates_hilmary.jpg",
+        #     "title": "Tomates Asados",
+        #     "description": "Tomates asados rellenos con puré de papas, queso crema, queso parmesano gratinado y mezclas de finas hierbas deshidratadas.",
+        #     "price": "Precio 4.10"
+        # },
         {
             "img": "img/extras/papas_fritas.jpg",
             "title": "Papas Fritas",
