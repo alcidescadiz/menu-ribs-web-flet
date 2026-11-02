@@ -11,7 +11,7 @@ def lista_categorias(page: ft.Page):
         {"titulo": "Cocteles", "imagen": "img/categorias/COCTELES.jpg", "ruta": "/cocteles"},
         {"titulo": "Postres", "imagen": "img/categorias/POSTRES.jpg", "ruta": "/postres"},
         {"titulo": "Cafés", "imagen": "img/categorias/CAFES.jpg", "ruta": "/cafes"},
-        {"titulo": "Extras", "imagen": "img/categorias/EXTRAS.jpg", "ruta": "/extras"},
+        {"titulo": "Extras", "imagen": "img/extras/papas_fritas.jpg", "ruta": "/extras"},
         {"titulo": "Licores", "imagen": "img/categorias/LICORES.jpg", "ruta": "/licores"},
         {"titulo": "Promociones", "imagen": "img/categorias/PROMOS.jpg", "ruta": "/promociones"}
     ]

@@ -19,7 +19,7 @@ def bebidas_page(page, cambiar_pagina):
             
             """,
             "price": "Precio 3.80",
-            "delivery": "False",
+            "delivery": "False"
         },
         {
             "img": "img/bebidas/berry_bliss.jpg",
@@ -38,41 +38,41 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/agua_600.jpg",
             "title": "Agua Minalba 600 ml",
             "description": "",
-            "price": "Precio 2.60",
+            "price": "Precio 2.60"
         },
         {
             "img": "img/bebidas/agua_saborizada.jpg",
             "title": "Agua Saborizada",
             "description": "",
-            "price": "Precio 3.20",
+            "price": "Precio 3.20"
         },
         # gatorade
         {
             "img": "img/bebidas/gatorade.jpg",
             "title": "Gatorade",
             "description": "",
-            "price": "Precio 4.00",
+            "price": "Precio 4.00"
         },
         # refresco lata
         {
             "img": "img/bebidas/refresco_lata.jpg",
             "title": "Refresco Lata",
             "description": "",
-            "price": "Precio 3.20",
+            "price": "Precio 3.20"
         },
         # soda
         {
             "img": "img/bebidas/soda.jpg",
             "title": "Soda",
             "description": "",
-            "price": "Precio 3.20",
+            "price": "Precio 3.20"
         },
         # yuki pack
         {
             "img": "img/bebidas/yuki_pack.jpg",
             "title": "Jugo Yuky Pack",
             "description": "",
-            "price": "Precio 2.50",
+            "price": "Precio 2.50"
         },
         # redbull
         # {
@@ -85,41 +85,41 @@ def bebidas_page(page, cambiar_pagina):
             "img": "img/bebidas/jugo_yukery.jpg",
             "title": "Jugo Yukery",
             "description": "",
-            "price": "Precio 2.50",
+            "price": "Precio 2.50"
         },
         {
             "img": "img/bebidas/malta.jpg",
             "title": "Malta",
             "description": "",
-            "price": "Precio 2.50",
+            "price": "Precio 2.50"
         },
         {
             "img": "img/bebidas/te_jamaica.jpg",
             "title": "Té frío de Jamaica",
             "description": "",
             "price": "Precio 3.00",
-            "delivery": "False",
+            "delivery": "False"
         },
         {
             "img": "img/bebidas/parchita_jamaica.jpg",
             "title": "Parchita con Jamaica",
             "description": "",
             "price": "Precio 3.90",
-            "delivery": "False",
+            "delivery": "False"
         },
         {
             "img": "img/bebidas/parchita_hierba_buena.jpg",
             "title": "Parchita con Hierba Buena",
             "description": "",
             "price": "Precio 3.90",
-            "delivery": "False",
+            "delivery": "False"
         },
         {
             "img": "img/bebidas/vaso_nestea.jpg",
             "title": "Vaso de Nestea 16oz (Durazno o Limón)",
             "description": "",
             "price": "Precio 2.70",
-            "delivery": "False",
+            "delivery": "False"
         },
         # {
         #     "img": "img/bebidas/vaso_refresco.jpg",
