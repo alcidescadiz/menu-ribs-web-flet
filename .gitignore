@@ -8,12 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/apk
-build/site-packages
-build/.hash
-build/flutter
+build
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/

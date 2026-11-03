@@ -7,6 +7,8 @@
 
 * flet run main.py
 
+* python -m http.server --directory build\web
+
 ### Complilar app
 
 * flet build web
