@@ -8,7 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+build/apk
+build/site-packages
+build/.hash
+build/flutter
 develop-eggs/
 dist/
 downloads/
