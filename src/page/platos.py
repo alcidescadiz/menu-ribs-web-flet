@@ -53,12 +53,12 @@ def platos_page(page, cambiar_pagina):
             "description": "Disfruta de nuestra suculenta parrilla, que combina lo mejor de la tradición con un toque especial. Lomito Grillado, pechuga de pollo, chorizo, morcilla, acompañado de pico de gallo, chimichurri, papas rusticas y una ensalada césar. (2 pers)",
             "price": "Precio 43.00",
         },
-        # {
-        #     "img": "img/promos/thegoldentable.jpg",
-        #     "title": "Ribs Golden Table",
-        #     "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
-        #     "price": "Precio 120.00",
-        # },
+        {
+            "img": "img/platos/plato_navidad.jpg",
+            "title": "Plato Navideño",
+            "description": "Hallaca artesanal, acompañada de un jugoso roll de jamón y a tu elección principal entre nuestro tierno asado negro en su reducción agridulce o el tradicional pernil horneado al punto. Se acompaña con nuestra cremosa ensalada rusa con un toque fresco de manzana. Y para cerrar esta experiencia la casa te invita un delicioso y tradicional dulce de lechoza por cortesía",
+            "price": "Precio 18.00",
+        },
         {
             "img": "./img/platos/solomo_grillado.jpg",
             "title": "Lomito Grillado",

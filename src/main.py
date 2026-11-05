@@ -134,30 +134,31 @@ def main(page: ft.Page):
     page.scroll = ft.ScrollMode.AUTO
 
     # un dialog modal con un mensaje de bienvenida
-    # dialog =ft.AlertDialog(
-    #     bgcolor=ft.Colors.BLACK,
-    #     title=ft.Text("🍔 Ribs Burger"),
-    #     content=ft.Container(
-    #         content= ft.Column(
-    #             height=300,
-    #             controls=[
-    #                 #ft.Image(src='img/promos/burger_tributo.jpeg', fit=ft.ImageFit.COVER, width=350),
-    #                 ft.Text(
-    #                         "Ahora premiamos tu fidelidad cada mes 🎉\nCada visita cuenta para optar por muchos premios.\nRecuerda preguntar por nuestro programa coorporativo y de cumpleaños",
-    #                         #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
-    #                         size=24,
-    #                         font_family="MiFuente",
-    #                         color="white",
-    #                         #text_align=ft.TextAlign.CENTER,
-    #                     ),
-    #             ]
-    #         )      
-    #     ) ,
+    dialog =ft.AlertDialog(
+        bgcolor=ft.Colors.BLACK,
+        title=ft.Text("🍔 Ribs Burger"),
+        content=ft.Container(
+            content= ft.Column(
+                scroll=ft.ScrollMode.ALWAYS,
+                width=300,
+                controls=[
+                    ft.Image(src='img/platos/plato_navidad.jpg', fit=ft.ImageFit.FILL),
+                    ft.Text(
+                            "Disfruta de nuestro plato navideño 🎉\nYa puedes agendar tus almuerzos o cenas corporativas\nó incluir tu plato navideño en cualquier ocación especial.",
+                            #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
+                            size=20,
+                            font_family="MiFuente",
+                            color="white",
+                            #text_align=ft.TextAlign.CENTER,
+                        ),
+                ]
+            )      
+        ) ,
         
-    #     open=True,
-    # )
-    # page.add(dialog)
-    # page.open(dialog)
+        open=True,
+    )
+    page.add(dialog)
+    page.open(dialog)
 
     page.add(
         # barra_superior,

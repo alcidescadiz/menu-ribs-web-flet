@@ -6,7 +6,7 @@
 ### Ejecutar app
 
 * flet run main.py
-
+* flet publish   
 * python -m http.server --directory build\web
 
 ### Complilar app

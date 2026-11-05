@@ -25,7 +25,7 @@ def lista_categorias(page: ft.Page):
             ft.Container(
                 content=ft.Column(
                     [
-                        ft.Image(src=categoria["imagen"], fit=ft.ImageFit.COVER, width=350,height=260 ),
+                        ft.Image(src=categoria["imagen"], fit=ft.ImageFit.FILL, width=350,height=260 ),
                         ft.Container(
                             content=ft.Text(categoria["titulo"], size=24, font_family="MiFuente", color="white", text_align=ft.TextAlign.CENTER),
                             alignment=ft.alignment.center,
@@ -33,7 +33,7 @@ def lista_categorias(page: ft.Page):
                         )
                     ]
                 ),
-                col={"xs": 6, "sm": 6, "md": 4, "lg": 3, "xl": 3},
+                col={"xs": 6, "sm": 6, "md": 5, "lg": 4, "xl": 3},
                 height=350,
                 border_radius=ft.border_radius.all(8),
                 padding=8,
