@@ -30,6 +30,12 @@ def platos_page(page, cambiar_pagina):
             "price": "Precio 62.00",
         },
         {
+            "img": "./img/platos/punta_choice.jpg",
+            "title": "Punta USDA Choice Importada (250 g)",
+            "description": "Importación exclusiva con certificación Choice: suavidad extrema, jugosidad superior y un marmoleo que marca la diferencia. Acompañada de palitos de yuca crujientes, ensalada César y chimichurri artesanal.",
+            "price": "Precio 39.40",
+        },
+        {
             "img": "./img/platos/fajitas.jpg",
             "title": "Fajitas ",
             "description": "Tiras de filet de pollo y carne de lomito  marinadas en especias y salteadas con pimentones y cebollas en cortes de juliana, acompañados con tortillas de trigo, guacamole, pico de gallo, queso amarillo y salsa tatemada. ",
