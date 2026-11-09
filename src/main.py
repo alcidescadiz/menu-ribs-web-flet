@@ -3,6 +3,12 @@ import importlib
 from page.home import home_page
 from components.barra_inferior import barra_inferior
 from components.barra_superior import crear_barra_superior
+from datetime import datetime
+
+# Obtener fecha y hora actual del sistema
+ahora = datetime.now()
+# Obtener el número del día de la semana (0 = Lunes, 2 = Martes)
+dia_numero = ahora.weekday()
 
 
 def main(page: ft.Page):
@@ -21,8 +27,8 @@ def main(page: ft.Page):
     
       # 🛠 Rutas
     def cambiar_pagina(ruta):
-        #if ruta == "/home":
-            #page.open(dialog)
+        if ruta == "/home" and 0 <= dia_numero <= 1:
+            page.open(dialog)
         page.route = ruta
         modulo = ruta.replace("/", "")
         vista = importlib.import_module(f"page.{modulo}")
@@ -140,9 +146,10 @@ def main(page: ft.Page):
         content=ft.Container(
             content= ft.Column(
                 scroll=ft.ScrollMode.ALWAYS,
-                width=300,
+                width=350,
                 controls=[
-                    ft.Image(src='img/platos/plato_navidad.jpg', fit=ft.ImageFit.FILL),
+                    ft.Image(src='img/platos/plato_navidad.jpg', fit=ft.ImageFit.FILL) if dia_numero > 1 else ft.Container() ,
+                    ft.Image(src='img/promos/lunes.jpg', fit=ft.ImageFit.FILL) if dia_numero in (0, 1) else ft.Container(),
                     ft.Text(
                             "Disfruta de nuestro plato navideño 🎉\nYa puedes agendar tus almuerzos o cenas corporativas\nó incluir tu plato navideño en cualquier ocación especial.",
                             #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
@@ -150,7 +157,7 @@ def main(page: ft.Page):
                             font_family="MiFuente",
                             color="white",
                             #text_align=ft.TextAlign.CENTER,
-                        ),
+                        ) if dia_numero > 1 else ft.Container() ,
                 ]
             )      
         ) ,

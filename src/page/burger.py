@@ -17,7 +17,7 @@ def burger_page(page, cambiar_pagina):
         {
             "img": "img/burger/smokedprime.jpg",
             "title": "Smoked Prime",
-            "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella, chorizo ahumado,  chistorra, salsa mayo pimenton y chimichurri fresco en pan de papa.",
+            "description": "Blend ahumado (Carne de res y cerdo), queso mozzarella, chorizo ahumado, salsa mayo pimenton y chimichurri fresco en pan de papa.",
             "price": "Precio 15.00",
         },
     ]
