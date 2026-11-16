@@ -13,17 +13,12 @@ def promociones_page(page, cambiar_pagina):
            "description": "Disfruta de lunes a jueves nuestra Hallaca artesanal, y a tu elección principal entre nuestro tierno asado negro en su reducción agridulce o el tradicional pernil horneado al punto.",
            "price": "Precio 13.00"
         },
-        # {
-        #      "img": "img/promos/mundial.jpg",
-        #      "title": "Combo Golazo",
-        #      "description": """
-        #     •	UNA BURGER DOBLE SMASH + 180 GR DE PAPAS
-        #     •	UNA BURGER HILARY + 180 GR PAPAS
-        #     •	UNA (1) ALITAS BBQ (300 GR)
-        #     •	DOS REFRESCO DE LATA
-        #      """,
-        #      "price": "Precio 33.70"
-        # },
+        {
+             "img": "img/promos/lunes.jpg",
+             "title": "La Tercera es Gratis",
+             "description": """Válido lunes y martes """,
+             "price": "Precio 00.00"
+        },
         # {
         #      "img": "img/promos/mundial.jpg",
         #      "title": "Combo Mundialista",
