@@ -7,12 +7,12 @@ def promociones_page(page, cambiar_pagina):
     page.floating_action_button = boton_circular(cambiar_pagina)
 
     promociones = [
-        #{
-        #    "img": "img/promos/thegoldentable.jpg",
-        #    "title": "Ribs Golden Table",
-        #    "description": "Un provocatico mega rack de costilla (aproximadamente 1.6 kg), Fajitas, tres de nuestras Burger Premiun, 540 gr de nuestras crujientes papas fritas, una racion de ensalada cesar, acampañada de nuestras mejores salsas. ",
-        #    "price": "Precio 120.00"
-        #},
+        {
+           "img": "img/promos/menu_ejecutivo_navidad.jpg",
+           "title": "Menú Ejecutivo Navideño",
+           "description": "Disfruta de lunes a jueves nuestra Hallaca artesanal, y a tu elección principal entre nuestro tierno asado negro en su reducción agridulce o el tradicional pernil horneado al punto.",
+           "price": "Precio 13.00"
+        },
         # {
         #      "img": "img/promos/mundial.jpg",
         #      "title": "Combo Golazo",
