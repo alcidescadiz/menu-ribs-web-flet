@@ -74,7 +74,7 @@ def platos_page(page, cambiar_pagina):
         {
             "img": "./img/platos/pollo_grillado.jpg",
             "title": "Pollo Grillado",
-            "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento crujientes papas fritas.",
+            "description": "Deléitate con nuestra jugosa pechuga de pollo grillada, marinada a la perfección en hierbas frescas y especias que realzan su sabor. Este plato se sirve con una fresca ensalada César y como acompañamiento papa gratinada cremosa al horno.",
             "price": "Precio 17.00",
         },
         {

@@ -10,7 +10,6 @@ ahora = datetime.now()
 # Obtener el número del día de la semana (0 = Lunes, 2 = Martes)
 dia_numero = ahora.weekday()
 
-
 def main(page: ft.Page):
     page.title = "Menu Ribs Burger"
     page.padding = 10
@@ -148,28 +147,27 @@ def main(page: ft.Page):
                 scroll=ft.ScrollMode.ALWAYS,
                 width=350,
                 controls=[
-                    ft.Image(src='img/platos/plato_navidad.jpg', fit=ft.ImageFit.FILL) if dia_numero > 3 else ft.Container() ,
-                    ft.Text(
-                        "Disfruta de nuestro plato navideño 🎉\nYa puedes agendar tus almuerzos o cenas corporativas\nó incluir tu plato navideño en cualquier ocación especial.",
-                        #'Feliz día internacional de la Hamburguesa\npide Burger Tributo\nDisponible solo por hoy.',
-                        size=20,
-                        font_family="MiFuente",
-                        color="white",
-                        #text_align=ft.TextAlign.CENTER,
-                    ) if dia_numero > 1 else ft.Container() ,
-                    ft.Image(src='img/promos/menu_ejecutivo_navidad.jpg', fit=ft.ImageFit.FILL) if dia_numero in (0, 3) else ft.Container(),
+                    ft.Image(src="img/promos/menu_ejecutivo_navidad.jpg", fit=ft.ImageFit.FILL) if dia_numero in (0,1,2, 3) else ft.Container(),
                     ft.Text(
                         "De lunes a jueves disfruta de nuestro menú ejecutivo navideño por tan solo 13 $",
                         size=20,
                         font_family="MiFuente",
                         color="white"
-                    ) if dia_numero in (0, 3) else ft.Container(),
+                    ) if dia_numero in (0,1,2, 3) else ft.Container(),
+                    ft.Image(src='img/platos/plato_navidad.jpg', fit=ft.ImageFit.FILL) if dia_numero > 3 else ft.Container() ,
+                    ft.Text(
+                        "Disfruta de nuestro plato navideño 🎉\nYa puedes agendar tus almuerzos o cenas corporativas\nó incluir tu plato navideño en cualquier ocación especial.",
+                        size=20,
+                        font_family="MiFuente",
+                        color="white"
+                    ) if dia_numero > 3 else ft.Container() ,
                 ]
             )      
         ) ,
         
         open=True,
     )
+
     page.add(dialog)
     page.open(dialog)
 
